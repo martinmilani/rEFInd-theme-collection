@@ -8,7 +8,7 @@ export const THEMES = [
     link: 'https://github.com/evanpurkhiser/rEFInd-minimal',
     user: 'evanpurkhiser',
     user_url: 'https://github.com/evanpurkhiser',
-    image: "https://camo.githubusercontent.com/19f2c92f9cc4e906673f3756b635af9fc97125d9b2c42734654dec7b1aa1532f/687474703a2f2f692e696d6775722e636f6d2f33624d473655372e706e67",
+    image: "/images/minimal.webp",
     multipleBackgrounds:false
   },
   {
@@ -18,7 +18,7 @@ export const THEMES = [
     link: 'https://github.com/bobafetthotmail/refind-theme-regular',
     user: 'bobafetthotmail',
     user_url: 'https://github.com/bobafetthotmail',
-    image:'https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/src/white_theme.png',
+    image:'/images/regular.webp',
     multipleBackgrounds:true
   },
   {
@@ -28,7 +28,7 @@ export const THEMES = [
     link: 'https://github.com/lukechilds/refind-ambience',
     user: 'lukechilds',
     user_url: 'https://github.com/lukechilds',
-    image:'https://camo.githubusercontent.com/da065b0a035119676ae78be763b4986559e21aa5fc03bd335e7eca590af73bc0/687474703a2f2f692e696d6775722e636f6d2f65375a673878492e706e67',
+    image:'/images/ambience.webp',
     multipleBackgrounds:false
   },
   {
@@ -38,7 +38,7 @@ export const THEMES = [
     link: 'https://github.com/kgoettler/ursamajor-rEFInd',
     user: 'kgoettler',
     user_url: 'https://github.com/kgoettler',
-    image: 'https://github.com/kgoettler/ursamajor-rEFInd/raw/master/screenshot.png',
+    image: '/images/ursa.webp',
     multipleBackgrounds:false
   },
   {
@@ -48,7 +48,7 @@ export const THEMES = [
     link: 'https://github.com/Pr0cella/rEFInd-glassy',
     user: 'Pr0cella',
     user_url: 'https://github.com/Pr0cella',
-    image:'https://github.com/Pr0cella/rEFInd-glassy/raw/master/preview.png',
+    image:'/images/glassy.webp',
     multipleBackgrounds:false
   },
   {
@@ -58,7 +58,7 @@ export const THEMES = [
     link: 'https://github.com/LightAir/darkmini',
     user: 'LightAir',
     user_url: 'https://github.com/LightAir',
-    image:'https://github.com/LightAir/darkmini/raw/master/screenshots/screenshot_005.png',
+    image:'/images/darkmini.webp',
     multipleBackgrounds:true
   },
   {
@@ -68,7 +68,7 @@ export const THEMES = [
     link: 'https://github.com/Yannis4444/Matrix-rEFInd',
     user: 'Yannis4444',
     user_url: 'https://github.com/Yannis4444',
-    image:'https://github.com/Yannis4444/Matrix-rEFInd/raw/master/preview.jpg',
+    image:'/images/matrix.webp',
     multipleBackgrounds:false
   },
   {
@@ -78,7 +78,7 @@ export const THEMES = [
     link: 'https://github.com/2KAbhishek/refind2k',
     user: '2KAbhishek',
     user_url: 'https://github.com/2KAbhishek',
-    image:'https://github.com/2KAbhishek/refind2k/blob/main/images/refind-light.jpg?raw=true',
+    image:'/images/refind2k.webp',
     multipleBackgrounds:true
   },
   {
@@ -88,7 +88,7 @@ export const THEMES = [
     link: 'https://github.com/quantrancse/rEFInd-minimal-themes',
     user: 'quantrancse',
     user_url: 'https://github.com/quantrancse',
-    image:'https://github.com/quantrancse/rEFInd-minimal-themes/raw/master/screenshots/screenshot_light.png',
+    image:'/images/minimal-themes.webp',
     multipleBackgrounds:true,
   },
   {
@@ -98,7 +98,7 @@ export const THEMES = [
     link: 'https://github.com/samuelmeuli/refind-theme-dark',
     user: 'samuelmeuli',
     user_url: 'https://github.com/samuelmeuli',
-    image:'https://github.com/samuelmeuli/refind-theme-dark/raw/master/screenshot.png',
+    image:'/images/refind-theme-dark.webp',
     multipleBackgrounds:false,
   },
   {
@@ -108,7 +108,7 @@ export const THEMES = [
     link: 'https://github.com/catppuccin/refind',
     user: 'catppuccin',
     user_url: 'https://github.com/catppuccin',
-    image:'https://github.com/catppuccin/refind/raw/main/assets/previews/overview.webp',
+    image:'/images/refind.webp',
     multipleBackgrounds:false,
   },
   {
@@ -118,7 +118,7 @@ export const THEMES = [
     link: 'https://github.com/AliciaTransmuted/rEFInd-chalkboard',
     user: 'AliciaTransmuted',
     user_url: 'https://github.com/AliciaTransmuted',
-    image:'https://camo.githubusercontent.com/ff772e5034c480e483f946f84f990785c5255a65d5926e88c02f0a901660ea10/68747470733a2f2f692e696d6775722e636f6d2f7973466e6a52592e706e67',
+    image:'/images/chalkboard.webp',
     multipleBackgrounds:false,
   },
   {
@@ -128,7 +128,7 @@ export const THEMES = [
     link: 'https://github.com/mustaqimM/dm',
     user: 'mustaqimM',
     user_url: 'https://github.com/mustaqimM',
-    image:'https://github.com/mustaqimM/dm/raw/master/screenshot.png',
+    image:'/images/dm.webp',
     multipleBackgrounds:false,
   },
   {
@@ -138,7 +138,7 @@ export const THEMES = [
     link: 'https://github.com/bushtail/refind-efifetch',
     user: 'bushtail',
     user_url: 'https://github.com/bushtail',
-    image:'https://camo.githubusercontent.com/d4394badd75c340ed567b0508bc285625b4b7d64f098af3163a5607d6951f2d8/68747470733a2f2f692e696d6775722e636f6d2f6b51315a736f4d2e706e67',
+    image:'/images/efifetch.webp',
     multipleBackgrounds:false,
   },
   {
@@ -148,7 +148,7 @@ export const THEMES = [
     link: 'https://github.com/jaltuna/refind-theme-nord',
     user: 'jaltuna',
     user_url: 'https://github.com/jaltuna',
-    image:'https://github.com/jaltuna/refind-theme-nord/raw/main/samples/refind-theme-nord.png',
+    image:'/images/refind-theme-nord.webp',
     multipleBackgrounds:false,
   },
   {
@@ -158,7 +158,7 @@ export const THEMES = [
     link: 'https://github.com/hashhar/rEFInd-theme',
     user: 'hashhar',
     user_url: 'https://github.com/hashhar',
-    image:'https://github.com/hashhar/rEFInd-theme/raw/master/screenshot_001.png',
+    image:'/images/refind-theme.webp',
     multipleBackgrounds:true,
   },
   {
@@ -168,7 +168,7 @@ export const THEMES = [
     link: 'https://github.com/indgy/refind-bsd-black',
     user: 'indgy',
     user_url: 'https://github.com/indgy',
-    image:'https://github.com/indgy/refind-bsd-black/raw/main/screenshot.png',
+    image:'/images/bsd-black.webp',
     multipleBackgrounds:false,
   },
   {
@@ -178,7 +178,7 @@ export const THEMES = [
     link: 'https://github.com/danirabbit/refind-theme-elementary',
     user: 'danirabbit',
     user_url: 'https://github.com/danirabbit',
-    image:'https://github.com/danirabbit/refind-theme-elementary/raw/master/screenshot.png',
+    image:'/images/elementary.webp',
     multipleBackgrounds:false,
   },
   {
@@ -188,7 +188,7 @@ export const THEMES = [
     link: 'https://github.com/AdityaGarg8/rEFInd-minimal-modded',
     user: 'AdityaGarg8',
     user_url: 'https://github.com/AdityaGarg8',
-    image:'https://camo.githubusercontent.com/821938df1e8ee2e0be8502fbb152248777dcfb5e33b01420f20708b5b060209f/68747470733a2f2f692e6962622e636f2f4368543150546d2f726566696e642e706e67',
+    image:'/images/minimal-modded.webp',
     multipleBackgrounds:false,
   },
   {
@@ -198,7 +198,7 @@ export const THEMES = [
     link: 'https://github.com/AliciaTransmuted/rEFInd-indulgence',
     user: 'AliciaTransmuted',
     user_url: 'https://github.com/AliciaTransmuted',
-    image:'https://camo.githubusercontent.com/381112c23d35dce3096ff74255e1e755ff411fed135bb02f4824150f9a4197f5/68747470733a2f2f692e696d6775722e636f6d2f6e4b74504f55702e706e67',
+    image:'/images/indulgence.webp',
     multipleBackgrounds:false,
   },
   {
@@ -208,7 +208,7 @@ export const THEMES = [
     link: 'https://github.com/drunckj/rEFInd-minimal-drunkcj',
     user: 'drunckj',
     user_url: 'https://github.com/drunckj',
-    image:'https://camo.githubusercontent.com/360599df1b5c798bfb304811873a709d83a457d317c10ae733000f9e890cbfb0/68747470733a2f2f692e696d6775722e636f6d2f54434b6b6270702e6a7067',
+    image:'/images/minimal-drunkcj.webp',
     multipleBackgrounds:false,
   },
   {
@@ -218,7 +218,7 @@ export const THEMES = [
     link: 'https://github.com/Fantailed/Refind-Maia-Reskin',
     user: 'Fantailed',
     user_url: 'https://github.com/Fantailed',
-    image:'https://github.com/Fantailed/Refind-Maia-Reskin/raw/master/custom_maia.jpg',
+    image:'/images/maia-reskin.webp',
     multipleBackgrounds:false,
   },
   {
@@ -228,7 +228,7 @@ export const THEMES = [
     link: 'https://github.com/antsif-a/glow',
     user: 'antsif-a',
     user_url: 'https://github.com/antsif-a',
-    image:'https://camo.githubusercontent.com/bd82c491f58cefbf5903ede3950aee39d1bc0926fcb395e8bfbb42d9402b7c2e/68747470733a2f2f692e696d6775722e636f6d2f796b584f434b532e706e67',
+    image:'/images/glow.webp',
     multipleBackgrounds:false,
   },
   {
@@ -238,7 +238,7 @@ export const THEMES = [
     link: 'https://github.com/voduong404/Refind-theme-Fluent-dark',
     user: 'voduong404',
     user_url: 'https://github.com/voduong404',
-    image:'https://user-images.githubusercontent.com/108963756/188400696-5e9d5338-d7e3-438d-91d0-9fd02c70988f.png',
+    image:'/images/fluent-dark.webp',
     multipleBackgrounds:false,
   },
   {
@@ -248,7 +248,7 @@ export const THEMES = [
     link: 'https://github.com/Patricol/refind-material-theme',
     user: 'Patricol',
     user_url: 'https://github.com/Patricol',
-    image:'https://raw.githubusercontent.com/Patricol/refind-material-theme/master/screenshot.png',
+    image:'/images/material.webp',
     multipleBackgrounds:false,
   },
   {
@@ -258,7 +258,7 @@ export const THEMES = [
     link: 'https://github.com/AliciaTransmuted/rEFInd-details',
     user: 'AliciaTransmuted',
     user_url: 'https://github.com/AliciaTransmuted',
-    image:'https://camo.githubusercontent.com/a1bda1322078642508fd734b6017e5b2d0ee8ad7c9ced1e8312222a151214f7a/68747470733a2f2f692e696d6775722e636f6d2f387332636f624c2e706e67',
+    image:'/images/details.webp',
     multipleBackgrounds:false,
   },
   {
@@ -268,7 +268,7 @@ export const THEMES = [
     link: 'https://github.com/tedski999/custom-bootloader',
     user: 'tedski999',
     user_url: 'https://github.com/tedski999',
-    image:'https://github.com/tedski999/custom-bootloader/raw/master/screenshot.png',
+    image:'/images/bootloader.webp',
     multipleBackgrounds:false,
   },
   {
@@ -278,7 +278,7 @@ export const THEMES = [
     link: 'https://github.com/PillTime/rEFInd-minimal-dark',
     user: 'PillTime',
     user_url: 'https://github.com/PillTime',
-    image:"https://camo.githubusercontent.com/783e6b72114ea94f27254e43ec7c0190ec7c926c7514e18b3f9545cfcb2e3424/687474703a2f2f692e696d6775722e636f6d2f49584f7a4d564d2e706e67",
+    image:"/images/minimal-dark.webp",
     multipleBackgrounds:false,
   },
   {
@@ -288,7 +288,7 @@ export const THEMES = [
     link: 'https://github.com/noraj/refind-theme-regular',
     user: 'noraj',
     user_url: 'https://github.com/noraj',
-    image:"https://raw.githubusercontent.com/noraj/refind-theme-regular/master/src/white_theme.png",
+    image:"/images/regular2.webp",
     multipleBackgrounds:true,
   },
   {
@@ -298,7 +298,7 @@ export const THEMES = [
     link: 'https://github.com/M-L-P/rEFInd-theme-Yours?tab=readme-ov-file',
     user: 'M-L-P',
     user_url: 'https://github.com/M-L-P',
-    image:"https://raw.githubusercontent.com/M-L-P/.github/main/screenshots/Yours/B.big.png",
+    image:"/images/yours.webp",
     multipleBackgrounds:false,
   },
   {
@@ -308,7 +308,7 @@ export const THEMES = [
     link: 'https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies',
     user: 'jpmvferreira',
     user_url: 'https://github.com/jpmvferreira',
-    image:"https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710774490/rEFInd-themes/rEFInd_Ambience_-_Deer_and_Fireflies_yope1o.jpg",
+    image:"/images/deer-and-fireflies.webp",
     multipleBackgrounds:false,
   },
   {
@@ -318,7 +318,7 @@ export const THEMES = [
     link: 'https://github.com/sihann/refind-gruvbox-theme',
     user: 'sihann',
     user_url: 'https://github.com/sihann',
-    image:"https://github.com/sihann/refind-gruvbox-theme/raw/main/screenshots/screenshot.png",
+    image:"/images/gruvbox.webp",
     multipleBackgrounds:false,
   },
   {
@@ -328,7 +328,7 @@ export const THEMES = [
     link: 'https://github.com/Chrisae9/rEFInd-mountain',
     user: 'Chrisae9',
     user_url: 'https://github.com/Chrisae9',
-    image:"https://camo.githubusercontent.com/abfd9f912124bb75a7060ca2adcfe2cded4fa680b5bd63149e23cf07d1638087/68747470733a2f2f692e696d6775722e636f6d2f4c686d587736532e676966",
+    image:"/images/mountain.webp",
     multipleBackgrounds:false,
   },
   {
@@ -338,7 +338,7 @@ export const THEMES = [
     link: 'https://github.com/1j01/refind-theme-regular',
     user: '1j01',
     user_url: 'https://github.com/1j01',
-    image:"https://camo.githubusercontent.com/d221268cefe8096a01cc8a1fe341e2ffc0207de394735058ab40c6994affe358/68747470733a2f2f692e696d6775722e636f6d2f3041456b3842462e706e67",
+    image:"/images/regular3.webp",
     multipleBackgrounds:false,
   },
   {
@@ -348,7 +348,7 @@ export const THEMES = [
     link: 'https://github.com/SLywnow/hi-themes-refind',
     user: 'SLywnow',
     user_url: 'https://github.com/SLywnow',
-    image:"https://github.com/SLywnow/hi-themes-refind/raw/master/examples/Screenshot%202020517233825602.png?raw=true",
+    image:"/images/hi.webp",
     multipleBackgrounds:true,
   },
   {
@@ -358,7 +358,7 @@ export const THEMES = [
     link: 'https://github.com/Valeria-Fadeeva/linux-boot-efi',
     user: 'Valeria-Fadeeva',
     user_url: 'https://github.com/Valeria-Fadeeva',
-    image:"https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710775546/rEFInd-themes/linux-boot-efi_qjfz2v.jpg",
+    image:"/images/boot.webp",
     multipleBackgrounds:true,
   },
   {
@@ -368,7 +368,7 @@ export const THEMES = [
     link: 'https://github.com/matomatical/grey-apple',
     user: 'matomatical',
     user_url: 'https://github.com/matomatical',
-    image:"https://github.com/matomatical/grey-apple/raw/main/screenshots/animation.gif",
+    image:"/images/apple.webp",
     multipleBackgrounds:false,
   },
   {
@@ -378,7 +378,7 @@ export const THEMES = [
     link: 'https://github.com/FerLS/LazaGRUB',
     user: 'FerLS',
     user_url: 'https://github.com/FerLS',
-    image:"https://user-images.githubusercontent.com/114153352/192299904-d6031f94-f3f4-4c8f-9da9-60c7ad63ad89.png",
+    image:"/images/laza.webp",
     multipleBackgrounds:false,
   },
   {
@@ -388,7 +388,7 @@ export const THEMES = [
     link: 'https://github.com/ajlende/rEFInd-dawn',
     user: 'ajlende',
     user_url: 'https://github.com/ajlende',
-    image:"https://github.com/ajlende/rEFInd-dawn/raw/master/banner.png",
+    image:"/images/dawn.webp",
     multipleBackgrounds:false,
   },
   {
@@ -398,7 +398,7 @@ export const THEMES = [
     link: 'https://github.com/zeroday0619/rEFInd-pachirisu',
     user: 'zeroday0619',
     user_url: 'https://github.com/zeroday0619',
-    image:"https://repository-images.githubusercontent.com/340830748/c787bc00-755a-11eb-818e-ac39f93baa66",
+    image:"/images/pachirisu.webp",
     multipleBackgrounds:false,
   },
   {
@@ -408,7 +408,7 @@ export const THEMES = [
     link: 'https://github.com/Paradox1937/rEFInd-Celestial-Theme',
     user: 'Paradox1937',
     user_url: 'https://github.com/Paradox1937',
-    image:"https://user-images.githubusercontent.com/95208721/155032123-99f6aa53-0931-402a-bfea-cd5691880f98.png",
+    image:"/images/celestial.webp",
     multipleBackgrounds:false,
   },
   {
@@ -418,7 +418,7 @@ export const THEMES = [
     link: 'https://github.com/phonot/terminal-bootloader',
     user: 'phonot',
     user_url: 'https://github.com/phonot',
-    image:"https://github.com/Pra-H/custom-bootloader/raw/master/screenshot.png",
+    image:"/images/terminal.webp",
     multipleBackgrounds:false,
   },
   {
@@ -428,7 +428,7 @@ export const THEMES = [
     link: 'https://github.com/riftsandroses/rEFInd-RetroGame',
     user: 'riftsandroses',
     user_url: 'https://github.com/riftsandroses',
-    image:"https://user-images.githubusercontent.com/63180210/167786632-f3143356-b3b6-4491-b99e-e7f50ddc5068.png",
+    image:"/images/retrogame.webp",
     multipleBackgrounds:false,
   },
   {
@@ -438,7 +438,7 @@ export const THEMES = [
     link: 'https://github.com/Scorpi-ON/BlackCatMuzzle-rEFInd',
     user: 'Scorpi-ON',
     user_url: 'https://github.com/Scorpi-ON',
-    image:"https://github.com/Scorpi-ON/BlackCatMuzzle-rEFInd/raw/master/screenshots/screenshot_001.jpg",
+    image:"/images/blackcatmuzzle.webp",
     multipleBackgrounds:true,
   },
   {
@@ -448,7 +448,7 @@ export const THEMES = [
     link: 'https://github.com/AliciaTransmuted/rEFInd-wildside',
     user: 'AliciaTransmuted',
     user_url: 'https://github.com/AliciaTransmuted',
-    image:"https://camo.githubusercontent.com/787a8929691b7801d6ef11c492dc5bdc107a1116bb94821966d8108ccbd49213/68747470733a2f2f692e696d6775722e636f6d2f3658736e4a50702e706e67",
+    image:"/images/wildside.webp",
     multipleBackgrounds:false,
   },
   {
@@ -458,7 +458,7 @@ export const THEMES = [
     link: 'https://github.com/AliciaTransmuted/rEFInd-splash',
     user: 'AliciaTransmuted',
     user_url: 'https://github.com/AliciaTransmuted',
-    image:"https://camo.githubusercontent.com/b16cf1d35f57fd5bcdf16ffd0fbd11b4af1419d33c98479c83e9eb553b8a5ec4/68747470733a2f2f692e696d6775722e636f6d2f3579376e684f4f2e706e67",
+    image:"/images/splash.webp",
     multipleBackgrounds:false,
   },
   {
@@ -468,7 +468,7 @@ export const THEMES = [
     link: 'https://github.com/SLywnow/hi-dark',
     user: 'SLywnow',
     user_url: 'https://github.com/SLywnow',
-    image:"https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710778623/hi-dark_fe05h4.jpg",
+    image:"/images/hi-dark.webp",
     multipleBackgrounds:false,
   },
   {
@@ -478,7 +478,7 @@ export const THEMES = [
     link: 'https://github.com/Gutleibmann/refind-theme-regular-minimalism',
     user: 'Gutleibmann',
     user_url: 'https://github.com/Gutleibmann',
-    image:"https://camo.githubusercontent.com/ff41ad1a1ae6a79ab97f7a84d4685113ca9d1b1e0221b75b8674125b06cb6fff/68747470733a2f2f7261772e6769746875622e636f6d2f4775746c6569626d616e6e2f726566696e642d7468656d652d726567756c61722d6d696e696d616c69736d2f6d61737465722f726566696e642d7468656d652d726567756c61722d6d696e696d616c69736d2d73637265656e73686f742e706e67",
+    image:"/images/minimalism.webp",
     multipleBackgrounds:false,
   },
   {
@@ -488,7 +488,7 @@ export const THEMES = [
     link: 'https://github.com/BetaTester41/rEFInd-Metro',
     user: 'BetaTester41',
     user_url: 'https://github.com/BetaTester41',
-    image:"https://github.com/BetaTester41/rEFInd-Metro/raw/master/screenshot.png",
+    image:"/images/metro.webp",
     multipleBackgrounds:false,
   },
   {
@@ -498,7 +498,7 @@ export const THEMES = [
     link: 'https://github.com/zwzheng45/rEFInd-Phi',
     user: 'zwzheng45',
     user_url: 'https://github.com/zwzheng45',
-    image:"https://github.com/zwzheng45/rEFInd-Phi/raw/main/screenshot.png",
+    image:"/images/phi.webp",
     multipleBackgrounds:false,
   },
   {
@@ -508,7 +508,7 @@ export const THEMES = [
     link: 'https://github.com/Nyoutaaa/rEFInd-Minimalist',
     user: 'Nyoutaaa',
     user_url: 'https://github.com/Nyoutaaa',
-    image:"https://github.com/Nyoutaaa/rEFInd-Minimalist/raw/main/preview.jpg",
+    image:"/images/minimalist.webp",
     multipleBackgrounds:false,
   },
 ];

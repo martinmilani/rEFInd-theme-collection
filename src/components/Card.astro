@@ -23,7 +23,7 @@ const { name, description, link, user, user_url, image, multipleBackgrounds } =
       (
         <Image
           class="h-auto rounded-lg aspect-video"
-          src={image}
+          src={image as string}
           alt={name}
           width="350"
           height="300"
