@@ -1,39 +1,30 @@
 ---
-import imagePlaceholder from "../images/imagePlaceholder.webp";
-import ColorSwatchIcon from "../icons/ColorSwatchIcon.astro";
+import imagePlaceholder from "@images/imagePlaceholder.webp";
+import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
 import { Image } from "astro:assets";
 
 interface Props {
-  id: number;
+  id: string;
   name: string;
   description: string;
   link: string;
   user: string;
   user_url: string;
-  image?: string;
-  multipleThemes: boolean;
+  image: string;
+  multipleBackgrounds: boolean;
 }
 
-const { name, description, link, user, user_url, image, multipleThemes } =
+const { name, description, link, user, user_url, image, multipleBackgrounds } =
   Astro.props;
 ---
 
 <div>
   <a href={link} target="_blank">
     {
-      typeof image === "string" ? (
+      (
         <Image
           class="h-auto rounded-lg aspect-video"
           src={image}
-          alt={name}
-          width="350"
-          height="300"
-          loading="lazy"
-        />
-      ) : (
-        <Image
-          class="h-auto rounded-lg aspect-video"
-          src={imagePlaceholder}
           alt={name}
           width="350"
           height="300"
@@ -46,11 +37,11 @@ const { name, description, link, user, user_url, image, multipleThemes } =
     <div class="flex flex-row items-center gap-x-2">
       <a href={link} target="_blank" class="font-medium">{name}</a>
       {
-        multipleThemes && (
+        multipleBackgrounds && (
           <div class="relative inline-block group">
             <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
-            <div class="hidden group-hover:flex justify-center transition absolute bottom-6 -left-[54px] w-[120px] z-10 bg-aro/95 text-white text-xs p-2 rounded shadow-lg text-center">
-              multiple themes
+            <div class="hidden group-hover:flex justify-center transition absolute bottom-6 -left-[54px] w-[140px] z-10 bg-aro/95 text-white text-xs p-2 rounded shadow-lg text-center">
+              multiple backgrounds
               <svg
                 class="absolute text-aro/95  h-2 w-full left-0 -bottom-2"
                 x="0px"
