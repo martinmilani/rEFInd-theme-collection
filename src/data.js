@@ -512,3 +512,14 @@ export const THEMES = [
     multipleBackgrounds:false,
   },
 ];
+
+
+// Create a markdown table from the data
+
+let markdownTable = `| Name | Description | User | Multiple Backgrounds | Image |\n`;
+markdownTable +=    `|------|-------------|------|----------------------|-------|\n`;
+
+THEMES.forEach(row => {
+  markdownTable += `| [${row.name}](${row.link}) | ${row.description} | [${row.user}](${row.user_url})  | ${row.multipleBackgrounds} |  <img src="./public${row.image}" alt="${row.name}" width="100"/> |\n`;
+});
+console.log(markdownTable);
