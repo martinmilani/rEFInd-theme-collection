@@ -1,7 +1,9 @@
-# rEFInd Themes Collection
+# [rEFInd Themes Collection](https://refind-themes-collection.netlify.app/)
 ### A small collection of refind themes from github's that allow you to effortlessly chose your favorite and style your linux boot manager.
 
-![just-the-basics](https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710781961/rEFInd-themes/refind-theme-collection_lbga3x.png)
+[![web](https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710781961/rEFInd-themes/refind-theme-collection_lbga3x.png)](https://refind-themes-collection.netlify.app/)
+
+
 
 ## Themes
 | Name | Description | User | Multiple Backgrounds | Image |
