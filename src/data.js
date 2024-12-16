@@ -1,8 +1,8 @@
 export const THEMES = [
   {
     id: "48a91144-2c18-4e1f-b1ad-3f4eb796a80c",
-    name: "Icon Set use with rEFInd and rEFIndPlus",
-    description: "rEFInd-Shadow-IOS",
+    name: "rEFInd-Shadow-IOS",
+    description: "Icon Set use with rEFInd and rEFIndPlus",
     link: "https://github.com/chris1111/rEFInd-Shadow-IOS?tab=readme-ov-file",
     user: "chris1111",
     user_url: "https://github.com/chris1111",
