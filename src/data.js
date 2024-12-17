@@ -7,7 +7,7 @@ export const THEMES = [
     user: "chris1111",
     user_url: "https://github.com/chris1111",
     image: "/images/rEFInd-Shadow-IOS.webp",
-    multipleBackgrounds: false,
+    multipleBackgrounds: true,
     isNew: true,
   },
   {
@@ -18,7 +18,7 @@ export const THEMES = [
     user: "chris1111",
     user_url: "https://github.com/chris1111",
     image: "/images/Shadow-rEFInd.webp",
-    multipleBackgrounds: false,
+    multipleBackgrounds: true,
     isNew: true,
   },
   {
@@ -29,7 +29,7 @@ export const THEMES = [
     user: "chris1111",
     user_url: "https://github.com/chris1111",
     image: "/images/Icon-Set-DarkGrey-Refind.webp",
-    multipleBackgrounds: false,
+    multipleBackgrounds: true,
     isNew: true,
   },
   {
@@ -40,7 +40,7 @@ export const THEMES = [
     user: "chris1111",
     user_url: "https://github.com/chris1111",
     image: "/images/rEFInd-Metal-Frame.webp",
-    multipleBackgrounds: false,
+    multipleBackgrounds: true,
     isNew: true,
   },
   {
