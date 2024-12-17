@@ -11,11 +11,19 @@ interface Props {
   user_url: string;
   image: string;
   multipleBackgrounds: boolean;
-  isNew?: boolean
+  isNew?: boolean;
 }
 
-const { name, description, link, user, user_url, image, multipleBackgrounds, isNew} =
-  Astro.props;
+const {
+  name,
+  description,
+  link,
+  user,
+  user_url,
+  image,
+  multipleBackgrounds,
+  isNew,
+} = Astro.props;
 ---
 
 <div>
@@ -55,7 +63,13 @@ const { name, description, link, user, user_url, image, multipleBackgrounds, isN
           </div>
         )
       }
-     {isNew && <span class="text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-dracula-400 dark:text-white">New!</span>}
+      {
+        isNew && (
+          <span class="cursor-default text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-dracula-400 dark:text-white">
+            New!
+          </span>
+        )
+      }
     </div>
     <div class="flex flex-col">
       <p class="text-sm text-white/90 mt-2 font-normal font-sans">
