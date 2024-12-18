@@ -6,7 +6,7 @@ export const THEMES = [
     link: "https://github.com/chris1111/rEFInd-Shadow-IOS?tab=readme-ov-file",
     user: "chris1111",
     user_url: "https://github.com/chris1111",
-    image: "/images/rEFInd-Shadow-IOS.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Shadow-IOS_i6fh6d.webp",
     multipleBackgrounds: true,
     isNew: true,
   },
@@ -17,7 +17,7 @@ export const THEMES = [
     link: "https://github.com/chris1111/Shadow-rEFInd",
     user: "chris1111",
     user_url: "https://github.com/chris1111",
-    image: "/images/Shadow-rEFInd.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/Shadow-rEFInd_ike0wa.webp",
     multipleBackgrounds: true,
     isNew: true,
   },
@@ -28,7 +28,7 @@ export const THEMES = [
     link: "https://github.com/chris1111/Icon-Set-DarkGrey-Refind",
     user: "chris1111",
     user_url: "https://github.com/chris1111",
-    image: "/images/Icon-Set-DarkGrey-Refind.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459898/rEFInd-themes/Icon-Set-DarkGrey-Refind_aweoru.webp",
     multipleBackgrounds: true,
     isNew: true,
   },
@@ -39,7 +39,7 @@ export const THEMES = [
     link: "https://github.com/chris1111/rEFInd-Metal-Frame",
     user: "chris1111",
     user_url: "https://github.com/chris1111",
-    image: "/images/rEFInd-Metal-Frame.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Metal-Frame_a1unlf.webp",
     multipleBackgrounds: true,
     isNew: true,
   },
@@ -50,7 +50,7 @@ export const THEMES = [
     link: "https://github.com/evanpurkhiser/rEFInd-minimal",
     user: "evanpurkhiser",
     user_url: "https://github.com/evanpurkhiser",
-    image: "/images/minimal.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459906/rEFInd-themes/minimal_geajq1.webp",
     multipleBackgrounds: false,
   },
   {
@@ -60,7 +60,7 @@ export const THEMES = [
     link: "https://github.com/bobafetthotmail/refind-theme-regular",
     user: "bobafetthotmail",
     user_url: "https://github.com/bobafetthotmail",
-    image: "/images/regular.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/regular_raceea.webp",
     multipleBackgrounds: true,
   },
   {
@@ -70,7 +70,7 @@ export const THEMES = [
     link: "https://github.com/lukechilds/refind-ambience",
     user: "lukechilds",
     user_url: "https://github.com/lukechilds",
-    image: "/images/ambience.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/ambience_dyicjv.webp",
     multipleBackgrounds: false,
   },
   {
@@ -80,7 +80,7 @@ export const THEMES = [
     link: "https://github.com/kgoettler/ursamajor-rEFInd",
     user: "kgoettler",
     user_url: "https://github.com/kgoettler",
-    image: "/images/ursa.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459882/rEFInd-themes/ursa_qtsekk.webp",
     multipleBackgrounds: false,
   },
   {
@@ -90,7 +90,7 @@ export const THEMES = [
     link: "https://github.com/Pr0cella/rEFInd-glassy",
     user: "Pr0cella",
     user_url: "https://github.com/Pr0cella",
-    image: "/images/glassy.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459894/rEFInd-themes/glassy_oad2at.webp",
     multipleBackgrounds: false,
   },
   {
@@ -100,7 +100,7 @@ export const THEMES = [
     link: "https://github.com/LightAir/darkmini",
     user: "LightAir",
     user_url: "https://github.com/LightAir",
-    image: "/images/darkmini.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/darkmini_kqh2xd.webp",
     multipleBackgrounds: true,
   },
   {
@@ -111,7 +111,7 @@ export const THEMES = [
     link: "https://github.com/Yannis4444/Matrix-rEFInd",
     user: "Yannis4444",
     user_url: "https://github.com/Yannis4444",
-    image: "/images/matrix.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459904/rEFInd-themes/matrix_oxwxzu.webp",
     multipleBackgrounds: false,
   },
   {
@@ -121,7 +121,7 @@ export const THEMES = [
     link: "https://github.com/2KAbhishek/refind2k",
     user: "2KAbhishek",
     user_url: "https://github.com/2KAbhishek",
-    image: "/images/refind2k.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459916/rEFInd-themes/refind2k_tozcy3.webp",
     multipleBackgrounds: true,
   },
   {
@@ -131,7 +131,7 @@ export const THEMES = [
     link: "https://github.com/quantrancse/rEFInd-minimal-themes",
     user: "quantrancse",
     user_url: "https://github.com/quantrancse",
-    image: "/images/minimal-themes.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459912/rEFInd-themes/minimal-themes_yxv1yo.webp",
     multipleBackgrounds: true,
   },
   {
@@ -141,7 +141,7 @@ export const THEMES = [
     link: "https://github.com/samuelmeuli/refind-theme-dark",
     user: "samuelmeuli",
     user_url: "https://github.com/samuelmeuli",
-    image: "/images/refind-theme-dark.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459920/rEFInd-themes/refind-theme-dark_o4aykv.webp",
     multipleBackgrounds: false,
   },
   {
@@ -151,7 +151,7 @@ export const THEMES = [
     link: "https://github.com/catppuccin/refind",
     user: "catppuccin",
     user_url: "https://github.com/catppuccin",
-    image: "/images/refind.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/refind_hcubmj.webp",
     multipleBackgrounds: false,
   },
   {
@@ -161,7 +161,7 @@ export const THEMES = [
     link: "https://github.com/AliciaTransmuted/rEFInd-chalkboard",
     user: "AliciaTransmuted",
     user_url: "https://github.com/AliciaTransmuted",
-    image: "/images/chalkboard.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/chalkboard_ppplbc.webp",
     multipleBackgrounds: false,
   },
   {
@@ -171,7 +171,7 @@ export const THEMES = [
     link: "https://github.com/mustaqimM/dm",
     user: "mustaqimM",
     user_url: "https://github.com/mustaqimM",
-    image: "/images/dm.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/dm_hrv2ed.webp",
     multipleBackgrounds: false,
   },
   {
@@ -181,7 +181,7 @@ export const THEMES = [
     link: "https://github.com/bushtail/refind-efifetch",
     user: "bushtail",
     user_url: "https://github.com/bushtail",
-    image: "/images/efifetch.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/efifetch_iifdkc.webp",
     multipleBackgrounds: false,
   },
   {
@@ -191,7 +191,7 @@ export const THEMES = [
     link: "https://github.com/jaltuna/refind-theme-nord",
     user: "jaltuna",
     user_url: "https://github.com/jaltuna",
-    image: "/images/refind-theme-nord.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/refind-theme-nord_qvie5r.webp",
     multipleBackgrounds: false,
   },
   {
@@ -201,7 +201,7 @@ export const THEMES = [
     link: "https://github.com/hashhar/rEFInd-theme",
     user: "hashhar",
     user_url: "https://github.com/hashhar",
-    image: "/images/refind-theme.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459919/rEFInd-themes/refind-theme_cubo4r.webp",
     multipleBackgrounds: true,
   },
   {
@@ -212,7 +212,7 @@ export const THEMES = [
     link: "https://github.com/indgy/refind-bsd-black",
     user: "indgy",
     user_url: "https://github.com/indgy",
-    image: "/images/bsd-black.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp",
     multipleBackgrounds: false,
   },
   {
@@ -222,7 +222,7 @@ export const THEMES = [
     link: "https://github.com/danirabbit/refind-theme-elementary",
     user: "danirabbit",
     user_url: "https://github.com/danirabbit",
-    image: "/images/elementary.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/elementary_n7cpzw.webp",
     multipleBackgrounds: false,
   },
   {
@@ -232,7 +232,7 @@ export const THEMES = [
     link: "https://github.com/AdityaGarg8/rEFInd-minimal-modded",
     user: "AdityaGarg8",
     user_url: "https://github.com/AdityaGarg8",
-    image: "/images/minimal-modded.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459911/rEFInd-themes/minimal-modded_nllr1s.webp",
     multipleBackgrounds: false,
   },
   {
@@ -243,7 +243,7 @@ export const THEMES = [
     link: "https://github.com/AliciaTransmuted/rEFInd-indulgence",
     user: "AliciaTransmuted",
     user_url: "https://github.com/AliciaTransmuted",
-    image: "/images/indulgence.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459900/rEFInd-themes/indulgence_gml6rq.webp",
     multipleBackgrounds: false,
   },
   {
@@ -254,7 +254,7 @@ export const THEMES = [
     link: "https://github.com/drunckj/rEFInd-minimal-drunkcj",
     user: "drunckj",
     user_url: "https://github.com/drunckj",
-    image: "/images/minimal-drunkcj.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459908/rEFInd-themes/minimal-drunkcj_ssbm6l.webp",
     multipleBackgrounds: false,
   },
   {
@@ -264,7 +264,7 @@ export const THEMES = [
     link: "https://github.com/Fantailed/Refind-Maia-Reskin",
     user: "Fantailed",
     user_url: "https://github.com/Fantailed",
-    image: "/images/maia-reskin.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/maia-reskin_qgxxl4.webp",
     multipleBackgrounds: false,
   },
   {
@@ -274,7 +274,7 @@ export const THEMES = [
     link: "https://github.com/antsif-a/glow",
     user: "antsif-a",
     user_url: "https://github.com/antsif-a",
-    image: "/images/glow.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459895/rEFInd-themes/glow_bepfdx.webp",
     multipleBackgrounds: false,
   },
   {
@@ -284,7 +284,7 @@ export const THEMES = [
     link: "https://github.com/voduong404/Refind-theme-Fluent-dark",
     user: "voduong404",
     user_url: "https://github.com/voduong404",
-    image: "/images/fluent-dark.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459893/rEFInd-themes/fluent-dark_ci32vp.webp",
     multipleBackgrounds: false,
   },
   {
@@ -294,7 +294,7 @@ export const THEMES = [
     link: "https://github.com/Patricol/refind-material-theme",
     user: "Patricol",
     user_url: "https://github.com/Patricol",
-    image: "/images/material.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459903/rEFInd-themes/material_mqnhmh.webp",
     multipleBackgrounds: false,
   },
   {
@@ -304,7 +304,7 @@ export const THEMES = [
     link: "https://github.com/AliciaTransmuted/rEFInd-details",
     user: "AliciaTransmuted",
     user_url: "https://github.com/AliciaTransmuted",
-    image: "/images/details.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/details_ir1opw.webp",
     multipleBackgrounds: false,
   },
   {
@@ -314,7 +314,7 @@ export const THEMES = [
     link: "https://github.com/tedski999/custom-bootloader",
     user: "tedski999",
     user_url: "https://github.com/tedski999",
-    image: "/images/bootloader.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp",
     multipleBackgrounds: false,
   },
   {
@@ -325,7 +325,7 @@ export const THEMES = [
     link: "https://github.com/PillTime/rEFInd-minimal-dark",
     user: "PillTime",
     user_url: "https://github.com/PillTime",
-    image: "/images/minimal-dark.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459907/rEFInd-themes/minimal-dark_mvdbzt.webp",
     multipleBackgrounds: false,
   },
   {
@@ -335,7 +335,7 @@ export const THEMES = [
     link: "https://github.com/noraj/refind-theme-regular",
     user: "noraj",
     user_url: "https://github.com/noraj",
-    image: "/images/regular2.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459923/rEFInd-themes/regular2_z2lwfb.webp",
     multipleBackgrounds: true,
   },
   {
@@ -346,7 +346,7 @@ export const THEMES = [
     link: "https://github.com/M-L-P/rEFInd-theme-Yours?tab=readme-ov-file",
     user: "M-L-P",
     user_url: "https://github.com/M-L-P",
-    image: "/images/yours.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/yours_h08pte.webp",
     multipleBackgrounds: false,
   },
   {
@@ -356,7 +356,7 @@ export const THEMES = [
     link: "https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies",
     user: "jpmvferreira",
     user_url: "https://github.com/jpmvferreira",
-    image: "/images/deer-and-fireflies.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459889/rEFInd-themes/deer-and-fireflies_nklxeb.webp",
     multipleBackgrounds: false,
   },
   {
@@ -366,7 +366,7 @@ export const THEMES = [
     link: "https://github.com/sihann/refind-gruvbox-theme",
     user: "sihann",
     user_url: "https://github.com/sihann",
-    image: "/images/gruvbox.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459896/rEFInd-themes/gruvbox_f61uod.webp",
     multipleBackgrounds: false,
   },
   {
@@ -376,7 +376,7 @@ export const THEMES = [
     link: "https://github.com/Chrisae9/rEFInd-mountain",
     user: "Chrisae9",
     user_url: "https://github.com/Chrisae9",
-    image: "/images/mountain.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/mountain_n0nngl.webp",
     multipleBackgrounds: false,
   },
   {
@@ -386,7 +386,7 @@ export const THEMES = [
     link: "https://github.com/1j01/refind-theme-regular",
     user: "1j01",
     user_url: "https://github.com/1j01",
-    image: "/images/regular3.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459924/rEFInd-themes/regular3_rbnixz.webp",
     multipleBackgrounds: false,
   },
   {
@@ -396,7 +396,7 @@ export const THEMES = [
     link: "https://github.com/SLywnow/hi-themes-refind",
     user: "SLywnow",
     user_url: "https://github.com/SLywnow",
-    image: "/images/hi.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi_f7pvbm.webp",
     multipleBackgrounds: true,
   },
   {
@@ -407,7 +407,7 @@ export const THEMES = [
     link: "https://github.com/Valeria-Fadeeva/linux-boot-efi",
     user: "Valeria-Fadeeva",
     user_url: "https://github.com/Valeria-Fadeeva",
-    image: "/images/boot.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459884/rEFInd-themes/boot_wdja4t.webp",
     multipleBackgrounds: true,
   },
   {
@@ -417,7 +417,7 @@ export const THEMES = [
     link: "https://github.com/matomatical/grey-apple",
     user: "matomatical",
     user_url: "https://github.com/matomatical",
-    image: "/images/apple.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459862/rEFInd-themes/apple_ei3lnm.webp",
     multipleBackgrounds: false,
   },
   {
@@ -427,7 +427,7 @@ export const THEMES = [
     link: "https://github.com/FerLS/LazaGRUB",
     user: "FerLS",
     user_url: "https://github.com/FerLS",
-    image: "/images/laza.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/laza_ivdjms.webp",
     multipleBackgrounds: false,
   },
   {
@@ -437,7 +437,7 @@ export const THEMES = [
     link: "https://github.com/ajlende/rEFInd-dawn",
     user: "ajlende",
     user_url: "https://github.com/ajlende",
-    image: "/images/dawn.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459888/rEFInd-themes/dawn_ij6lxp.webp",
     multipleBackgrounds: false,
   },
   {
@@ -447,7 +447,7 @@ export const THEMES = [
     link: "https://github.com/zeroday0619/rEFInd-pachirisu",
     user: "zeroday0619",
     user_url: "https://github.com/zeroday0619",
-    image: "/images/pachirisu.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/pachirisu_ngioll.webp",
     multipleBackgrounds: false,
   },
   {
@@ -458,7 +458,7 @@ export const THEMES = [
     link: "https://github.com/Paradox1937/rEFInd-Celestial-Theme",
     user: "Paradox1937",
     user_url: "https://github.com/Paradox1937",
-    image: "/images/celestial.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459886/rEFInd-themes/celestial_tcnpr5.webp",
     multipleBackgrounds: false,
   },
   {
@@ -468,7 +468,7 @@ export const THEMES = [
     link: "https://github.com/phonot/terminal-bootloader",
     user: "phonot",
     user_url: "https://github.com/phonot",
-    image: "/images/terminal.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/terminal_qnldgw.webp",
     multipleBackgrounds: false,
   },
   {
@@ -479,7 +479,7 @@ export const THEMES = [
     link: "https://github.com/riftsandroses/rEFInd-RetroGame",
     user: "riftsandroses",
     user_url: "https://github.com/riftsandroses",
-    image: "/images/retrogame.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/retrogame_r2zmoh.webp",
     multipleBackgrounds: false,
   },
   {
@@ -490,7 +490,7 @@ export const THEMES = [
     link: "https://github.com/Scorpi-ON/BlackCatMuzzle-rEFInd",
     user: "Scorpi-ON",
     user_url: "https://github.com/Scorpi-ON",
-    image: "/images/blackcatmuzzle.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/blackcatmuzzle_p7zjqa.webp",
     multipleBackgrounds: true,
   },
   {
@@ -501,7 +501,7 @@ export const THEMES = [
     link: "https://github.com/AliciaTransmuted/rEFInd-wildside",
     user: "AliciaTransmuted",
     user_url: "https://github.com/AliciaTransmuted",
-    image: "/images/wildside.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/wildside_hfeaop.webp",
     multipleBackgrounds: false,
   },
   {
@@ -512,7 +512,7 @@ export const THEMES = [
     link: "https://github.com/AliciaTransmuted/rEFInd-splash",
     user: "AliciaTransmuted",
     user_url: "https://github.com/AliciaTransmuted",
-    image: "/images/splash.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/splash_lnbyda.webp",
     multipleBackgrounds: false,
   },
   {
@@ -523,7 +523,7 @@ export const THEMES = [
     link: "https://github.com/SLywnow/hi-dark",
     user: "SLywnow",
     user_url: "https://github.com/SLywnow",
-    image: "/images/hi-dark.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi-dark_tqqhew.webp",
     multipleBackgrounds: false,
   },
   {
@@ -533,7 +533,7 @@ export const THEMES = [
     link: "https://github.com/Gutleibmann/refind-theme-regular-minimalism",
     user: "Gutleibmann",
     user_url: "https://github.com/Gutleibmann",
-    image: "/images/minimalism.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459909/rEFInd-themes/minimalism_rbt36k.webp",
     multipleBackgrounds: false,
   },
   {
@@ -544,7 +544,7 @@ export const THEMES = [
     link: "https://github.com/BetaTester41/rEFInd-Metro",
     user: "BetaTester41",
     user_url: "https://github.com/BetaTester41",
-    image: "/images/metro.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459905/rEFInd-themes/metro_gvtibx.webp",
     multipleBackgrounds: false,
   },
   {
@@ -554,7 +554,7 @@ export const THEMES = [
     link: "https://github.com/zwzheng45/rEFInd-Phi",
     user: "zwzheng45",
     user_url: "https://github.com/zwzheng45",
-    image: "/images/phi.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/phi_lc1aul.webp",
     multipleBackgrounds: false,
   },
   {
@@ -564,7 +564,7 @@ export const THEMES = [
     link: "https://github.com/Nyoutaaa/rEFInd-Minimalist",
     user: "Nyoutaaa",
     user_url: "https://github.com/Nyoutaaa",
-    image: "/images/minimalist.webp",
+    image: "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459910/rEFInd-themes/minimalist_keqxzg.webp",
     multipleBackgrounds: false,
   },
 ];
