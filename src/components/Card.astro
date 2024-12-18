@@ -1,6 +1,7 @@
 ---
 import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
 import { Image } from "astro:assets";
+import { CldImage } from "astro-cloudinary";
 
 interface Props {
   id: string;
@@ -28,13 +29,12 @@ const {
 
 <div>
   <a href={link} target="_blank">
-    <Image
+    <CldImage
       class="h-auto rounded-lg aspect-video hover:scale-105 transition duration-200 ease-in-out"
       src={image as string}
+      width={550}
+      height={300}
       alt={name}
-      width="350"
-      height="300"
-      loading="lazy"
     />
   </a>
   <div class="py-4 px-1">

@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   image: {
-    domains: ["github.com", "raw.githubusercontent.com","user-images.githubusercontent.com","res.cloudinary.com"],
+    domains: ["res.cloudinary.com"],
   }
 });
