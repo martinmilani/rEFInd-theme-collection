@@ -3,33 +3,33 @@ const navItems = [
   {
     title: "Home",
     label: "home",
-    url: "/#home",
+    url: "/#home"
   },
   {
     title: "GitHub",
     label: "github",
-    url: "https://github.com/martinmilani",
+    url: "https://github.com/martinmilani"
   },
   {
     title: "Contact",
     label: "contact",
-    url: "mailto:martin.milani.mdq@gmail.com",
-  },
+    url: "mailto:martin.milani.mdq@gmail.com"
+  }
 ];
 ---
 
 <header
-  class="fixed top-0 z-10 flex items-center justify-center py-2 w-full mx-auto"
+  class="fixed top-0 z-10 mx-auto flex w-full items-center justify-center py-2"
 >
   <nav
-    class="text-sm font-medium rounded-full px-4 py-2 flex flex-row gap-x-6 lg:gap-x-10 justify-center w-auto"
+    class="flex w-auto flex-row justify-center gap-x-6 rounded-full px-4 py-2 text-sm font-medium lg:gap-x-10"
   >
     {
       navItems.map((item) => (
         <a
           aria-label="{item.label}"
           href={item.url}
-          class="text-white hover:text-dracula transition focus-visible:outline-offset-8"
+          class="text-white transition hover:text-dracula focus-visible:outline-offset-8"
         >
           {item.title}
         </a>
@@ -42,7 +42,7 @@ const navItems = [
     const sections = document.querySelectorAll("section");
     const navItems = document.querySelectorAll("header nav a");
 
-    const callback = (entries: any[]) => {
+    const callback = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           navItems.forEach((item) => {
@@ -59,7 +59,7 @@ const navItems = [
     const observer = new IntersectionObserver(callback, {
       root: null,
       rootMargin: "0px",
-      threshold: 0.3,
+      threshold: 0.3
     });
 
     sections.forEach((section) => {
@@ -88,7 +88,7 @@ const navItems = [
 
   @keyframes nav-shadown {
     to {
-      @apply shadow-lg ring-1 backdrop-blur dark:bg-gray-800/90 bg-[#44475a]/50 ring-white/10;
+      @apply bg-[#44475a]/50 shadow-lg ring-1 ring-white/10 backdrop-blur dark:bg-gray-800/90;
     }
   }
 </style>

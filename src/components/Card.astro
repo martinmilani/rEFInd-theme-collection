@@ -1,7 +1,6 @@
 ---
 import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
 import { CldImage } from "astro-cloudinary";
-import { Image } from "astro:assets";
 
 interface Props {
   id: string;
@@ -23,32 +22,32 @@ const {
   user_url,
   image,
   multipleBackgrounds,
-  isNew,
+  isNew
 } = Astro.props;
 ---
 
 <div>
   <a href={link} target="_blank">
     <CldImage
-      class="h-auto rounded-lg aspect-video hover:scale-105 transition duration-200 ease-in-out"
+      class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
       src={image as string}
       width={550}
       height={300}
       alt={name}
     />
   </a>
-  <div class="py-4 px-1">
-    <div class="flex flex-row items-center gap-x-2 w-full justify-between">
+  <div class="px-1 py-4">
+    <div class="flex w-full flex-row items-center justify-between gap-x-2">
       <a href={link} target="_blank" class="font-medium">{name}</a>
       <div class="flex flex-row items-center gap-x-2">
         {
           multipleBackgrounds && (
-            <div class="relative inline-block group">
+            <div class="group relative inline-block">
               <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
-              <div class="hidden group-hover:flex justify-center transition absolute bottom-6 -left-[86px] w-[190px] z-10 bg-aro/95 text-white text-xs p-2 rounded shadow-lg text-center">
+              <div class="absolute -left-[86px] bottom-6 z-10 hidden w-[190px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
                 multiple backgrounds / icons
                 <svg
-                  class="absolute text-aro/95  h-2 w-full left-0 -bottom-2"
+                  class="absolute -bottom-2 left-0 h-2 w-full text-aro/95"
                   x="0px"
                   y="0px"
                   viewBox="0 0 255 255"
@@ -65,7 +64,7 @@ const {
         }
         {
           isNew && (
-            <span class="cursor-default text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-dracula-400 dark:text-white">
+            <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
               New!
             </span>
           )
@@ -73,13 +72,13 @@ const {
       </div>
     </div>
     <div class="flex flex-col">
-      <p class="text-sm text-white/90 mt-2 font-normal font-sans">
+      <p class="mt-2 font-sans text-sm font-normal text-white/90">
         {description}
       </p>
       <a
         href={user_url}
         target="_blank"
-        class="text-xs text-white/60 mt-2 font-normal hover:text-white transition"
+        class="mt-2 text-xs font-normal text-white/60 transition hover:text-white"
         >{user}</a
       >
     </div>
