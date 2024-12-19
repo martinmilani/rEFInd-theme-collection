@@ -3,8 +3,8 @@ import { THEMES } from "@src/data.js";
 import Card from "./Card.astro";
 ---
 
-<div class=" px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center">
-  {THEMES.map((theme) => (
-    <Card {...theme} id={theme.id}/>
-  ))}
+<div
+  class="grid grid-cols-1 justify-items-center gap-8 px-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+>
+  {THEMES.map((theme) => <Card {...theme} id={theme.id} />)}
 </div>
