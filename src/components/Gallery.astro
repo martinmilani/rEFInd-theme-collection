@@ -1,10 +1,12 @@
 ---
-import { THEMES } from "@src/data.js";
+import { getCollection } from "astro:content";
 import Card from "./Card.astro";
+
+const themes = await getCollection("themes");
 ---
 
 <div
   class="grid grid-cols-1 justify-items-center gap-8 px-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
 >
-  {THEMES.map((theme) => <Card {...theme} id={theme.id} />)}
+  {themes.map((theme) => <Card {...theme.data} id={theme.id} />)}
 </div>
