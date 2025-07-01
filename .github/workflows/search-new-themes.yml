@@ -29,6 +29,17 @@ jobs:
       - name: Run theme discovery script
         run: node scripts/findNewThemes.mjs
 
+      - name: Debug generated file and repo status
+        run: |
+          echo "📂 Current working directory:"
+          pwd
+          echo "📋 Listing all files recursively:"
+          ls -lahR
+          echo "📄 Showing head of new-themes-found.json (if exists):"
+          head -20 new-themes-found.json || echo "File not found"
+          echo "🗂 Git status:"
+          git status
+
       - name: Commit and push if new themes found
         run: |
           git config user.name "github-actions[bot]"
@@ -40,9 +51,16 @@ jobs:
           git checkout -b ${{ steps.vars.outputs.branch_name }}
 
           if [ -f new-themes-found.json ]; then
-            git add new-themes-found.json
-            git commit -m "📦 New rEFInd themes found (manual review)"
-            git push origin ${{ steps.vars.outputs.branch_name }}
+            git status
+            git diff --staged || true
+
+            if git diff --cached --quiet; then
+              echo "No changes detected in new-themes-found.json, skipping commit and push."
+            else
+              git add new-themes-found.json
+              git commit -m "📦 New rEFInd themes found (manual review)"
+              git push origin ${{ steps.vars.outputs.branch_name }}
+            fi
           else
             echo "✅ No new themes found — skipping commit and push."
           fi
