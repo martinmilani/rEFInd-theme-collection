@@ -52,6 +52,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ steps.vars.outputs.branch_name }}
+          base: main
           title: "📦 New rEFInd themes found (manual review)"
           body: |
             This pull request includes a generated `new-themes-found.json` file with potential new rEFInd themes from GitHub.
