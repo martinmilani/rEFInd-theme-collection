@@ -1,28 +1,47 @@
-name: Find new rEFInd themes
+name: Find and Propose New rEFInd Themes
 
 on:
   schedule:
-    - cron: "0 12 * * 1" # Runs every Monday at noon
-  workflow_dispatch: # Allows manual triggering
+    - cron: "0 12 * * 1" # Every Monday at 12:00 UTC
+  workflow_dispatch:
 
 jobs:
-  search:
+  find-themes:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Search GitHub for new rEFInd themes
-        uses: actions/github-script@v7
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          script: |
-            const query = "refind theme in:name,description";
-            const res = await github.search.repos({ q: query, sort: "updated", order: "desc" });
+          node-version: "20"
 
-            const top5 = res.data.items.slice(0, 5).map(repo => `- [${repo.full_name}](${repo.html_url})`).join("\n");
+      - name: Install dependencies (if needed)
+        run: |
+          mkdir -p scripts
+          echo "// placeholder" > scripts/findNewThemes.mjs
 
-            console.log("Found repositories:\n" + top5);
+      - name: Run theme discovery script
+        run: node scripts/findNewThemes.mjs
 
-            await github.issues.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              title: "🔍 Weekly: New rEFInd themes found",
-              body: "Here are the top 5 recently updated repositories:\n\n" + top5
-            });
+      - name: Commit and push if new themes found
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b update-new-themes-found
+          git add new-themes-found.json || echo "No new themes found."
+          git diff --cached --quiet || git commit -m "📦 New rEFInd themes found (manual review)" && git push origin update-new-themes-found
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-new-themes-found
+          title: "📦 New rEFInd themes found (manual review)"
+          body: |
+            This pull request includes a generated `new-themes-found.json` file with potential new rEFInd themes from GitHub.
+
+            Please review and manually integrate valid entries into `src/data/themes.json`.
+          commit-message: "📦 New rEFInd themes found (manual review)"
