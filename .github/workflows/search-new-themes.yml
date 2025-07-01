@@ -65,6 +65,25 @@ jobs:
             echo "✅ No new themes found — skipping commit and push."
           fi
 
+      - name: Ensure remote branch is available
+        run: |
+          git fetch --all
+          sleep 5
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.vars.outputs.branch_name }}
+          base: main
+          title: "📦 New rEFInd themes found (manual review)"
+          body: |
+            This pull request includes a generated `new-themes-found.json` file with potential new rEFInd themes from GitHub.
+
+            Please review and manually integrate valid entries into `src/data/themes.json`.
+          commit-message: "📦 New rEFInd themes found (manual review)"
+          fork: false
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
