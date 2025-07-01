@@ -29,6 +29,15 @@ jobs:
       - name: Run theme discovery script
         run: node scripts/findNewThemes.mjs
 
+      - name: Check if new themes were found
+        run: |
+          if [ -f new-themes-found.json ]; then
+            echo "🟢 File new-themes-found.json was created."
+            cat new-themes-found.json
+          else
+            echo "🟡 File new-themes-found.json not found."
+          fi
+
       - name: Commit and push if new themes found
         run: |
           git config user.name "github-actions[bot]"
