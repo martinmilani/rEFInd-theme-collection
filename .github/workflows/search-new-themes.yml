@@ -73,7 +73,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_GITHUB }}
           branch: ${{ steps.vars.outputs.branch_name }}
           base: main
           title: "📦 New rEFInd themes found (manual review)"
