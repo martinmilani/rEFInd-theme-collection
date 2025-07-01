@@ -29,6 +29,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin
+          git checkout main
+          git pull origin main
           git checkout -b update-new-themes-found
 
           if [ -f new-themes-found.json ]; then
