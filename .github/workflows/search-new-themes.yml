@@ -22,6 +22,10 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Generate dynamic branch name
+        id: vars
+        run: echo "branch_name=update-new-themes-$(date +'%Y%m%d-%H%M')" >> $GITHUB_OUTPUT
+
       - name: Run theme discovery script
         run: node scripts/findNewThemes.mjs
 
@@ -33,12 +37,12 @@ jobs:
           git fetch origin
           git checkout main
           git pull origin main
-          git checkout -b update-new-themes-found
+          git checkout -b ${{ steps.vars.outputs.branch_name }}
 
           if [ -f new-themes-found.json ]; then
             git add new-themes-found.json
             git commit -m "📦 New rEFInd themes found (manual review)"
-            git push origin update-new-themes-found
+            git push origin ${{ steps.vars.outputs.branch_name }}
           else
             echo "✅ No new themes found — skipping commit and push."
           fi
@@ -47,7 +51,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update-new-themes-found
+          branch: ${{ steps.vars.outputs.branch_name }}
           title: "📦 New rEFInd themes found (manual review)"
           body: |
             This pull request includes a generated `new-themes-found.json` file with potential new rEFInd themes from GitHub.
