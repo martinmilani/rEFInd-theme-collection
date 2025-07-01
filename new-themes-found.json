@@ -1,0 +1,146 @@
+[
+  {
+    "name": "rEFInd-theme-collection",
+    "description": "A small collection of refind themes from github's that allow you to effortlessly chose your favorite and style your linux boot manager.",
+    "link": "https://github.com/martinmilani/rEFInd-theme-collection",
+    "user": "martinmilani",
+    "user_url": "https://github.com/martinmilani",
+    "isNew": true
+  },
+  {
+    "name": "cachy-refind-theme",
+    "description": "CachyOS Refind Theme",
+    "link": "https://github.com/diegons490/cachy-refind-theme",
+    "user": "diegons490",
+    "user_url": "https://github.com/diegons490",
+    "isNew": true
+  },
+  {
+    "name": "rEFInd-Themes-os_one",
+    "description": "Based on the exiting project to rebuild",
+    "link": "https://github.com/MoTron-0xFFFF/rEFInd-Themes-os_one",
+    "user": "MoTron-0xFFFF",
+    "user_url": "https://github.com/MoTron-0xFFFF",
+    "isNew": true
+  },
+  {
+    "name": "Refind",
+    "description": "Custom grayscale material theme for refind bootmanager.",
+    "link": "https://github.com/GrainyTV/Refind",
+    "user": "GrainyTV",
+    "user_url": "https://github.com/GrainyTV",
+    "isNew": true
+  },
+  {
+    "name": "refind-bootloader-handheld-pc",
+    "description": "Custom rEFInd bootloader themes and configurations tailored for gaming handheld PCs like the ASUS ROG Ally, Lenovo Legion Go, MSI Claw, and Zotac Zone.",
+    "link": "https://github.com/Jastreb07/refind-bootloader-handheld-pc",
+    "user": "Jastreb07",
+    "user_url": "https://github.com/Jastreb07",
+    "isNew": true
+  },
+  {
+    "name": "RefindTheme",
+    "description": "A mix of rEFInd themes to make my own one",
+    "link": "https://github.com/ilwan07/RefindTheme",
+    "user": "ilwan07",
+    "user_url": "https://github.com/ilwan07",
+    "isNew": true
+  },
+  {
+    "name": "rEFInd-themes",
+    "description": "",
+    "link": "https://github.com/fangquping/rEFInd-themes",
+    "user": "fangquping",
+    "user_url": "https://github.com/fangquping",
+    "isNew": true
+  },
+  {
+    "name": "rEFind-themes-minimal",
+    "description": "",
+    "link": "https://github.com/a-lien-ware/rEFind-themes-minimal",
+    "user": "a-lien-ware",
+    "user_url": "https://github.com/a-lien-ware",
+    "isNew": true
+  },
+  {
+    "name": "plain-refind-theme",
+    "description": "A plain and simple theme for rEFInd boot manager",
+    "link": "https://github.com/Neuro-NX/plain-refind-theme",
+    "user": "Neuro-NX",
+    "user_url": "https://github.com/Neuro-NX",
+    "isNew": true
+  },
+  {
+    "name": "killign-rEFInd",
+    "description": "Simple rEFInd black & white theme",
+    "link": "https://github.com/killign/killign-rEFInd",
+    "user": "killign",
+    "user_url": "https://github.com/killign",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco-specs",
+    "description": "",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco-specs",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco-catppuccin-mocha",
+    "description": "",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco-catppuccin-mocha",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco-catppuccin-macchiato",
+    "description": "",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco-catppuccin-macchiato",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco-catppuccin-latte",
+    "description": "",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco-catppuccin-latte",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco-catppuccin-frappe",
+    "description": "arcolinux-refind-theme-ambiance",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco-catppuccin-frappe",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "arcolinux-refind-theme-arco",
+    "description": "",
+    "link": "https://github.com/arcolinux/arcolinux-refind-theme-arco",
+    "user": "arcolinux",
+    "user_url": "https://github.com/arcolinux",
+    "isNew": true
+  },
+  {
+    "name": "yet-another-minimalist-refind-theme",
+    "description": "My theme for rEFInd ",
+    "link": "https://github.com/nalf3in/yet-another-minimalist-refind-theme",
+    "user": "nalf3in",
+    "user_url": "https://github.com/nalf3in",
+    "isNew": true
+  },
+  {
+    "name": "Refind-Themes",
+    "description": "",
+    "link": "https://github.com/zeeshan933/Refind-Themes",
+    "user": "zeeshan933",
+    "user_url": "https://github.com/zeeshan933",
+    "isNew": true
+  }
+]
