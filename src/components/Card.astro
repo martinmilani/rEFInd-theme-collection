@@ -27,60 +27,67 @@ const {
 ---
 
 <div>
-  <a href={link} target="_blank">
-    <CldImage
-      class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
-      src={image as string}
-      width={550}
-      height={300}
-      alt={name}
-    />
-  </a>
-  <div class="px-1 py-4">
-    <div class="flex w-full flex-row items-center justify-between gap-x-2">
-      <a href={link} target="_blank" class="font-medium">{name}</a>
-      <div class="flex flex-row items-center gap-x-2">
-        {
-          multipleBackgrounds && (
-            <div class="group relative inline-block">
-              <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
-              <div class="absolute -left-[86px] bottom-6 z-10 hidden w-[190px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
-                multiple backgrounds / icons
-                <svg
-                  class="absolute -bottom-2 left-0 h-2 w-full text-aro/95"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 255 255"
-                  xml:space="preserve"
-                >
-                  <polygon
-                    class="fill-current"
-                    points="0,0 127.5,127.5 255,0"
-                  />
-                </svg>
+  <div>
+    <a href={link} target="_blank">
+      <CldImage
+        class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
+        src={image as string}
+        width={550}
+        height={350}
+        alt={name}
+        loading="lazy"
+        format="webp"
+        quality="auto"
+        gravity="auto"
+      />
+    </a>
+
+    <div class="px-1 py-4">
+      <div class="flex w-full flex-row items-center justify-between gap-x-2">
+        <a href={link} target="_blank" class="font-medium">{name}</a>
+        <div class="flex flex-row items-center gap-x-2">
+          {
+            multipleBackgrounds && (
+              <div class="group relative inline-block">
+                <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
+                <div class="absolute -left-[86px] bottom-6 z-10 hidden w-[190px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
+                  multiple backgrounds / icons
+                  <svg
+                    class="absolute -bottom-2 left-0 h-2 w-full text-aro/95"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 255 255"
+                    xml:space="preserve"
+                  >
+                    <polygon
+                      class="fill-current"
+                      points="0,0 127.5,127.5 255,0"
+                    />
+                  </svg>
+                </div>
               </div>
-            </div>
-          )
-        }
-        {
-          isNew && (
-            <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
-              New!
-            </span>
-          )
-        }
+            )
+          }
+          {
+            isNew && (
+              <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
+                New!
+              </span>
+            )
+          }
+        </div>
       </div>
-    </div>
-    <div class="flex flex-col">
-      <p class="mt-2 font-sans text-sm font-normal text-white/90">
-        {description}
-      </p>
-      <a
-        href={user_url}
-        target="_blank"
-        class="mt-2 text-xs font-normal text-white/60 transition hover:text-white"
-        >{user}</a
-      >
+      <div class="flex flex-col">
+        <p class="mt-2 font-sans text-sm font-normal text-white/90">
+          {description}
+        </p>
+        <a
+          href={user_url}
+          target="_blank"
+          class="mt-2 text-xs font-normal text-white/60 transition hover:text-white"
+          >{user}</a
+        >
+      </div>
     </div>
   </div>
 </div>
