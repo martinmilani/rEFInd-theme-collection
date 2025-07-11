@@ -1,6 +1,8 @@
 ---
 import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
 import { CldImage } from "astro-cloudinary";
+import ImageCarousel from "./ImageCarousel";
+import ImagePlaceholder from "./ImagePlaceholder.astro";
 
 interface Props {
   id: string;
@@ -9,8 +11,8 @@ interface Props {
   link: string;
   user: string;
   user_url: string;
-  image: string;
-  multipleBackgrounds: boolean;
+  images: string[];
+  multipleThemes: boolean;
   isNew?: boolean;
 }
 
@@ -20,38 +22,50 @@ const {
   link,
   user,
   user_url,
-  image,
-  multipleBackgrounds,
+  images,
+  multipleThemes,
   isNew
 } = Astro.props;
 ---
 
-<div>
-  <div>
-    <a href={link} target="_blank">
-      <CldImage
-        class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
-        src={image as string}
-        width={550}
-        height={350}
-        alt={name}
-        loading="lazy"
-        format="webp"
-        quality="auto"
-        gravity="auto"
-      />
-    </a>
+<div class="w-full">
+  <div class="relative">
+    <div
+      class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
+    >
+      {
+        images.length > 1 ? (
+          <a href={link} target="_blank">
+            <ImageCarousel images={images} alt={name} client:load />
+          </a>
+        ) : images.length === 1 ? (
+          <a href={link} target="_blank">
+            <CldImage
+              class="aspect-video h-auto rounded-lg !object-none"
+              src={images[0] as string}
+              width={550}
+              height={310}
+              alt={name}
+              loading="lazy"
+              format="webp"
+            />
+          </a>
+        ) : (
+          <ImagePlaceholder alt={name} />
+        )
+      }
+    </div>
 
     <div class="px-1 py-4">
       <div class="flex w-full flex-row items-center justify-between gap-x-2">
-        <a href={link} target="_blank" class="font-medium">{name}</a>
-        <div class="flex flex-row items-center gap-x-2">
+        <div>
+          <a href={link} target="_blank" class="font-medium">{name}</a>
           {
-            multipleBackgrounds && (
+            multipleThemes && (
               <div class="group relative inline-block">
                 <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
-                <div class="absolute -left-[86px] bottom-6 z-10 hidden w-[190px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
-                  multiple backgrounds / icons
+                <div class="absolute -left-[51px] bottom-6 z-10 hidden w-[120px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
+                  Multiple Themes
                   <svg
                     class="absolute -bottom-2 left-0 h-2 w-full text-aro/95"
                     x="0px"
@@ -68,14 +82,14 @@ const {
               </div>
             )
           }
-          {
-            isNew && (
-              <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
-                New!
-              </span>
-            )
-          }
         </div>
+        {
+          isNew && (
+            <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
+              New!
+            </span>
+          )
+        }
       </div>
       <div class="flex flex-col">
         <p class="mt-2 font-sans text-sm font-normal text-white/90">

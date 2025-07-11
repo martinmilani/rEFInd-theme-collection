@@ -10,8 +10,8 @@ const themes = defineCollection({
     link: z.string(),
     user: z.string(),
     user_url: z.string(),
-    image: z.string(),
-    multipleBackgrounds: z.boolean(),
+    images: z.array(z.string()),
+    multipleThemes: z.boolean(),
     isNew: z.boolean().optional()
   })
 });

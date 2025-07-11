@@ -6,8 +6,11 @@
     "link": "https://github.com/chris1111/rEFInd-Shadow-IOS?tab=readme-ov-file",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Shadow-IOS_i6fh6d.webp",
-    "multipleBackgrounds": true,
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Shadow-IOS_i6fh6d.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658162/rEFInd-themes/screenshot_003_gibyub.webp"
+    ],
+    "multipleThemes": true,
     "isNew": true
   },
   {
@@ -17,8 +20,11 @@
     "link": "https://github.com/chris1111/Shadow-rEFInd",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/Shadow-rEFInd_ike0wa.webp",
-    "multipleBackgrounds": true,
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/Shadow-rEFInd_ike0wa.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658092/rEFInd-themes/screenshot_003_hsh60z.webp"
+    ],
+    "multipleThemes": true,
     "isNew": true
   },
   {
@@ -28,8 +34,11 @@
     "link": "https://github.com/chris1111/Icon-Set-DarkGrey-Refind",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459898/rEFInd-themes/Icon-Set-DarkGrey-Refind_aweoru.webp",
-    "multipleBackgrounds": true,
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459898/rEFInd-themes/Icon-Set-DarkGrey-Refind_aweoru.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657753/rEFInd-themes/ScreenShot_002_ryzmkk.webp"
+    ],
+    "multipleThemes": true,
     "isNew": true
   },
   {
@@ -39,9 +48,11 @@
     "link": "https://github.com/chris1111/rEFInd-Metal-Frame",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Metal-Frame_a1unlf.webp",
-    "multipleBackgrounds": true,
-    "isNew": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Metal-Frame_a1unlf.webp"
+    ],
+    "multipleThemes": true,
+    "isNew": false
   },
   {
     "id": "0b083919-06b9-484e-9f3b-8abaa0aea02d",
@@ -50,8 +61,10 @@
     "link": "https://github.com/evanpurkhiser/rEFInd-minimal",
     "user": "evanpurkhiser",
     "user_url": "https://github.com/evanpurkhiser",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459906/rEFInd-themes/minimal_geajq1.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459906/rEFInd-themes/minimal_geajq1.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "703a593a-bfe7-4a90-b802-9ac8d960ac34",
@@ -60,8 +73,11 @@
     "link": "https://github.com/bobafetthotmail/refind-theme-regular",
     "user": "bobafetthotmail",
     "user_url": "https://github.com/bobafetthotmail",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/regular_raceea.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/regular_raceea.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657560/rEFInd-themes/dark_theme_hfl881.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "b3ef8306-fadd-406e-98fb-0885c8439284",
@@ -70,8 +86,10 @@
     "link": "https://github.com/lukechilds/refind-ambience",
     "user": "lukechilds",
     "user_url": "https://github.com/lukechilds",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/ambience_dyicjv.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/ambience_dyicjv.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "c0e3b99a-c604-4505-88c9-ee9803fbc6de",
@@ -80,8 +98,10 @@
     "link": "https://github.com/kgoettler/ursamajor-rEFInd",
     "user": "kgoettler",
     "user_url": "https://github.com/kgoettler",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459882/rEFInd-themes/ursa_qtsekk.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459882/rEFInd-themes/ursa_qtsekk.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "f90fd842-8086-4217-abb5-3faf2969d159",
@@ -90,8 +110,10 @@
     "link": "https://github.com/Pr0cella/rEFInd-glassy",
     "user": "Pr0cella",
     "user_url": "https://github.com/Pr0cella",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459894/rEFInd-themes/glassy_oad2at.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459894/rEFInd-themes/glassy_oad2at.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "31f782d9-bb59-4404-9062-bca2f779fa20",
@@ -100,8 +122,14 @@
     "link": "https://github.com/LightAir/darkmini",
     "user": "LightAir",
     "user_url": "https://github.com/LightAir",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/darkmini_kqh2xd.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/darkmini_kqh2xd.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657313/rEFInd-themes/screenshot_004_zhfoxz.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657369/rEFInd-themes/screenshot_003_oc4ehi.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657405/rEFInd-themes/screenshot_002_arw6lz.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657443/rEFInd-themes/screenshot_001_o97p3e.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "a035029e-c48a-499e-af88-4d362a474ca8",
@@ -110,8 +138,10 @@
     "link": "https://github.com/Yannis4444/Matrix-rEFInd",
     "user": "Yannis4444",
     "user_url": "https://github.com/Yannis4444",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459904/rEFInd-themes/matrix_oxwxzu.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459904/rEFInd-themes/matrix_oxwxzu.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "9934ec8f-894b-425d-a9e5-e668476b6eb3",
@@ -120,8 +150,11 @@
     "link": "https://github.com/2KAbhishek/refind2k",
     "user": "2KAbhishek",
     "user_url": "https://github.com/2KAbhishek",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459916/rEFInd-themes/refind2k_tozcy3.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459916/rEFInd-themes/refind2k_tozcy3.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657226/rEFInd-themes/refind-dark_w31e7b.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "2f93363d-1467-4884-b1dd-7b3d9bc7665b",
@@ -130,8 +163,13 @@
     "link": "https://github.com/quantrancse/rEFInd-minimal-themes",
     "user": "quantrancse",
     "user_url": "https://github.com/quantrancse",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459912/rEFInd-themes/minimal-themes_yxv1yo.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459912/rEFInd-themes/minimal-themes_yxv1yo.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657062/rEFInd-themes/screenshot_dark_odemms.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657096/rEFInd-themes/screenshot_nord_pjz3d2.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657132/rEFInd-themes/screenshot_gruvbox_xgmoto.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "4c994c94-e3a8-48a5-8a36-a30c62bccc3f",
@@ -140,8 +178,10 @@
     "link": "https://github.com/samuelmeuli/refind-theme-dark",
     "user": "samuelmeuli",
     "user_url": "https://github.com/samuelmeuli",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459920/rEFInd-themes/refind-theme-dark_o4aykv.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459920/rEFInd-themes/refind-theme-dark_o4aykv.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "7d3ed7c6-ad88-4587-a580-6207dc204be2",
@@ -150,8 +190,10 @@
     "link": "https://github.com/catppuccin/refind",
     "user": "catppuccin",
     "user_url": "https://github.com/catppuccin",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751854527/rEFInd-themes/catppuccin.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/refind_hcubmj.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "3f3bae4c-ea3c-4797-9907-ae3dbb80802f",
@@ -160,8 +202,10 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-chalkboard",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/chalkboard_ppplbc.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/chalkboard_ppplbc.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "8997be74-644f-44ef-a651-8488963d53bb",
@@ -170,8 +214,10 @@
     "link": "https://github.com/mustaqimM/dm",
     "user": "mustaqimM",
     "user_url": "https://github.com/mustaqimM",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/dm_hrv2ed.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/dm_hrv2ed.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "29c141df-9489-47e6-9acb-5346f2dd59db",
@@ -180,8 +226,10 @@
     "link": "https://github.com/bushtail/refind-efifetch",
     "user": "bushtail",
     "user_url": "https://github.com/bushtail",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/efifetch_iifdkc.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/efifetch_iifdkc.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "17dee397-b823-4811-9f1a-62073335e939",
@@ -190,8 +238,10 @@
     "link": "https://github.com/jaltuna/refind-theme-nord",
     "user": "jaltuna",
     "user_url": "https://github.com/jaltuna",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/refind-theme-nord_qvie5r.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/refind-theme-nord_qvie5r.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "03c63459-09d4-4227-8536-3195265724c0",
@@ -200,8 +250,10 @@
     "link": "https://github.com/hashhar/rEFInd-theme",
     "user": "hashhar",
     "user_url": "https://github.com/hashhar",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459919/rEFInd-themes/refind-theme_cubo4r.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459919/rEFInd-themes/refind-theme_cubo4r.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "1e7f4055-8787-45ed-b516-0551a6d785ae",
@@ -210,8 +262,10 @@
     "link": "https://github.com/indgy/refind-bsd-black",
     "user": "indgy",
     "user_url": "https://github.com/indgy",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "e73827f0-4dbc-4280-9f5d-04d43c212729",
@@ -220,8 +274,10 @@
     "link": "https://github.com/danirabbit/refind-theme-elementary",
     "user": "danirabbit",
     "user_url": "https://github.com/danirabbit",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/elementary_n7cpzw.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/elementary_n7cpzw.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "2058d72b-c3b7-4667-8e42-0afc743b9e32",
@@ -230,8 +286,10 @@
     "link": "https://github.com/AdityaGarg8/rEFInd-minimal-modded",
     "user": "AdityaGarg8",
     "user_url": "https://github.com/AdityaGarg8",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459911/rEFInd-themes/minimal-modded_nllr1s.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459911/rEFInd-themes/minimal-modded_nllr1s.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "289ede6d-e144-4ea3-9a4a-6fde04feb962",
@@ -240,8 +298,10 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-indulgence",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459900/rEFInd-themes/indulgence_gml6rq.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459900/rEFInd-themes/indulgence_gml6rq.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "08680640-f0cb-4fa4-9e3b-452793ec7959",
@@ -250,8 +310,10 @@
     "link": "https://github.com/drunckj/rEFInd-minimal-drunkcj",
     "user": "drunckj",
     "user_url": "https://github.com/drunckj",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459908/rEFInd-themes/minimal-drunkcj_ssbm6l.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459908/rEFInd-themes/minimal-drunkcj_ssbm6l.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "df33a6c9-d9cd-4685-ac8f-0e834ae62076",
@@ -260,8 +322,10 @@
     "link": "https://github.com/Fantailed/Refind-Maia-Reskin",
     "user": "Fantailed",
     "user_url": "https://github.com/Fantailed",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/maia-reskin_qgxxl4.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/maia-reskin_qgxxl4.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "d2830132-434c-4f4a-97c8-63707e1835e2",
@@ -270,8 +334,10 @@
     "link": "https://github.com/antsif-a/glow",
     "user": "antsif-a",
     "user_url": "https://github.com/antsif-a",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459895/rEFInd-themes/glow_bepfdx.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459895/rEFInd-themes/glow_bepfdx.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "b9674c05-7561-4f04-aa27-1dcea7889ce6",
@@ -280,8 +346,10 @@
     "link": "https://github.com/voduong404/Refind-theme-Fluent-dark",
     "user": "voduong404",
     "user_url": "https://github.com/voduong404",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459893/rEFInd-themes/fluent-dark_ci32vp.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459893/rEFInd-themes/fluent-dark_ci32vp.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "da4acdf2-291b-458e-ab60-fb2751fb13d6",
@@ -290,8 +358,10 @@
     "link": "https://github.com/Patricol/refind-material-theme",
     "user": "Patricol",
     "user_url": "https://github.com/Patricol",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459903/rEFInd-themes/material_mqnhmh.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459903/rEFInd-themes/material_mqnhmh.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "9a166446-0454-4719-b419-1ca491ede647",
@@ -300,8 +370,10 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-details",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/details_ir1opw.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/details_ir1opw.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "96633c9e-f09c-4fa1-892a-32e9b0ad1f95",
@@ -310,8 +382,10 @@
     "link": "https://github.com/tedski999/custom-bootloader",
     "user": "tedski999",
     "user_url": "https://github.com/tedski999",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "44a08806-bc16-4598-81a0-f87cb83ff888",
@@ -320,8 +394,10 @@
     "link": "https://github.com/PillTime/rEFInd-minimal-dark",
     "user": "PillTime",
     "user_url": "https://github.com/PillTime",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459907/rEFInd-themes/minimal-dark_mvdbzt.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459907/rEFInd-themes/minimal-dark_mvdbzt.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "1656f08a-8c46-48a0-afc0-12509c47e37d",
@@ -330,8 +406,10 @@
     "link": "https://github.com/noraj/refind-theme-regular",
     "user": "noraj",
     "user_url": "https://github.com/noraj",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459923/rEFInd-themes/regular2_z2lwfb.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459923/rEFInd-themes/regular2_z2lwfb.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "9ba9ab2c-ba60-43fa-a545-155ee340f052",
@@ -340,8 +418,10 @@
     "link": "https://github.com/M-L-P/rEFInd-theme-Yours?tab=readme-ov-file",
     "user": "M-L-P",
     "user_url": "https://github.com/M-L-P",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/yours_h08pte.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/yours_h08pte.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "79010bb7-c13c-4fc9-9940-5b0c85d72551",
@@ -350,8 +430,10 @@
     "link": "https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies",
     "user": "jpmvferreira",
     "user_url": "https://github.com/jpmvferreira",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459889/rEFInd-themes/deer-and-fireflies_nklxeb.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459889/rEFInd-themes/deer-and-fireflies_nklxeb.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "aab90372-b2bc-4502-a2c7-a7379bc41718",
@@ -360,8 +442,10 @@
     "link": "https://github.com/sihann/refind-gruvbox-theme",
     "user": "sihann",
     "user_url": "https://github.com/sihann",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459896/rEFInd-themes/gruvbox_f61uod.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459896/rEFInd-themes/gruvbox_f61uod.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "5705ce00-a18e-4547-b6a3-a83dd487f21d",
@@ -370,8 +454,10 @@
     "link": "https://github.com/Chrisae9/rEFInd-mountain",
     "user": "Chrisae9",
     "user_url": "https://github.com/Chrisae9",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/mountain_n0nngl.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/mountain_n0nngl.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "d092957a-171f-45d0-bc84-fc2c019b987e",
@@ -380,8 +466,10 @@
     "link": "https://github.com/1j01/refind-theme-regular",
     "user": "1j01",
     "user_url": "https://github.com/1j01",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459924/rEFInd-themes/regular3_rbnixz.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459924/rEFInd-themes/regular3_rbnixz.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "3bb70c91-88f8-4b7a-8fc5-c589a7ec2147e",
@@ -390,8 +478,18 @@
     "link": "https://github.com/SLywnow/hi-themes-refind",
     "user": "SLywnow",
     "user_url": "https://github.com/SLywnow",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi_f7pvbm.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi_f7pvbm.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656613/rEFInd-themes/Screenshot_20202051723415114_u9mhsx.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656606/rEFInd-themes/Screenshot_202020517234132451_n2sdcd.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656596/rEFInd-themes/Screenshot_202020517234038979_mg3zsh.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656584/rEFInd-themes/Screenshot_202020517233951718_bxpifx.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656574/rEFInd-themes/Screenshot_202020517233742436_p4lhik.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656565/rEFInd-themes/Screenshot_202020517233852312_o82zdz.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656544/rEFInd-themes/Screenshot_202020517234012889_ooq694.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656527/rEFInd-themes/Screenshot_202020517233921903_ma6bt3.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "195b8308-278f-4f92-8909-156b7818d977",
@@ -400,8 +498,10 @@
     "link": "https://github.com/Valeria-Fadeeva/linux-boot-efi",
     "user": "Valeria-Fadeeva",
     "user_url": "https://github.com/Valeria-Fadeeva",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459884/rEFInd-themes/boot_wdja4t.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459884/rEFInd-themes/boot_wdja4t.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "f685ee46-9e01-41bc-bfba-e986aaa82935",
@@ -410,8 +510,10 @@
     "link": "https://github.com/matomatical/grey-apple",
     "user": "matomatical",
     "user_url": "https://github.com/matomatical",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459862/rEFInd-themes/apple_ei3lnm.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459862/rEFInd-themes/apple_ei3lnm.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "838d9645-fabf-40bc-a68b-7fe4267275da",
@@ -420,8 +522,10 @@
     "link": "https://github.com/FerLS/LazaGRUB",
     "user": "FerLS",
     "user_url": "https://github.com/FerLS",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/laza_ivdjms.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/laza_ivdjms.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "e77e90f6-db6b-4836-b22f-710a3454b00d",
@@ -430,8 +534,10 @@
     "link": "https://github.com/ajlende/rEFInd-dawn",
     "user": "ajlende",
     "user_url": "https://github.com/ajlende",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459888/rEFInd-themes/dawn_ij6lxp.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459888/rEFInd-themes/dawn_ij6lxp.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "9b82d262-30af-4ec6-ae14-bfcfdd3262b3",
@@ -440,8 +546,10 @@
     "link": "https://github.com/zeroday0619/rEFInd-pachirisu",
     "user": "zeroday0619",
     "user_url": "https://github.com/zeroday0619",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/pachirisu_ngioll.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/pachirisu_ngioll.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "79a47d4f-d2a7-4b45-897c-e3bb3e19932e",
@@ -450,8 +558,10 @@
     "link": "https://github.com/Paradox1937/rEFInd-Celestial-Theme",
     "user": "Paradox1937",
     "user_url": "https://github.com/Paradox1937",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459886/rEFInd-themes/celestial_tcnpr5.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459886/rEFInd-themes/celestial_tcnpr5.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "75502120-5d7e-4783-96c6-1cd50207af9b",
@@ -460,8 +570,10 @@
     "link": "https://github.com/phonot/terminal-bootloader",
     "user": "phonot",
     "user_url": "https://github.com/phonot",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/terminal_qnldgw.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/terminal_qnldgw.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "0ff445ff-0128-4737-b8e1-5cbc5a4afe49",
@@ -470,8 +582,10 @@
     "link": "https://github.com/riftsandroses/rEFInd-RetroGame",
     "user": "riftsandroses",
     "user_url": "https://github.com/riftsandroses",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/retrogame_r2zmoh.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/retrogame_r2zmoh.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "af7ddcf8-088d-4e28-9cf0-c6ef7731dfdc",
@@ -480,8 +594,11 @@
     "link": "https://github.com/Scorpi-ON/BlackCatMuzzle-rEFInd",
     "user": "Scorpi-ON",
     "user_url": "https://github.com/Scorpi-ON",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/blackcatmuzzle_p7zjqa.webp",
-    "multipleBackgrounds": true
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/blackcatmuzzle_p7zjqa.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751655808/rEFInd-themes/BlackCatMuzzle-rEFInd-2.webp"
+    ],
+    "multipleThemes": true
   },
   {
     "id": "08e8e984-f86c-4f41-bc91-8194667b42fb",
@@ -490,8 +607,10 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-wildside",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/wildside_hfeaop.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/wildside_hfeaop.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "d9854149-a771-43ef-b913-9613f2b3258d",
@@ -500,8 +619,10 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-splash",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/splash_lnbyda.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/splash_lnbyda.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "c2fec1bf-f71b-409e-b867-2691df61204a",
@@ -510,8 +631,10 @@
     "link": "https://github.com/SLywnow/hi-dark",
     "user": "SLywnow",
     "user_url": "https://github.com/SLywnow",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi-dark_tqqhew.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi-dark_tqqhew.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "ae7395ca-1555-4cf1-9a5d-fe637b31b1ec",
@@ -520,8 +643,10 @@
     "link": "https://github.com/Gutleibmann/refind-theme-regular-minimalism",
     "user": "Gutleibmann",
     "user_url": "https://github.com/Gutleibmann",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459909/rEFInd-themes/minimalism_rbt36k.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459909/rEFInd-themes/minimalism_rbt36k.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "845f8f51-87b4-4511-bb5b-53ebf77f50f3",
@@ -530,8 +655,10 @@
     "link": "https://github.com/BetaTester41/rEFInd-Metro",
     "user": "BetaTester41",
     "user_url": "https://github.com/BetaTester41",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459905/rEFInd-themes/metro_gvtibx.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459905/rEFInd-themes/metro_gvtibx.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "557ce9de-d1d0-41c8-9a20-ecdd47d10ec1",
@@ -540,8 +667,10 @@
     "link": "https://github.com/zwzheng45/rEFInd-Phi",
     "user": "zwzheng45",
     "user_url": "https://github.com/zwzheng45",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/phi_lc1aul.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/phi_lc1aul.webp"
+    ],
+    "multipleThemes": false
   },
   {
     "id": "f9c918f1-2b02-4180-9619-3a22e93ece07",
@@ -550,7 +679,9 @@
     "link": "https://github.com/Nyoutaaa/rEFInd-Minimalist",
     "user": "Nyoutaaa",
     "user_url": "https://github.com/Nyoutaaa",
-    "image": "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459910/rEFInd-themes/minimalist_keqxzg.webp",
-    "multipleBackgrounds": false
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459910/rEFInd-themes/minimalist_keqxzg.webp"
+    ],
+    "multipleThemes": false
   }
 ]
