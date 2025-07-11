@@ -1,5 +1,6 @@
 ---
 import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
+import GitHubIcon from "@src/icons/GitHubIcon.astro";
 import { CldImage } from "astro-cloudinary";
 import ImageCarousel from "./ImageCarousel";
 import ImagePlaceholder from "./ImagePlaceholder.astro";
@@ -98,8 +99,8 @@ const {
         <a
           href={user_url}
           target="_blank"
-          class="mt-2 text-xs font-normal text-white/60 transition hover:text-white"
-          >{user}</a
+          class="mt-2 flex items-center gap-x-1 text-xs font-normal text-white/60 transition hover:text-dracula-400"
+          ><GitHubIcon class="size-4" />{user}</a
         >
       </div>
     </div>
