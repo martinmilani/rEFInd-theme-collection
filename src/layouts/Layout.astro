@@ -8,11 +8,11 @@ interface Props {
   url?: string;
 }
 
-const { 
-  title = 'rEFInd Themes Collection – Customize Your Boot Manager',
-  description = 'Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Live previews and direct download links to customize your boot screen.',
-  image = '/og-cover.png',
-  url = 'https://refind-themes-collection.netlify.app'
+const {
+  title = "rEFInd Themes Collection – Customize Your Boot Manager",
+  description = "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Live previews and direct download links to customize your boot screen.",
+  image = "/og-cover.png",
+  url = "https://refind-themes-collection.netlify.app"
 } = Astro.props;
 
 const fullImageUrl = new URL(image, url).toString();
@@ -27,10 +27,14 @@ const fullImageUrl = new URL(image, url).toString();
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    
+
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    
+    <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={url} />
@@ -38,19 +42,22 @@ const fullImageUrl = new URL(image, url).toString();
     <meta property="og:description" content={description} />
     <meta property="og:image" content={fullImageUrl} />
     <meta property="og:site_name" content="rEFInd Themes Collection" />
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={fullImageUrl} />
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href={url} />
-    
+
     <!-- Keywords -->
-    <meta name="keywords" content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader" />
+    <meta
+      name="keywords"
+      content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader"
+    />
   </head>
   <body>
     <slot />
