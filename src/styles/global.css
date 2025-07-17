@@ -1,6 +1,9 @@
+@import "flowbite/src/themes/default";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite";
 
 /* Estilos personalizados para Swiper */
 .swiper-pagination-bullet {
@@ -8,7 +11,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  @apply w-2 rounded-full bg-dracula-400;
+  @apply bg-dracula-400 w-2 rounded-full;
 }
 
 .swiper-button-prev::after,
