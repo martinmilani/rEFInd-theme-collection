@@ -59,7 +59,7 @@ const fullImageUrl = new URL(image, url).toString();
       content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader"
     />
   </head>
-  <body>
+  <body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
     <slot />
     <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"
     ></script>
@@ -73,12 +73,7 @@ const fullImageUrl = new URL(image, url).toString();
     font-family: "Onest Variable", system-ui, sans-serif;
     scroll-behavior: smooth;
   }
-  body {
-    background: #13151a;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+
   @media (prefers-reduce-motion: reduce) {
     html {
       scroll-behavior: auto;
