@@ -58,11 +58,22 @@ const fullImageUrl = new URL(image, url).toString();
       name="keywords"
       content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader"
     />
+    <script is:inline>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.getItem("color-theme") === "dark" ||
+        (!("color-theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </head>
-  <body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-white">
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white">
     <slot />
-    <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"
-    ></script>
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
   </body>
 </html>
 <style is:global>
