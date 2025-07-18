@@ -17,23 +17,15 @@ interface Props {
   isNew?: boolean;
 }
 
-const {
-  name,
-  description,
-  link,
-  user,
-  user_url,
-  images,
-  multipleThemes,
-  isNew
-} = Astro.props;
+const { name, description, link, user, user_url, images, multipleThemes, isNew } = Astro.props;
 ---
 
 <div class="w-full">
   <div class="relative">
     <div
-      class="aspect-video h-auto rounded-lg transition duration-200 ease-in-out hover:scale-105"
+      class="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out hover:scale-105"
     >
+      {images.length === 0 ? <ImagePlaceholder alt={name} /> : null}
       {
         images.length > 1 ? (
           <a href={link} target="_blank">
@@ -64,7 +56,7 @@ const {
           {
             multipleThemes && (
               <div class="group relative inline-block">
-                <ColorSwatchIcon class="size-4 hover:text-dracula-300" />
+                <ColorSwatchIcon class="size-4 hover:text-dracula-400" />
                 <div class="absolute -left-[51px] bottom-6 z-10 hidden w-[120px] justify-center rounded bg-aro/95 p-2 text-center text-xs text-white shadow-lg transition group-hover:flex">
                   Multiple Themes
                   <svg
@@ -74,10 +66,7 @@ const {
                     viewBox="0 0 255 255"
                     xml:space="preserve"
                   >
-                    <polygon
-                      class="fill-current"
-                      points="0,0 127.5,127.5 255,0"
-                    />
+                    <polygon class="fill-current" points="0,0 127.5,127.5 255,0" />
                   </svg>
                 </div>
               </div>
@@ -86,7 +75,7 @@ const {
         </div>
         {
           isNew && (
-            <span class="me-2 cursor-default rounded-full px-2.5 py-0.5 text-xs font-medium dark:bg-dracula-400 dark:text-white">
+            <span class="me-2 cursor-default rounded-full bg-dracula-400 px-2.5 py-0.5 text-xs font-medium text-white">
               New!
             </span>
           )
@@ -94,14 +83,14 @@ const {
       </div>
       <div class="flex flex-col">
         <p
-          class="mt-2 line-clamp-1 font-sans text-sm font-normal text-white/90"
+          class="mt-2 line-clamp-1 font-sans text-sm font-normal text-gray-900/80 dark:text-white/90"
         >
           {description}
         </p>
         <a
           href={user_url}
           target="_blank"
-          class="mt-2 flex items-center gap-x-1 text-xs font-normal text-white/60 transition hover:text-dracula-400"
+          class="mt-2 flex items-center gap-x-1 text-xs font-normal text-gray-900/80 transition hover:text-dracula-400 dark:text-white/80 dark:hover:text-dracula-400"
           ><GitHubIcon class="size-4" />{user}</a
         >
       </div>
