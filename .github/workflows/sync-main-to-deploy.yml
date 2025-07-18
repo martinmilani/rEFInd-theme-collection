@@ -1,0 +1,34 @@
+name: Sync main to deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-deploy:
+    name: Merge main into deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # necesario para acceder a todas las ramas
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all branches
+        run: git fetch origin deploy
+
+      - name: Check out deploy branch
+        run: git checkout deploy
+
+      - name: Merge main into deploy
+        run: |
+          git merge origin/main --no-edit || echo "No changes to merge"
+
+      - name: Push changes to deploy
+        run: git push origin deploy
