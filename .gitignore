@@ -20,9 +20,8 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
-# public files
-public/robots.txt
-public/google*.html
+# YoYo AI version control directory
+.yoyo/
 
-# IDE specific files
+# vscode specific files
 .vscode/
