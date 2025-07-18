@@ -8,11 +8,11 @@ interface Props {
   url?: string;
 }
 
-const { 
-  title = 'rEFInd Themes Collection – Customize Your Boot Manager',
-  description = 'Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Live previews and direct download links to customize your boot screen.',
-  image = '/og-cover.png',
-  url = 'https://refind-themes-collection.netlify.app'
+const {
+  title = "rEFInd Themes Collection – Customize Your Boot Manager",
+  description = "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Live previews and direct download links to customize your boot screen.",
+  image = "/og-cover.png",
+  url = "https://refind-themes-collection.netlify.app"
 } = Astro.props;
 
 const fullImageUrl = new URL(image, url).toString();
@@ -27,10 +27,14 @@ const fullImageUrl = new URL(image, url).toString();
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    
+
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    
+    <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={url} />
@@ -38,22 +42,38 @@ const fullImageUrl = new URL(image, url).toString();
     <meta property="og:description" content={description} />
     <meta property="og:image" content={fullImageUrl} />
     <meta property="og:site_name" content="rEFInd Themes Collection" />
-    
+
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={fullImageUrl} />
-    
+
     <!-- Canonical URL -->
     <link rel="canonical" href={url} />
-    
+
     <!-- Keywords -->
-    <meta name="keywords" content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader" />
+    <meta
+      name="keywords"
+      content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader"
+    />
+    <script is:inline>
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.getItem("color-theme") === "dark" ||
+        (!("color-theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </head>
-  <body>
+  <body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-white">
     <slot />
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
   </body>
 </html>
 <style is:global>
@@ -64,12 +84,7 @@ const fullImageUrl = new URL(image, url).toString();
     font-family: "Onest Variable", system-ui, sans-serif;
     scroll-behavior: smooth;
   }
-  body {
-    background: #13151a;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
+
   @media (prefers-reduce-motion: reduce) {
     html {
       scroll-behavior: auto;

@@ -1,16 +1,22 @@
+---
+import ColorSwatchIcon from "@icons/ColorSwatchIcon.astro";
+---
+
 <section class="py-28" id="home">
   <div class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:py-16">
-    <h1
-      class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-    >
-      <a href="https://rodsbooks.com/refind/" class="text-dracula-400">rEFInd</a
-      > Theme Collection
-    </h1>
+    <div class="mb-4 flex flex-col items-center justify-center md:flex-row md:items-end">
+      <ColorSwatchIcon width={90} height={90} />
+      <h1
+        class="text-4xl font-extrabold leading-none tracking-tight text-gray-900 dark:text-white md:text-5xl lg:text-6xl"
+      >
+        <a href="https://rodsbooks.com/refind/" class="text-dracula-400">rEFInd</a> Theme Collection
+      </h1>
+    </div>
     <p
-      class="text-pretty text-lg font-normal text-gray-500 sm:px-16 lg:px-60 lg:text-xl dark:text-gray-400"
+      class="text-pretty text-lg font-normal text-gray-500 dark:text-gray-400 sm:px-16 lg:px-60 lg:text-xl"
     >
-      A small collection of themes from github's that allow you to effortlessly
-      chose your favorite and style your boot manager.
+      A small collection of themes from github's that allow you to effortlessly chose your favorite
+      and style your boot manager.
     </p>
   </div>
 </section>
