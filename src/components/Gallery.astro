@@ -1,12 +1,8 @@
 ---
 import { getCollection } from "astro:content";
-import Card from "./Card.astro";
+import ThemeGallery from "./ThemeGallery.tsx";
 
 const themes = await getCollection("themes");
 ---
 
-<div
-  class="mb-16 grid grid-cols-1 justify-items-center gap-8 px-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
->
-  {themes.map((theme) => <Card {...theme.data} id={theme.id} />)}
-</div>
+<ThemeGallery client:load themes={themes} />
