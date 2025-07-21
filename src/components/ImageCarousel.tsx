@@ -1,6 +1,5 @@
 import { AdvancedImage, placeholder } from "@cloudinary/react";
 import { Cloudinary } from "@cloudinary/url-gen";
-import { fill } from "@cloudinary/url-gen/actions/resize";
 import getCloudinaryPublicId from "@src/utils/getCloudinaryPublicId";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -21,11 +20,7 @@ const cld = new Cloudinary({
 });
 
 function OptimizedImage({ publicId, alt }: { publicId: string; alt: string }) {
-  const myImage = cld
-    .image(publicId)
-    .format("webp")
-    .quality("auto")
-    .resize(fill().width(800).height(450));
+  const myImage = cld.image(publicId).format("webp").quality("auto");
   return (
     <AdvancedImage
       cldImg={myImage}

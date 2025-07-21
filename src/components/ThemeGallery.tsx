@@ -25,25 +25,37 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     setSearchQuery("");
   };
 
-  const filteredThemes = themes.filter((theme) => {
-    // Apply search filter if query is 3+ characters
-    const matchesSearch =
-      searchQuery.length < 3 ||
-      theme.data.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      theme.data.description
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase()) ||
-      theme.data.user.toLowerCase().includes(searchQuery.toLowerCase());
+  const filteredThemes = themes
+    .filter((theme) => {
+      // Apply search filter if query is 3+ characters
+      const matchesSearch =
+        searchQuery.length < 3 ||
+        theme.data.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        theme.data.description
+          .toLowerCase()
+          .includes(searchQuery.toLowerCase()) ||
+        theme.data.user.toLowerCase().includes(searchQuery.toLowerCase());
 
-    // Apply category filter
-    const matchesFilter =
-      activeFilter === "" ||
-      activeFilter === "all" ||
-      (activeFilter === "new" && theme.data.isNew) ||
-      (activeFilter === "multiple" && theme.data.multipleThemes);
+      // Apply category filter
+      const matchesFilter =
+        activeFilter === "" ||
+        activeFilter === "all" ||
+        (activeFilter === "new" && theme.data.isNew) ||
+        (activeFilter === "multiple" && theme.data.multipleThemes);
 
-    return matchesSearch && matchesFilter;
-  });
+      return matchesSearch && matchesFilter;
+    })
+    .sort((a, b) => {
+      // First sort by isNew (true comes first)
+      if (a.data.isNew && !b.data.isNew) return -1;
+      if (!a.data.isNew && b.data.isNew) return 1;
+
+      // If both have same isNew status, sort by creation_date (newest first)
+      return (
+        new Date(b.data.creation_date).getTime() -
+        new Date(a.data.creation_date).getTime()
+      );
+    });
 
   return (
     <div className="container mx-auto mb-12 px-4 lg:mb-24">
