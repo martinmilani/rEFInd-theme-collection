@@ -28,7 +28,7 @@ export default function Card({
   return (
     <div className="w-full">
       <div className="relative">
-        <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out hover:scale-105">
+        <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out lg:hover:scale-105">
           {images.length === 0 ? (
             <ImagePlaceholder />
           ) : (

@@ -1,4 +1,3 @@
-// src/components/icons/GitHubIcon.tsx
 import type { SVGProps } from "react";
 
 export default function GitHubIcon(props: SVGProps<SVGSVGElement>) {
