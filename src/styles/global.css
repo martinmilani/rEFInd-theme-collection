@@ -11,7 +11,12 @@
 }
 
 .swiper-pagination-bullet-active {
-  @apply bg-dracula-400 w-2 rounded-full;
+  @apply w-2 rounded-full bg-dracula-400;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply size-8;
 }
 
 .swiper-button-prev::after,
