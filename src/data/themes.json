@@ -1,5 +1,757 @@
 [
   {
+    "id": "c928e222-1e72-4dbe-9909-1ac63948505e",
+    "name": "dm-refind-theme",
+    "description": "Dream Machine rEFInd theme",
+    "link": "https://github.com/Lindstream/dm-refind-theme",
+    "user": "Lindstream",
+    "user_url": "https://github.com/Lindstream",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302672/nrEFInd-themes/dm_refind_theme_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302673/nrEFInd-themes/dm_refind_theme_1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2015-09-16T14:57:18Z"
+  },
+  {
+    "id": "3b22732e-403e-45e4-ad36-1e4ff5fc4d47",
+    "name": "refind-black",
+    "description": "Minimalistic, flat, black and white theme for rEFInd.",
+    "link": "https://github.com/anthon38/refind-black",
+    "user": "anthon38",
+    "user_url": "https://github.com/anthon38",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302675/nrEFInd-themes/refind_black_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302677/nrEFInd-themes/refind_black_1.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302678/nrEFInd-themes/refind_black_2.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2015-03-01T20:07:58Z"
+  },
+  {
+    "id": "11d9c621-3075-498a-997a-d6286fb604ea",
+    "name": "rEFInd-Metro",
+    "description": "A rEFInd theme based of Burg Metro",
+    "link": "https://github.com/JohnTrentonCary/rEFInd-Metro",
+    "user": "JohnTrentonCary",
+    "user_url": "https://github.com/JohnTrentonCary",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302679/nrEFInd-themes/rEFInd_Metro_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2017-04-08T21:48:09Z"
+  },
+  {
+    "id": "e47a76b6-1b99-4e2d-95d7-53c09154d4fd",
+    "name": "rEFInd-theme-Genshin-Impact",
+    "description": "rEFInd theme for Liyue Harbour in Genshin Impact",
+    "link": "https://github.com/Wooniety/rEFInd-theme-Genshin-Impact",
+    "user": "Wooniety",
+    "user_url": "https://github.com/Wooniety",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302682/nrEFInd-themes/rEFInd_theme_Genshin_Impact_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302684/nrEFInd-themes/rEFInd_theme_Genshin_Impact_1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2020-11-01T16:15:33Z"
+  },
+  {
+    "id": "79841b31-3d9e-4d31-8fab-07032a5acaf8",
+    "name": "rEFInd-ultra",
+    "description": "A rEFInd theme for ultrawide monitors",
+    "link": "https://github.com/JaimeStill/rEFInd-ultra",
+    "user": "JaimeStill",
+    "user_url": "https://github.com/JaimeStill",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302686/nrEFInd-themes/rEFInd_ultra_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2020-01-01T02:17:14Z"
+  },
+  {
+    "id": "8dffd8b5-7c79-4399-b7b2-dbf72a960044",
+    "name": "brads-refind-theme",
+    "description": "A minimal theme for rEFInd with vector source artwork.",
+    "link": "https://github.com/toptensoftware/brads-refind-theme",
+    "user": "toptensoftware",
+    "user_url": "https://github.com/toptensoftware",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302688/nrEFInd-themes/brads_refind_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2021-11-02T07:51:34Z"
+  },
+  {
+    "id": "f62705af-e99b-4e55-a123-4b2f467a077e",
+    "name": "refind-gruvbox-theme",
+    "description": "Theme for rEFInd based on Gruvbox color scheme",
+    "link": "https://github.com/delania-oliveira/refind-gruvbox-theme",
+    "user": "delania-oliveira",
+    "user_url": "https://github.com/delania-oliveira",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314291/nrEFInd-themes/refind-gruvbox-theme_mkqf9b.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2021-01-20T19:49:04Z"
+  },
+  {
+    "id": "ebd37b68-be22-47eb-a9e3-4e2b1d7c57ec",
+    "name": "next-theme",
+    "description": "refind next theme dark",
+    "link": "https://github.com/iamcco/next-theme",
+    "user": "iamcco",
+    "user_url": "https://github.com/iamcco",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302689/nrEFInd-themes/next_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2018-04-05T07:11:24Z"
+  },
+  {
+    "id": "7db54304-58fb-4e3c-868e-6d1fc7b1482a",
+    "name": "refind-castell",
+    "description": "A custom theme for multiboot systems. Requires rEFInd UEFI bootloader.",
+    "link": "https://github.com/castelldev/refind-castell",
+    "user": "castelldev",
+    "user_url": "https://github.com/castelldev",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314222/nrEFInd-themes/refindcastell_jgfamg.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2018-08-13T03:16:18Z"
+  },
+  {
+    "id": "19ddaf4c-4de6-43ca-b6f6-a8d1c1722171",
+    "name": "rEFInd-minimal-dark",
+    "description": "Dark style rEFInd theme, edited from theme rEFInd-minimal by EvanPurkhiser...",
+    "link": "https://github.com/Kissycat/rEFInd-minimal-dark",
+    "user": "Kissycat",
+    "user_url": "https://github.com/Kissycat",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302692/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2019-02-03T05:16:06Z"
+  },
+  {
+    "id": "42d94a0a-1c99-4db4-866c-f1f657ee3daf",
+    "name": "refind-sublime",
+    "description": "Sleek theme for linux boot loader reFind ",
+    "link": "https://github.com/senpaiSubby/refind-sublime",
+    "user": "senpaiSubby",
+    "user_url": "https://github.com/senpaiSubby",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314125/nrEFInd-themes/preview_h074j1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2018-03-18T04:13:28Z"
+  },
+  {
+    "id": "6ac88f03-757d-4ede-b0f5-4d5521bf1455",
+    "name": "refind",
+    "description": "Soho vibes for rEFInd",
+    "link": "https://github.com/blackma9ick/refind",
+    "user": "blackma9ick",
+    "user_url": "https://github.com/blackma9ick",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302694/nrEFInd-themes/refind_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302695/nrEFInd-themes/refind_1.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302696/nrEFInd-themes/refind_2.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2024-08-26T20:46:54Z"
+  },
+  {
+    "id": "e8a8caf9-60b0-4a76-93fc-7ef3effc8d0e",
+    "name": "rEFInd-mountain",
+    "description": " A clean mountain-like theme for the rEFInd UEFI boot manager.",
+    "link": "https://github.com/chrisae9/rEFInd-mountain",
+    "user": "chrisae9",
+    "user_url": "https://github.com/chrisae9",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302698/nrEFInd-themes/rEFInd_mountain_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2018-03-25T03:19:21Z"
+  },
+  {
+    "id": "6558cfc3-a564-4f64-9e7c-57dbba0f5b37",
+    "name": "rEFInd-pachirisu",
+    "description": "Pachirisu theme for the rEFInd boot manager",
+    "link": "https://github.com/Zero-Fork-Storage/rEFInd-pachirisu",
+    "user": "Zero-Fork-Storage",
+    "user_url": "https://github.com/Zero-Fork-Storage",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2021-02-21T06:06:52Z"
+  },
+  {
+    "id": "d3d613d1-8039-4a83-a8ae-36c9ca3e8e68",
+    "name": "refind-theme-oled",
+    "description": "A simple black theme for rEFInd",
+    "link": "https://github.com/dotqaghan/refind-theme-oled",
+    "user": "dotqaghan",
+    "user_url": "https://github.com/dotqaghan",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302701/nrEFInd-themes/refind_theme_oled_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2018-09-08T19:22:59Z"
+  },
+  {
+    "id": "b13696dc-7bb8-466f-9cae-34e44e210ab3",
+    "name": "rEFInd-tokyo-night",
+    "description": "",
+    "link": "https://github.com/almighty-loaf/rEFInd-tokyo-night",
+    "user": "almighty-loaf",
+    "user_url": "https://github.com/almighty-loaf",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302703/nrEFInd-themes/rEFInd_tokyo_night_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302705/nrEFInd-themes/rEFInd_tokyo_night_1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2023-09-07T04:29:18Z"
+  },
+  {
+    "id": "fa981ec4-ebc5-40a6-b6aa-cae1b3b3974d",
+    "name": "refind-neon",
+    "description": "A neon theme for rEFInd.  Who doesn't love neon icons?!",
+    "link": "https://github.com/peteyyz/refind-neon",
+    "user": "peteyyz",
+    "user_url": "https://github.com/peteyyz",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302708/nrEFInd-themes/refind_neon_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302712/nrEFInd-themes/refind_neon_1.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302715/nrEFInd-themes/refind_neon_2.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2021-04-26T23:52:07Z"
+  },
+  {
+    "id": "757260c7-f308-4778-894d-e689fabdb20c",
+    "name": "rEFInd-nox",
+    "description": "Theme for the rEFInd boot manager",
+    "link": "https://github.com/pixix4/rEFInd-nox",
+    "user": "pixix4",
+    "user_url": "https://github.com/pixix4",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302717/nrEFInd-themes/rEFInd_nox_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2017-06-28T14:35:10Z"
+  },
+  {
+    "id": "c3c410f4-4774-46f9-9528-1739a1577ccd",
+    "name": "rEFInd-ZJU",
+    "description": "A rEFInd theme for the students of Zhejiang University.",
+    "link": "https://github.com/lkwq007/rEFInd-ZJU",
+    "user": "lkwq007",
+    "user_url": "https://github.com/lkwq007",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302719/nrEFInd-themes/rEFInd_ZJU_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302721/nrEFInd-themes/rEFInd_ZJU_1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2015-04-24T09:58:57Z"
+  },
+  {
+    "id": "dc46d310-16a4-4d8b-99d4-18fd1d68b37a",
+    "name": "fydeos-refind-theme",
+    "description": "",
+    "link": "https://github.com/openFyde/fydeos-refind-theme",
+    "user": "openFyde",
+    "user_url": "https://github.com/openFyde",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302724/nrEFInd-themes/fydeos_refind_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2022-03-31T07:16:14Z"
+  },
+  {
+    "id": "8bb740f0-8167-481a-beba-0693b197fed3",
+    "name": "rEFInd-minimal-dark",
+    "description": "A dark modern theme for the rEFInd UEFI boot manager. ",
+    "link": "https://github.com/fl-w/rEFInd-minimal-dark",
+    "user": "fl-w",
+    "user_url": "https://github.com/fl-w",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302725/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2020-07-09T10:49:07Z"
+  },
+  {
+    "id": "aafb53d0-d511-435c-9a35-b4edb9b1c877",
+    "name": "refind-rainy-ambience",
+    "description": "Minimal theme with a rainy touch for the rEFInd boot manager (https://www.rodsbooks.com/refind/)",
+    "link": "https://github.com/azmainadel/refind-rainy-ambience",
+    "user": "azmainadel",
+    "user_url": "https://github.com/azmainadel",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2023-05-14T05:38:39Z"
+  },
+  {
+    "id": "ad253d48-4274-411c-8ccc-31c6aaca3420",
+    "name": "refind-theme",
+    "description": "Modern rEFInd theme",
+    "link": "https://github.com/abraha2d/refind-theme",
+    "user": "abraha2d",
+    "user_url": "https://github.com/abraha2d",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2018-11-14T02:38:26Z"
+  },
+  {
+    "id": "4ecee869-0883-4fdc-8dfd-262a7ea4e8c0",
+    "name": "refind",
+    "description": "My rEFInd theme (Modification of rEFInd minimal)",
+    "link": "https://github.com/suprstarrd/refind",
+    "user": "suprstarrd",
+    "user_url": "https://github.com/suprstarrd",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2018-11-22T22:10:36Z"
+  },
+  {
+    "id": "8162e2ef-2cac-4bfb-9df4-ba35b937c421",
+    "name": "refind-3d",
+    "description": "Custom refind theme",
+    "link": "https://github.com/Taspol/refind-3d",
+    "user": "Taspol",
+    "user_url": "https://github.com/Taspol",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2025-02-03T17:19:39Z"
+  },
+  {
+    "id": "d1a9c6ea-6867-49cf-bbd6-545c2a5e9621",
+    "name": "jopie",
+    "description": "Personal refind theme ",
+    "link": "https://github.com/llamaWol/jopie",
+    "user": "llamaWol",
+    "user_url": "https://github.com/llamaWol",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2023-02-24T19:55:34Z"
+  },
+  {
+    "id": "fb2adb5e-8a5f-4f58-939e-f57daa984cdf",
+    "name": "refind-theme",
+    "description": "my minimal refind theme",
+    "link": "https://github.com/aymaneallaoui/refind-theme",
+    "user": "aymaneallaoui",
+    "user_url": "https://github.com/aymaneallaoui",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2024-10-10T20:38:53Z"
+  },
+  {
+    "id": "145705bd-4740-4e50-8701-ebd606cece2c",
+    "name": "refind_bex",
+    "description": "a rEFInd theme inspirited by rEFInd-glassy",
+    "link": "https://github.com/Databingo/refind_bex",
+    "user": "Databingo",
+    "user_url": "https://github.com/Databingo",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2024-11-07T02:37:24Z"
+  },
+  {
+    "id": "30aa1408-031b-49df-9aee-341c9dc48bf9",
+    "name": "yet-another-minimalist-refind-theme",
+    "description": "My theme for rEFInd ",
+    "link": "https://github.com/nalf3in/yet-another-minimalist-refind-theme",
+    "user": "nalf3in",
+    "user_url": "https://github.com/nalf3in",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302729/nrEFInd-themes/yet_another_minimalist_refind_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2025-03-26T00:50:29Z"
+  },
+  {
+    "id": "235e9544-5d0d-4ba7-983a-0bf9ccfd3ba5",
+    "name": "refind-bsxm1-theme",
+    "description": "BsxM1 theme for rEFInd",
+    "link": "https://github.com/AlexFullmoon/refind-bsxm1-theme",
+    "user": "AlexFullmoon",
+    "user_url": "https://github.com/AlexFullmoon",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302730/nrEFInd-themes/refind_bsxm1_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2024-10-09T22:48:04Z"
+  },
+  {
+    "id": "b170d9be-c435-4f58-8d5f-2aaa6e0bcc56",
+    "name": "rEFInd-maelstrom",
+    "description": "Maelstrom theme for rEFInd",
+    "link": "https://github.com/mia-riezebos/rEFInd-maelstrom",
+    "user": "mia-riezebos",
+    "user_url": "https://github.com/mia-riezebos",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2023-09-15T15:53:22Z"
+  },
+  {
+    "id": "2a0ff092-3267-443f-a413-9b8fb8615fc9",
+    "name": "refind-theme",
+    "description": "",
+    "link": "https://github.com/wiredhikari/refind-theme",
+    "user": "wiredhikari",
+    "user_url": "https://github.com/wiredhikari",
+    "images": [],
+    "recently_added": true,
+    "creation_date": "2021-07-24T15:43:24Z"
+  },
+  {
+    "id": "a77e7e40-17cd-451b-90f2-b44627b1c7bf",
+    "name": "Refind-Themes",
+    "description": "",
+    "link": "https://github.com/zeeshan933/Refind-Themes",
+    "user": "zeeshan933",
+    "user_url": "https://github.com/zeeshan933",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302734/nrEFInd-themes/Refind_Themes_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2025-03-05T12:05:48Z"
+  },
+  {
+    "id": "556520ff-cd6f-4f9c-b629-1bc03d7b1e32",
+    "name": "refind_sunset",
+    "description": "My favorite refind theme",
+    "link": "https://github.com/codesshaman/refind_sunset",
+    "user": "codesshaman",
+    "user_url": "https://github.com/codesshaman",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302736/nrEFInd-themes/refind_sunset_0.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302738/nrEFInd-themes/refind_sunset_1.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2024-12-08T17:10:04Z"
+  },
+  {
+    "id": "e4cb9805-bb64-411a-b940-941af367786d",
+    "name": "graphite-nord-dark-refind",
+    "description": "A refind theme (WIP)",
+    "link": "https://github.com/NyaomiDEV/graphite-nord-dark-refind",
+    "user": "NyaomiDEV",
+    "user_url": "https://github.com/NyaomiDEV",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2024-02-27T16:14:04Z"
+  },
+  {
+    "id": "8925cd0d-3acc-4ff6-a7ee-fcdca26bb537",
+    "name": "alpaca-refind-theme",
+    "description": "An alpaca themed refind for my pos-os devices",
+    "link": "https://github.com/BobTagnil/alpaca-refind-theme",
+    "user": "BobTagnil",
+    "user_url": "https://github.com/BobTagnil",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302740/nrEFInd-themes/alpaca_refind_theme_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2021-10-29T10:11:25Z"
+  },
+  {
+    "id": "bc1a0799-0251-432d-ac01-8acef89819af",
+    "name": "refind-theme-regular",
+    "description": "",
+    "link": "https://github.com/kmyi/refind-theme-regular",
+    "user": "kmyi",
+    "user_url": "https://github.com/kmyi",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302742/nrEFInd-themes/refind_theme_regular_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2016-05-13T17:37:25Z"
+  },
+  {
+    "id": "cd6431db-5f37-4211-a447-dbd5e26c2aa6",
+    "name": "refind-theme-oled",
+    "description": "",
+    "link": "https://github.com/ASUS-Vivobook-S-14-M5406WA/refind-theme-oled",
+    "user": "ASUS-Vivobook-S-14-M5406WA",
+    "user_url": "https://github.com/ASUS-Vivobook-S-14-M5406WA",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302701/nrEFInd-themes/refind_theme_oled_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2025-01-28T13:51:03Z"
+  },
+  {
+    "id": "fc2e0640-737d-49f8-90fc-002595c7d6b0",
+    "name": "rEFInd-monochrome-theme",
+    "description": "Simple monochromatic theme for rEFInd",
+    "link": "https://github.com/Nuhddy/rEFInd-monochrome-theme",
+    "user": "Nuhddy",
+    "user_url": "https://github.com/Nuhddy",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2021-03-26T14:56:35Z"
+  },
+  {
+    "id": "6506391a-81c3-4ede-81bd-c7fa650dc40c",
+    "name": "refind-diegodorado-theme",
+    "description": "",
+    "link": "https://github.com/diegodorado/refind-diegodorado-theme",
+    "user": "diegodorado",
+    "user_url": "https://github.com/diegodorado",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302745/nrEFInd-themes/refind_diegodorado_theme_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2020-09-17T19:18:49Z"
+  },
+  {
+    "id": "7cccd807-11cc-4f96-bc2c-855d184d26a0",
+    "name": "Refind-theme-Regular",
+    "description": "",
+    "link": "https://github.com/Wal-Liu/Refind-theme-Regular",
+    "user": "Wal-Liu",
+    "user_url": "https://github.com/Wal-Liu",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2024-09-18T02:56:29Z"
+  },
+  {
+    "id": "1a15a9e9-038d-46b3-9b6d-93eecfd9c83e",
+    "name": "refind-black-background",
+    "description": "rEFInd theme for Retina Mac",
+    "link": "https://github.com/2729-gumi/refind-black-background",
+    "user": "2729-gumi",
+    "user_url": "https://github.com/2729-gumi",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2018-10-22T13:28:03Z"
+  },
+  {
+    "id": "812270c4-08e2-4fea-876e-a9bbc18103d8",
+    "name": "refind-theme-simple",
+    "description": "A simple theme for the rEFInd boot manager",
+    "link": "https://github.com/bmrips/refind-theme-simple",
+    "user": "bmrips",
+    "user_url": "https://github.com/bmrips",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2021-06-15T16:32:03Z"
+  },
+  {
+    "id": "9ae5839b-8453-4d3c-a978-efa88abfd036",
+    "name": "refind-custom-theme",
+    "description": "my custom black and white theme for rEFInd",
+    "link": "https://github.com/RSWilli/refind-custom-theme",
+    "user": "RSWilli",
+    "user_url": "https://github.com/RSWilli",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302747/nrEFInd-themes/refind_custom_theme_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2019-02-25T23:00:10Z"
+  },
+  {
+    "id": "bcf96f7a-97d8-4936-9534-a66fda25b50c",
+    "name": "killign-rEFInd",
+    "description": "Simple rEFInd black & white theme",
+    "link": "https://github.com/killign/killign-rEFInd",
+    "user": "killign",
+    "user_url": "https://github.com/killign",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302748/nrEFInd-themes/killign_rEFInd_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2025-05-22T00:16:31Z"
+  },
+  {
+    "id": "46730192-b602-4977-a0f8-08031d22592b",
+    "name": "refind-theme-euiat",
+    "description": "A refind theme inspired by the Materia Manjaro Dark theme for KDE.",
+    "link": "https://github.com/euiat/refind-theme-euiat",
+    "user": "euiat",
+    "user_url": "https://github.com/euiat",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2020-11-09T11:33:37Z"
+  },
+  {
+    "id": "9a619422-60b7-44cf-b9dd-ec1550033b91",
+    "name": "pac-boot",
+    "description": "refind-efi theme - arch linux",
+    "link": "https://github.com/g00dx/pac-boot",
+    "user": "g00dx",
+    "user_url": "https://github.com/g00dx",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2016-08-11T03:33:12Z"
+  },
+  {
+    "id": "37e1744c-907d-401a-a26e-451f2955eec0",
+    "name": "simple-rEFInd",
+    "description": "my first rEFInd theme :D",
+    "link": "https://github.com/kassuro/simple-rEFInd",
+    "user": "kassuro",
+    "user_url": "https://github.com/kassuro",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2018-04-20T19:39:43Z"
+  },
+  {
+    "id": "408f1cc1-a5a2-4559-98c3-ceab49bb1570",
+    "name": "refind-t480-theme",
+    "description": "minimal reFind theme for Thinkpad T480",
+    "link": "https://github.com/dr-marco/refind-t480-theme",
+    "user": "dr-marco",
+    "user_url": "https://github.com/dr-marco",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302752/nrEFInd-themes/refind_t480_theme_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2022-12-08T10:56:43Z"
+  },
+  {
+    "id": "bf7863f3-ecdc-4004-9e41-1136dbc46c62",
+    "name": "refind-arch-minimalist-theme",
+    "description": "Very minimal theme for rEFInd with Arch",
+    "link": "https://github.com/korsakjakub/refind-arch-minimalist-theme",
+    "user": "korsakjakub",
+    "user_url": "https://github.com/korsakjakub",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2022-08-16T10:20:46Z"
+  },
+  {
+    "id": "00454bac-fb0a-41a6-8617-42285431722a",
+    "name": "rEFInd-theme-black",
+    "description": "A frankenstein of a lot of rEFInd themes because I was so indecisive I couldn't just pick one and be happy.",
+    "link": "https://github.com/Fjorge0/rEFInd-theme-black",
+    "user": "Fjorge0",
+    "user_url": "https://github.com/Fjorge0",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2021-02-25T19:13:35Z"
+  },
+  {
+    "id": "46072773-2caa-4f54-8b11-35d1a1cdd475",
+    "name": "custom-rEFInd-theme",
+    "description": "",
+    "link": "https://github.com/laripo/custom-rEFInd-theme",
+    "user": "laripo",
+    "user_url": "https://github.com/laripo",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2021-11-12T03:21:07Z"
+  },
+  {
+    "id": "9f4a577f-86cb-4dff-8a26-2c5f313e43cf",
+    "name": "rEFind-themes-minimal",
+    "description": "",
+    "link": "https://github.com/a-lien-ware/rEFind-themes-minimal",
+    "user": "a-lien-ware",
+    "user_url": "https://github.com/a-lien-ware",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2025-05-30T13:46:59Z"
+  },
+  {
+    "id": "b2316e75-42eb-412a-8dfe-b4fa5ff0d69f",
+    "name": "refind-bk",
+    "description": "My rEFInd theme with more Linux Logos",
+    "link": "https://github.com/apachiww/refind-bk",
+    "user": "apachiww",
+    "user_url": "https://github.com/apachiww",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2024-08-25T11:19:51Z"
+  },
+  {
+    "id": "916ffdfe-c229-45a8-af77-a9db26b1a0b3",
+    "name": "refind-snow",
+    "description": "A dark style theme for the rEFInd boot manager.",
+    "link": "https://github.com/itsrdb/refind-snow",
+    "user": "itsrdb",
+    "user_url": "https://github.com/itsrdb",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen3_vbzsts.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen2_fljwea.webp",
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen1_smsxgs.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2020-07-16T13:23:17Z"
+  },
+  {
+    "id": "016c77f9-8383-4864-8094-8fadee8ceb0c",
+    "name": "refind-planets",
+    "description": "A theme for rEFInd.  No distro icons, just planets.",
+    "link": "https://github.com/peteyyz/refind-planets",
+    "user": "peteyyz",
+    "user_url": "https://github.com/peteyyz",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302760/nrEFInd-themes/refind_planets_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2021-04-26T04:59:52Z"
+  },
+  {
+    "id": "176ba2c4-40ce-411c-a678-42c2866b2863",
+    "name": "ret-boot",
+    "description": "refind-efi theme with retro colors",
+    "link": "https://github.com/g00dx/ret-boot",
+    "user": "g00dx",
+    "user_url": "https://github.com/g00dx",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2016-08-11T03:31:57Z"
+  },
+  {
+    "id": "98f2252e-f5e8-4675-bc7c-215beaff38ad",
+    "name": "refind-wolfe",
+    "description": "🎨 A customized bootloader theme for my laptop and computer",
+    "link": "https://github.com/matpratta/refind-wolfe",
+    "user": "matpratta",
+    "user_url": "https://github.com/matpratta",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2020-12-20T19:18:37Z"
+  },
+  {
+    "id": "01747c8f-054e-4cee-b78c-9d802ba4c050",
+    "name": "refind-black-hires",
+    "description": "A black refind theme with high resolution assets.",
+    "link": "https://github.com/nonissue/refind-black-hires",
+    "user": "nonissue",
+    "user_url": "https://github.com/nonissue",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2018-11-01T05:40:40Z"
+  },
+  {
+    "id": "0ad944e1-07e2-4391-af64-67f78829fc7f",
+    "name": "rEFInd-custom-dark",
+    "description": "Minimalistic dark theme for rEFInd Boot Manager with custom icons and no labels.",
+    "link": "https://github.com/arnav-1997/rEFInd-custom-dark",
+    "user": "arnav-1997",
+    "user_url": "https://github.com/arnav-1997",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302763/nrEFInd-themes/rEFInd_custom_dark_0.webp"
+    ],
+    "recently_added": false,
+    "creation_date": "2020-10-20T13:34:53Z"
+  },
+  {
+    "id": "ed454e09-8881-4fe4-9182-8f1f4bb858ae",
+    "name": "rEFInd-Custom-Boot-Manager-with-Darkext-Theme",
+    "description": "rEFInd USB Installation guide with custom minimalistic dark mode theme",
+    "link": "https://github.com/th3pi/rEFInd-Custom-Boot-Manager-with-Darkext-Theme",
+    "user": "th3pi",
+    "user_url": "https://github.com/th3pi",
+    "images": [],
+    "recently_added": false,
+    "creation_date": "2020-04-08T23:24:14Z"
+  },
+  {
     "id": "48a91144-2c18-4e1f-b1ad-3f4eb796a80c",
     "name": "rEFInd-Shadow-IOS",
     "description": "Icon Set use with rEFInd and rEFIndPlus",
@@ -10,8 +762,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Shadow-IOS_i6fh6d.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658162/rEFInd-themes/screenshot_003_gibyub.webp"
     ],
-    "multipleThemes": true,
-    "isNew": true,
+    "recently_added": false,
     "creation_date": "2024-12-06T13:25:41Z"
   },
   {
@@ -25,8 +776,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/Shadow-rEFInd_ike0wa.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658092/rEFInd-themes/screenshot_003_hsh60z.webp"
     ],
-    "multipleThemes": true,
-    "isNew": true,
+    "recently_added": false,
     "creation_date": "2024-12-01T20:37:29Z"
   },
   {
@@ -40,8 +790,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459898/rEFInd-themes/Icon-Set-DarkGrey-Refind_aweoru.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657753/rEFInd-themes/ScreenShot_002_ryzmkk.webp"
     ],
-    "multipleThemes": true,
-    "isNew": true,
+    "recently_added": false,
     "creation_date": "2024-11-28T02:21:50Z"
   },
   {
@@ -54,8 +803,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Metal-Frame_a1unlf.webp"
     ],
-    "multipleThemes": false,
-    "isNew": false,
+    "recently_added": false,
     "creation_date": "2024-12-09T11:20:56Z"
   },
   {
@@ -68,7 +816,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459906/rEFInd-themes/minimal_geajq1.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2013-07-11T09:24:14Z"
   },
   {
@@ -82,7 +830,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/regular_raceea.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657560/rEFInd-themes/dark_theme_hfl881.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2017-04-25T22:26:45Z"
   },
   {
@@ -95,7 +843,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/ambience_dyicjv.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2016-04-06T19:17:05Z"
   },
   {
@@ -108,7 +856,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459882/rEFInd-themes/ursa_qtsekk.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2019-07-23T01:48:06Z"
   },
   {
@@ -121,7 +869,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459894/rEFInd-themes/glassy_oad2at.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-01-30T11:19:26Z"
   },
   {
@@ -138,7 +886,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657405/rEFInd-themes/screenshot_002_arw6lz.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657443/rEFInd-themes/screenshot_001_o97p3e.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2016-08-22T22:21:17Z"
   },
   {
@@ -151,7 +899,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459904/rEFInd-themes/matrix_oxwxzu.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-08-15T00:37:39Z"
   },
   {
@@ -165,7 +913,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459916/rEFInd-themes/refind2k_tozcy3.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657226/rEFInd-themes/refind-dark_w31e7b.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2019-02-28T19:04:47Z"
   },
   {
@@ -181,7 +929,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657096/rEFInd-themes/screenshot_nord_pjz3d2.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657132/rEFInd-themes/screenshot_gruvbox_xgmoto.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2019-07-28T15:30:28Z"
   },
   {
@@ -194,7 +942,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459920/rEFInd-themes/refind-theme-dark_o4aykv.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-03-09T16:35:01Z"
   },
   {
@@ -207,7 +955,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1752254298/rEFInd-themes/catppuccin.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-12-18T23:49:00Z"
   },
   {
@@ -220,7 +968,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/chalkboard_ppplbc.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-12-31T02:26:56Z"
   },
   {
@@ -233,7 +981,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/dm_hrv2ed.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2017-02-07T12:56:32Z"
   },
   {
@@ -246,7 +994,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/efifetch_iifdkc.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-06-17T23:29:59Z"
   },
   {
@@ -259,7 +1007,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/refind-theme-nord_qvie5r.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-08-13T19:45:41Z"
   },
   {
@@ -272,7 +1020,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459919/rEFInd-themes/refind-theme_cubo4r.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2016-11-06T13:02:43Z"
   },
   {
@@ -285,7 +1033,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-06-16T13:17:40Z"
   },
   {
@@ -298,7 +1046,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/elementary_n7cpzw.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2017-05-20T15:18:43Z"
   },
   {
@@ -311,7 +1059,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459911/rEFInd-themes/minimal-modded_nllr1s.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-06-09T09:00:29Z"
   },
   {
@@ -324,7 +1072,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459900/rEFInd-themes/indulgence_gml6rq.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-12-31T07:15:15Z"
   },
   {
@@ -337,7 +1085,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459908/rEFInd-themes/minimal-drunkcj_ssbm6l.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-09-22T15:17:36Z"
   },
   {
@@ -350,7 +1098,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/maia-reskin_qgxxl4.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-01-26T16:54:54Z"
   },
   {
@@ -363,7 +1111,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459895/rEFInd-themes/glow_bepfdx.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-08-17T21:48:18Z"
   },
   {
@@ -376,7 +1124,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753120973/rEFInd-themes/383286592-231ba168-2d2e-4c85-83db-675d1c4c9141.png_w8j6xi.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2024-11-05T16:54:54Z"
   },
   {
@@ -389,7 +1137,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459903/rEFInd-themes/material_mqnhmh.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2019-01-11T21:35:42Z"
   },
   {
@@ -402,7 +1150,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/details_ir1opw.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-12-31T06:29:44Z"
   },
   {
@@ -415,7 +1163,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-03-22T00:07:11Z"
   },
   {
@@ -428,7 +1176,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459907/rEFInd-themes/minimal-dark_mvdbzt.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2016-10-07T16:16:47Z"
   },
   {
@@ -442,7 +1190,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459923/rEFInd-themes/regular2_z2lwfb.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1752255927/rEFInd-themes/dark_theme_dlexuc.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2019-07-25T09:29:59Z"
   },
   {
@@ -455,7 +1203,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/yours_h08pte.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2023-05-07T11:55:36Z"
   },
   {
@@ -468,7 +1216,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459889/rEFInd-themes/deer-and-fireflies_nklxeb.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-02-05T11:34:59Z"
   },
   {
@@ -481,7 +1229,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459896/rEFInd-themes/gruvbox_f61uod.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-01-21T11:34:59Z"
   },
   {
@@ -494,7 +1242,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/mountain_n0nngl.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z"
   },
   {
@@ -507,7 +1255,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459924/rEFInd-themes/regular3_rbnixz.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2019-04-06T05:46:20Z"
   },
   {
@@ -528,7 +1276,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656544/rEFInd-themes/Screenshot_202020517234012889_ooq694.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656527/rEFInd-themes/Screenshot_202020517233921903_ma6bt3.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2020-05-14T16:02:12Z"
   },
   {
@@ -541,7 +1289,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459884/rEFInd-themes/boot_wdja4t.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-04-29T16:04:20Z"
   },
   {
@@ -554,7 +1302,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459862/rEFInd-themes/apple_ei3lnm.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-10-24T13:00:05Z"
   },
   {
@@ -567,7 +1315,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/laza_ivdjms.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-09-26T11:34:47Z"
   },
   {
@@ -580,7 +1328,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459888/rEFInd-themes/dawn_ij6lxp.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-04-23T02:41:32Z"
   },
   {
@@ -593,7 +1341,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/pachirisu_ngioll.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2021-10-21T11:34:59Z"
   },
   {
@@ -606,7 +1354,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459886/rEFInd-themes/celestial_tcnpr5.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-02-21T21:27:43Z"
   },
   {
@@ -619,7 +1367,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/terminal_qnldgw.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2023-04-18T04:56:00Z"
   },
   {
@@ -632,7 +1380,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/retrogame_r2zmoh.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2022-05-10T17:27:24Z"
   },
   {
@@ -646,7 +1394,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/blackcatmuzzle_p7zjqa.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751655808/rEFInd-themes/BlackCatMuzzle-rEFInd-2.webp"
     ],
-    "multipleThemes": true,
+    "recently_added": false,
     "creation_date": "2023-01-22T19:14:09Z"
   },
   {
@@ -659,7 +1407,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/wildside_hfeaop.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-12-31T07:48:04Z"
   },
   {
@@ -672,7 +1420,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/splash_lnbyda.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2018-12-31T08:13:24Z"
   },
   {
@@ -685,7 +1433,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi-dark_tqqhew.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-05-13T21:20:25Z"
   },
   {
@@ -698,7 +1446,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459909/rEFInd-themes/minimalism_rbt36k.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2023-08-30T00:25:43Z"
   },
   {
@@ -711,7 +1459,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459905/rEFInd-themes/metro_gvtibx.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2020-12-18T17:53:23Z"
   },
   {
@@ -724,7 +1472,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/phi_lc1aul.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2023-08-04T10:42:34Z"
   },
   {
@@ -737,7 +1485,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459910/rEFInd-themes/minimalist_keqxzg.webp"
     ],
-    "multipleThemes": false,
+    "recently_added": false,
     "creation_date": "2023-12-07T01:34:24Z"
   }
 ]
