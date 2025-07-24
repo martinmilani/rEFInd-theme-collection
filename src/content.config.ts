@@ -11,8 +11,7 @@ const themes = defineCollection({
     user: z.string(),
     user_url: z.string(),
     images: z.array(z.string()),
-    multipleThemes: z.boolean(),
-    isNew: z.boolean().optional(),
+    recently_added: z.boolean(),
     creation_date: z.string()
   })
 });

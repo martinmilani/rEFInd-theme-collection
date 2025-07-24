@@ -10,8 +10,7 @@ type Props = {
   user: string;
   user_url: string;
   images: string[];
-  multipleThemes: boolean;
-  isNew?: boolean;
+  recently_added: boolean;
 };
 
 export default function Card({
@@ -20,14 +19,17 @@ export default function Card({
   link,
   user,
   user_url,
-  images
+  images,
+  recently_added
 }: Props) {
   return (
     <div className="w-full">
       <div className="relative">
         <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out lg:hover:scale-105">
           {images.length === 0 ? (
-            <ImagePlaceholder />
+            <a href={link} target="_blank">
+              <ImagePlaceholder />
+            </a>
           ) : (
             <a href={link} target="_blank">
               <ImageCarousel images={images} alt={name} />
@@ -37,16 +39,21 @@ export default function Card({
 
         <div className="px-1 py-4">
           <div className="flex w-full flex-row items-center justify-between gap-x-2">
-            <div className="flex flex-row items-center gap-x-1">
+            <div className="flex w-full flex-row items-center justify-between gap-x-1">
               <a href={link} target="_blank" className="font-medium">
                 {name}
               </a>
+              {recently_added && (
+                <span className="me-2 cursor-default rounded-full bg-dracula-400 px-2.5 py-0.5 text-xs font-medium text-white">
+                  New!
+                </span>
+              )}
             </div>
           </div>
 
           <div className="flex flex-col">
             <p className="mt-2 line-clamp-1 font-sans text-sm font-normal text-gray-900/70 dark:text-white/70">
-              {description}
+              {description || "No description available"}
             </p>
             <a
               href={user_url}

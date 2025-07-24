@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function SearchInput({
   value,
@@ -22,7 +22,7 @@ export default function SearchInput({
   };
 
   return (
-    <form className="mx-auto mb-6 max-w-lg" onSubmit={handleSubmit}>
+    <form className="mx-auto mb-8 max-w-lg" onSubmit={handleSubmit}>
       <div className="relative">
         <input
           type="search"
