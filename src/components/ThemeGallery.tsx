@@ -5,18 +5,23 @@ import Card from "./Card";
 import FilterButton from "./FilterButton";
 import SearchInput from "./SearchInput";
 
-type FilterType = "" | "all" | "new" | "multiple";
+enum FilterType {
+  NONE = "",
+  ALL = "all",
+  ONLY_WITH_IMAGES = "only_with_images",
+  RECENTLY_ADDED = "recently_added"
+}
 
 type Theme = CollectionEntry<"themes">;
 
 export default function ThemeGallery({ themes }: { themes: Theme[] }) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [activeFilter, setActiveFilter] = useState<FilterType>("all");
+  const [activeFilter, setActiveFilter] = useState<FilterType>(FilterType.ALL);
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
     if (query.length >= 3) {
-      setActiveFilter("");
+      setActiveFilter(FilterType.NONE);
     }
   };
 
@@ -38,19 +43,21 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
 
       // Apply category filter
       const matchesFilter =
-        activeFilter === "" ||
-        activeFilter === "all" ||
-        (activeFilter === "new" && theme.data.isNew) ||
-        (activeFilter === "multiple" && theme.data.multipleThemes);
+        activeFilter === FilterType.NONE ||
+        activeFilter === FilterType.ALL ||
+        (activeFilter === FilterType.RECENTLY_ADDED &&
+          theme.data.recently_added) ||
+        (activeFilter === FilterType.ONLY_WITH_IMAGES &&
+          theme.data.images.length > 0);
 
       return matchesSearch && matchesFilter;
     })
     .sort((a, b) => {
-      // First sort by isNew (true comes first)
-      if (a.data.isNew && !b.data.isNew) return -1;
-      if (!a.data.isNew && b.data.isNew) return 1;
+      // First sort by recently_added (true comes first)
+      if (a.data.recently_added && !b.data.recently_added) return -1;
+      if (!a.data.recently_added && b.data.recently_added) return 1;
 
-      // If both have same isNew status, sort by creation_date (newest first)
+      // If both have same recently_added status, sort by creation_date (newest first)
       return (
         new Date(b.data.creation_date).getTime() -
         new Date(a.data.creation_date).getTime()
@@ -63,22 +70,22 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
         <SearchInput value={searchQuery} onSearch={handleSearch} />
         <div className="flex flex-wrap items-center justify-center gap-2">
           <FilterButton
-            isActive={activeFilter === "all"}
-            onClick={() => handleFilterChange("all")}
+            isActive={activeFilter === FilterType.ALL}
+            onClick={() => handleFilterChange(FilterType.ALL)}
           >
             All
           </FilterButton>
           <FilterButton
-            isActive={activeFilter === "new"}
-            onClick={() => handleFilterChange("new")}
+            isActive={activeFilter === FilterType.RECENTLY_ADDED}
+            onClick={() => handleFilterChange(FilterType.RECENTLY_ADDED)}
           >
-            New
+            Recently Added
           </FilterButton>
           <FilterButton
-            isActive={activeFilter === "multiple"}
-            onClick={() => handleFilterChange("multiple")}
+            isActive={activeFilter === FilterType.ONLY_WITH_IMAGES}
+            onClick={() => handleFilterChange(FilterType.ONLY_WITH_IMAGES)}
           >
-            Multiple Themes
+            Only With Images
           </FilterButton>
         </div>
       </div>
@@ -95,8 +102,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
               user={theme.data.user}
               user_url={theme.data.user_url}
               images={theme.data.images}
-              multipleThemes={theme.data.multipleThemes}
-              isNew={theme.data.isNew}
+              recently_added={theme.data.recently_added}
             />
           ))}
         {filteredThemes.length === 0 && (
