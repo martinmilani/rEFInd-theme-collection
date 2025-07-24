@@ -2,7 +2,6 @@ import NoDataIcon from "@src/icons/NoDataIcon";
 import type { CollectionEntry } from "astro:content";
 import { useState } from "react";
 import Card from "./Card";
-import FilterButton from "./FilterButton";
 import SearchInput from "./SearchInput";
 
 type FilterType = "" | "all" | "new" | "multiple";
@@ -20,10 +19,10 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     }
   };
 
-  const handleFilterChange = (filter: FilterType) => {
-    setActiveFilter(filter);
-    setSearchQuery("");
-  };
+  // const handleFilterChange = (filter: FilterType) => {
+  //   setActiveFilter(filter);
+  //   setSearchQuery("");
+  // };
 
   const filteredThemes = themes
     .filter((theme) => {
@@ -61,7 +60,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     <div className="container mx-auto mb-12 px-4 lg:mb-24">
       <div className="mb-8">
         <SearchInput value={searchQuery} onSearch={handleSearch} />
-        <div className="flex flex-wrap items-center justify-center gap-2">
+        {/* <div className="flex flex-wrap items-center justify-center gap-2">
           <FilterButton
             isActive={activeFilter === "all"}
             onClick={() => handleFilterChange("all")}
@@ -80,7 +79,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
           >
             Multiple Themes
           </FilterButton>
-        </div>
+        </div> */}
       </div>
 
       <div className="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
