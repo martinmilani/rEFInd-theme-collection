@@ -1,6 +1,6 @@
 import NoDataIcon from "@src/icons/NoDataIcon";
 import type { CollectionEntry } from "astro:content";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Card from "./Card";
 import FilterButton from "./FilterButton";
 import SearchInput from "./SearchInput";
@@ -30,39 +30,41 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     setSearchQuery("");
   };
 
-  const filteredThemes = themes
-    .filter((theme) => {
-      // Apply search filter if query is 3+ characters
-      const matchesSearch =
-        searchQuery.length < 3 ||
-        theme.data.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        theme.data.description
-          .toLowerCase()
-          .includes(searchQuery.toLowerCase()) ||
-        theme.data.user.toLowerCase().includes(searchQuery.toLowerCase());
+  const filteredThemes = useMemo(() => {
+    return themes
+      .filter((theme) => {
+        // Apply search filter if query is 3+ characters
+        const matchesSearch =
+          searchQuery.length < 3 ||
+          theme.data.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          theme.data.description
+            .toLowerCase()
+            .includes(searchQuery.toLowerCase()) ||
+          theme.data.user.toLowerCase().includes(searchQuery.toLowerCase());
 
-      // Apply category filter
-      const matchesFilter =
-        activeFilter === FilterType.NONE ||
-        activeFilter === FilterType.ALL ||
-        (activeFilter === FilterType.RECENTLY_ADDED &&
-          theme.data.recently_added) ||
-        (activeFilter === FilterType.ONLY_WITH_IMAGES &&
-          theme.data.images.length > 0);
+        // Apply category filter
+        const matchesFilter =
+          activeFilter === FilterType.NONE ||
+          activeFilter === FilterType.ALL ||
+          (activeFilter === FilterType.RECENTLY_ADDED &&
+            theme.data.recently_added) ||
+          (activeFilter === FilterType.ONLY_WITH_IMAGES &&
+            theme.data.images.length > 0);
 
-      return matchesSearch && matchesFilter;
-    })
-    .sort((a, b) => {
-      // First sort by recently_added (true comes first)
-      if (a.data.recently_added && !b.data.recently_added) return -1;
-      if (!a.data.recently_added && b.data.recently_added) return 1;
+        return matchesSearch && matchesFilter;
+      })
+      .sort((a, b) => {
+        // First sort by recently_added (true comes first)
+        if (a.data.recently_added && !b.data.recently_added) return -1;
+        if (!a.data.recently_added && b.data.recently_added) return 1;
 
-      // If both have same recently_added status, sort by creation_date (newest first)
-      return (
-        new Date(b.data.creation_date).getTime() -
-        new Date(a.data.creation_date).getTime()
-      );
-    });
+        // If both have same recently_added status, sort by creation_date (newest first)
+        return (
+          new Date(b.data.creation_date).getTime() -
+          new Date(a.data.creation_date).getTime()
+        );
+      });
+  }, [themes, searchQuery, activeFilter]);
 
   return (
     <div className="container mx-auto mb-12 px-4 lg:mb-24">
