@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 type FilterButtonProps = {
   children: ReactNode;
