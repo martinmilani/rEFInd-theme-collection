@@ -27,11 +27,11 @@ export default function Card({
       <div className="relative">
         <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out lg:hover:scale-105">
           {images.length === 0 ? (
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <ImagePlaceholder />
             </a>
           ) : (
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noopener noreferrer">
               <ImageCarousel images={images} alt={name} />
             </a>
           )}
@@ -40,7 +40,12 @@ export default function Card({
         <div className="px-1 py-4">
           <div className="flex w-full flex-row items-center justify-between gap-x-2">
             <div className="flex w-full flex-row items-center justify-between gap-x-1">
-              <a href={link} target="_blank" className="font-medium">
+              <a
+                href={link}
+                target="_blank"
+                className="font-medium"
+                rel="noopener noreferrer"
+              >
                 {name}
               </a>
               {recently_added && (
@@ -58,6 +63,7 @@ export default function Card({
             <a
               href={user_url}
               target="_blank"
+              rel="noopener noreferrer"
               className="mt-2 flex items-center gap-x-1 text-xs font-normal text-gray-900/70 transition hover:text-dracula-400 dark:text-white/70 dark:hover:text-dracula-400"
             >
               <GitHubIcon className="size-4" />
