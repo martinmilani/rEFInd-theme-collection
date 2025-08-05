@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://refind-themes-collection.netlify.app/sitemap-index.xml
