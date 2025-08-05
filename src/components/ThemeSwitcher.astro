@@ -1,17 +1,25 @@
 ---
 import MoonIcon from "@src/icons/MoonIcon.astro";
 import SunIcon from "@src/icons/SunIcon.astro";
-
-// ThemeSwitcher.astrovar
 ---
 
 <button
   id="theme-toggle"
   type="button"
-  class="rounded-lg p-2.5 text-sm text-gray-900 transition duration-200 ease-in-out hover:text-dracula-400 focus:outline-none focus:ring-0 dark:text-white dark:hover:text-dracula-400"
+  class="items-centertext-sm flex justify-center rounded-lg p-2.5 text-gray-900 transition duration-200 ease-in-out hover:text-dracula-400 focus:outline-none focus:ring-0 dark:text-white dark:hover:text-dracula-400 md:p-0"
 >
-  <MoonIcon id="theme-toggle-dark-icon" class="hidden h-5 w-5" />
-  <SunIcon id="theme-toggle-light-icon" class="hidden h-5 w-5" />
+  <div id="theme-toggle-dark-icon" class="hidden">
+    <div class="flex items-center space-x-1.5">
+      <MoonIcon class="h-5 w-5" />
+      <span id="theme-toggle-dark-text" class="inline md:hidden">Dark Mode</span>
+    </div>
+  </div>
+  <div id="theme-toggle-light-icon" class="hidden">
+    <div class="flex items-center space-x-1.5">
+      <SunIcon class="h-5 w-5" />
+      <span id="theme-toggle-light-text" class="inline md:hidden">Light Mode</span>
+    </div>
+  </div>
 </button>
 
 <script>
