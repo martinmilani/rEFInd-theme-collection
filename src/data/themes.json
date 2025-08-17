@@ -1,5 +1,29 @@
 [
   {
+    "id": "4208c64f-e250-4670-aed5-9f6e8ce8fbab",
+    "name": "darkmini-custom",
+    "description": "Refind theme",
+    "link": "https://github.com/danielscf/darkmini-custom",
+    "user": "danielscf",
+    "user_url": "https://github.com/danielscf",
+    "images": [],
+    "creation_date": "2025-08-13T22:17:25Z",
+    "recently_added": true
+  },
+  {
+    "id": "1b7d3e77-328b-4337-aaed-df76cf621475",
+    "name": "rEFInd-nils",
+    "description": "Just my custom rEFInd theme.",
+    "link": "https://github.com/NilsPvR/rEFInd-nils",
+    "user": "NilsPvR",
+    "user_url": "https://github.com/NilsPvR",
+    "images": [
+      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1755457939/nrEFInd-themes/rEFInd_nils_0.webp"
+    ],
+    "recently_added": true,
+    "creation_date": "2025-08-04T15:09:46Z"
+  },
+  {
     "id": "c928e222-1e72-4dbe-9909-1ac63948505e",
     "name": "dm-refind-theme",
     "description": "Dream Machine rEFInd theme",
@@ -10,7 +34,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302672/nrEFInd-themes/dm_refind_theme_0.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302673/nrEFInd-themes/dm_refind_theme_1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2015-09-16T14:57:18Z"
   },
   {
@@ -25,7 +49,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302677/nrEFInd-themes/refind_black_1.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302678/nrEFInd-themes/refind_black_2.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2015-03-01T20:07:58Z"
   },
   {
@@ -38,7 +62,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302679/nrEFInd-themes/rEFInd_Metro_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2017-04-08T21:48:09Z"
   },
   {
@@ -52,7 +76,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302682/nrEFInd-themes/rEFInd_theme_Genshin_Impact_0.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302684/nrEFInd-themes/rEFInd_theme_Genshin_Impact_1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2020-11-01T16:15:33Z"
   },
   {
@@ -65,7 +89,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302686/nrEFInd-themes/rEFInd_ultra_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2020-01-01T02:17:14Z"
   },
   {
@@ -78,7 +102,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302688/nrEFInd-themes/brads_refind_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-11-02T07:51:34Z"
   },
   {
@@ -91,7 +115,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314291/nrEFInd-themes/refind-gruvbox-theme_mkqf9b.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-01-20T19:49:04Z"
   },
   {
@@ -104,7 +128,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302689/nrEFInd-themes/next_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2018-04-05T07:11:24Z"
   },
   {
@@ -117,7 +141,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314222/nrEFInd-themes/refindcastell_jgfamg.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2018-08-13T03:16:18Z"
   },
   {
@@ -130,7 +154,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302692/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2019-02-03T05:16:06Z"
   },
   {
@@ -143,7 +167,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314125/nrEFInd-themes/preview_h074j1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2018-03-18T04:13:28Z"
   },
   {
@@ -158,7 +182,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302695/nrEFInd-themes/refind_1.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302696/nrEFInd-themes/refind_2.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2024-08-26T20:46:54Z"
   },
   {
@@ -171,7 +195,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302698/nrEFInd-themes/rEFInd_mountain_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z"
   },
   {
@@ -195,7 +219,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302701/nrEFInd-themes/refind_theme_oled_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2018-09-08T19:22:59Z"
   },
   {
@@ -209,7 +233,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302703/nrEFInd-themes/rEFInd_tokyo_night_0.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302705/nrEFInd-themes/rEFInd_tokyo_night_1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2023-09-07T04:29:18Z"
   },
   {
@@ -224,7 +248,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302712/nrEFInd-themes/refind_neon_1.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302715/nrEFInd-themes/refind_neon_2.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-04-26T23:52:07Z"
   },
   {
@@ -237,7 +261,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302717/nrEFInd-themes/rEFInd_nox_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2017-06-28T14:35:10Z"
   },
   {
@@ -251,7 +275,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302719/nrEFInd-themes/rEFInd_ZJU_0.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302721/nrEFInd-themes/rEFInd_ZJU_1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2015-04-24T09:58:57Z"
   },
   {
@@ -264,7 +288,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302724/nrEFInd-themes/fydeos_refind_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2022-03-31T07:16:14Z"
   },
   {
@@ -277,7 +301,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302725/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2020-07-09T10:49:07Z"
   },
   {
@@ -367,7 +391,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302729/nrEFInd-themes/yet_another_minimalist_refind_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2025-03-26T00:50:29Z"
   },
   {
@@ -380,7 +404,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302730/nrEFInd-themes/refind_bsxm1_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2024-10-09T22:48:04Z"
   },
   {
@@ -402,7 +426,7 @@
     "user": "wiredhikari",
     "user_url": "https://github.com/wiredhikari",
     "images": [],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-07-24T15:43:24Z"
   },
   {
@@ -415,7 +439,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302734/nrEFInd-themes/Refind_Themes_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2025-03-05T12:05:48Z"
   },
   {
@@ -429,7 +453,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302736/nrEFInd-themes/refind_sunset_0.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302738/nrEFInd-themes/refind_sunset_1.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2024-12-08T17:10:04Z"
   },
   {
@@ -453,7 +477,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302740/nrEFInd-themes/alpaca_refind_theme_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-10-29T10:11:25Z"
   },
   {
@@ -678,7 +702,7 @@
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen2_fljwea.webp",
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen1_smsxgs.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2020-07-16T13:23:17Z"
   },
   {
@@ -691,7 +715,7 @@
     "images": [
       "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302760/nrEFInd-themes/refind_planets_0.webp"
     ],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2021-04-26T04:59:52Z"
   },
   {
