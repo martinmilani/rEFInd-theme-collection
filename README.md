@@ -4,7 +4,7 @@ A curated collection of clean, minimalist and colorful themes for the [rEFInd bo
 Preview themes live, browse screenshots, and get direct links to GitHub repositories.
 
 🔗 **Website:** [refind-themes-collection.netlify.app](https://refind-themes-collection.netlify.app)
-[![Website](https://res.cloudinary.com/dfx8zvzvt/image/upload/v1710781961/rEFInd-themes/refind-theme-collection_lbga3x.png)](https://refind-themes-collection.netlify.app/)
+[![Website](public/refind-themes-collections-screenshot.png)](https://refind-themes-collection.netlify.app/)
 
 ## 📌 About
 
