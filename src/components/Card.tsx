@@ -1,4 +1,5 @@
 import GitHubIcon from "@src/icons/GitHubIcon.tsx";
+import ImageCarousel from "./ImageCarousel";
 import ImagePlaceholder from "./ImagePlaceholder.tsx";
 
 type Props = {
@@ -23,7 +24,7 @@ export default function Card({ name, description, link, user, user_url, images, 
             </a>
           ) : (
             <a href={link} target="_blank" rel="noopener noreferrer">
-              <img src={images[0]} alt={name} />
+              <ImageCarousel images={images} alt={name} />
             </a>
           )}
         </div>
