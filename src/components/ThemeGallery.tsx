@@ -12,6 +12,10 @@ enum FilterType {
   RECENTLY_ADDED = "recently_added"
 }
 
+const images = import.meta.glob<{
+  default: ImageMetadata;
+}>("/src/assets/*.webp", { eager: true });
+
 type Theme = CollectionEntry<"themes">;
 
 export default function ThemeGallery({ themes }: { themes: Theme[] }) {
@@ -30,8 +34,23 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     setSearchQuery("");
   };
 
+  const themesWithImages = useMemo(() => {
+    return themes.map((theme) => {
+      const imagePaths = theme.data.images.map((image) => {
+        return images[image]?.default.src;
+      });
+      return {
+        ...theme,
+        data: {
+          ...theme.data,
+          images: imagePaths.filter(Boolean) // Filter out undefined paths
+        }
+      };
+    });
+  }, [themes]);
+
   const filteredThemes = useMemo(() => {
-    return themes
+    return themesWithImages
       .filter((theme) => {
         // Apply search filter if query is 3+ characters
         const matchesSearch =
@@ -64,7 +83,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
           new Date(a.data.creation_date).getTime()
         );
       });
-  }, [themes, searchQuery, activeFilter]);
+  }, [themesWithImages, searchQuery, activeFilter]);
 
   return (
     <div className="container mx-auto mb-12 px-4 lg:mb-24">
@@ -103,7 +122,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
               link={theme.data.link}
               user={theme.data.user}
               user_url={theme.data.user_url}
-              images={theme.data.images}
+              images={theme.data.images as unknown as string[]} // Cast to string array
               recently_added={theme.data.recently_added}
             />
           ))}

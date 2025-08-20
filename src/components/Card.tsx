@@ -1,5 +1,4 @@
 import GitHubIcon from "@src/icons/GitHubIcon.tsx";
-import ImageCarousel from "./ImageCarousel";
 import ImagePlaceholder from "./ImagePlaceholder.tsx";
 
 type Props = {
@@ -13,15 +12,7 @@ type Props = {
   recently_added: boolean;
 };
 
-export default function Card({
-  name,
-  description,
-  link,
-  user,
-  user_url,
-  images,
-  recently_added
-}: Props) {
+export default function Card({ name, description, link, user, user_url, images, recently_added }: Props) {
   return (
     <div className="w-full">
       <div className="relative">
@@ -32,7 +23,7 @@ export default function Card({
             </a>
           ) : (
             <a href={link} target="_blank" rel="noopener noreferrer">
-              <ImageCarousel images={images} alt={name} />
+              <img src={images[0]} alt={name} />
             </a>
           )}
         </div>
@@ -40,12 +31,7 @@ export default function Card({
         <div className="px-1 py-4">
           <div className="flex w-full flex-row items-center justify-between gap-x-2">
             <div className="flex w-full flex-row items-center justify-between gap-x-1">
-              <a
-                href={link}
-                target="_blank"
-                className="font-medium"
-                rel="noopener noreferrer"
-              >
+              <a href={link} target="_blank" className="font-medium" rel="noopener noreferrer">
                 {name}
               </a>
               {recently_added && (
