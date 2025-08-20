@@ -5,7 +5,7 @@ export default {
   darkMode: "class",
   content: [
     "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
-    "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -21,10 +21,10 @@ export default {
           700: "#1d4ed8",
           800: "#1e40af",
           900: "#1e3a8a",
-          950: "#172554",
-        },
-      },
-    },
+          950: "#172554"
+        }
+      }
+    }
   },
-  plugins: [require("flowbite/plugin"), tailwindDracula()],
+  plugins: [require("flowbite/plugin"), tailwindDracula()]
 };

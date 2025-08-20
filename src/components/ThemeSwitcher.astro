@@ -11,20 +11,25 @@ import SunIcon from "@src/icons/SunIcon.astro";
   <div id="theme-toggle-dark-icon" class="hidden">
     <div class="flex items-center space-x-1.5">
       <MoonIcon class="h-5 w-5" />
-      <span id="theme-toggle-dark-text" class="inline md:hidden">Dark Mode</span>
+      <span id="theme-toggle-dark-text" class="inline md:hidden">Dark Mode</span
+      >
     </div>
   </div>
   <div id="theme-toggle-light-icon" class="hidden">
     <div class="flex items-center space-x-1.5">
       <SunIcon class="h-5 w-5" />
-      <span id="theme-toggle-light-text" class="inline md:hidden">Light Mode</span>
+      <span id="theme-toggle-light-text" class="inline md:hidden"
+        >Light Mode</span
+      >
     </div>
   </div>
 </button>
 
 <script>
   const themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon");
-  const themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
+  const themeToggleLightIcon = document.getElementById(
+    "theme-toggle-light-icon"
+  );
 
   // Change the icons inside the button based on previous settings
   if (
@@ -38,7 +43,9 @@ import SunIcon from "@src/icons/SunIcon.astro";
     themeToggleDarkIcon?.classList.remove("hidden");
   }
 
-  const themeToggleBtn = document.getElementById("theme-toggle") as HTMLButtonElement;
+  const themeToggleBtn = document.getElementById(
+    "theme-toggle"
+  ) as HTMLButtonElement;
 
   themeToggleBtn.addEventListener("click", function () {
     // toggle icons inside button

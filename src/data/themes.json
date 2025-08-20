@@ -17,9 +17,7 @@
     "link": "https://github.com/NilsPvR/rEFInd-nils",
     "user": "NilsPvR",
     "user_url": "https://github.com/NilsPvR",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1755457939/nrEFInd-themes/rEFInd_nils_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-nils-0.webp"],
     "recently_added": true,
     "creation_date": "2025-08-04T15:09:46Z"
   },
@@ -31,8 +29,8 @@
     "user": "Lindstream",
     "user_url": "https://github.com/Lindstream",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302672/nrEFInd-themes/dm_refind_theme_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302673/nrEFInd-themes/dm_refind_theme_1.webp"
+      "/src/assets/dm-refind-theme-0.webp",
+      "/src/assets/dm-refind-theme-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2015-09-16T14:57:18Z"
@@ -45,9 +43,9 @@
     "user": "anthon38",
     "user_url": "https://github.com/anthon38",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302675/nrEFInd-themes/refind_black_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302677/nrEFInd-themes/refind_black_1.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302678/nrEFInd-themes/refind_black_2.webp"
+      "/src/assets/refind-black-0.webp",
+      "/src/assets/refind-black-1.webp",
+      "/src/assets/refind-black-2.webp"
     ],
     "recently_added": false,
     "creation_date": "2015-03-01T20:07:58Z"
@@ -59,9 +57,7 @@
     "link": "https://github.com/JohnTrentonCary/rEFInd-Metro",
     "user": "JohnTrentonCary",
     "user_url": "https://github.com/JohnTrentonCary",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302679/nrEFInd-themes/rEFInd_Metro_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Metro-0.webp"],
     "recently_added": false,
     "creation_date": "2017-04-08T21:48:09Z"
   },
@@ -73,8 +69,8 @@
     "user": "Wooniety",
     "user_url": "https://github.com/Wooniety",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302682/nrEFInd-themes/rEFInd_theme_Genshin_Impact_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302684/nrEFInd-themes/rEFInd_theme_Genshin_Impact_1.webp"
+      "/src/assets/rEFInd-theme-Genshin-Impact-0.webp",
+      "/src/assets/rEFInd-theme-Genshin-Impact-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2020-11-01T16:15:33Z"
@@ -86,9 +82,7 @@
     "link": "https://github.com/JaimeStill/rEFInd-ultra",
     "user": "JaimeStill",
     "user_url": "https://github.com/JaimeStill",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302686/nrEFInd-themes/rEFInd_ultra_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-ultra-0.webp"],
     "recently_added": false,
     "creation_date": "2020-01-01T02:17:14Z"
   },
@@ -99,9 +93,7 @@
     "link": "https://github.com/toptensoftware/brads-refind-theme",
     "user": "toptensoftware",
     "user_url": "https://github.com/toptensoftware",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302688/nrEFInd-themes/brads_refind_theme_0.webp"
-    ],
+    "images": ["/src/assets/brads-refind-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2021-11-02T07:51:34Z"
   },
@@ -112,9 +104,7 @@
     "link": "https://github.com/delania-oliveira/refind-gruvbox-theme",
     "user": "delania-oliveira",
     "user_url": "https://github.com/delania-oliveira",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314291/nrEFInd-themes/refind-gruvbox-theme_mkqf9b.webp"
-    ],
+    "images": ["/src/assets/refind-gruvbox-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2021-01-20T19:49:04Z"
   },
@@ -125,9 +115,7 @@
     "link": "https://github.com/iamcco/next-theme",
     "user": "iamcco",
     "user_url": "https://github.com/iamcco",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302689/nrEFInd-themes/next_theme_0.webp"
-    ],
+    "images": ["/src/assets/next-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2018-04-05T07:11:24Z"
   },
@@ -138,9 +126,7 @@
     "link": "https://github.com/castelldev/refind-castell",
     "user": "castelldev",
     "user_url": "https://github.com/castelldev",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314222/nrEFInd-themes/refindcastell_jgfamg.webp"
-    ],
+    "images": ["/src/assets/refind-castell-0.webp"],
     "recently_added": false,
     "creation_date": "2018-08-13T03:16:18Z"
   },
@@ -151,9 +137,7 @@
     "link": "https://github.com/Kissycat/rEFInd-minimal-dark",
     "user": "Kissycat",
     "user_url": "https://github.com/Kissycat",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302692/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2019-02-03T05:16:06Z"
   },
@@ -164,9 +148,7 @@
     "link": "https://github.com/senpaiSubby/refind-sublime",
     "user": "senpaiSubby",
     "user_url": "https://github.com/senpaiSubby",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753314125/nrEFInd-themes/preview_h074j1.webp"
-    ],
+    "images": ["/src/assets/refind-sublime-0.webp"],
     "recently_added": false,
     "creation_date": "2018-03-18T04:13:28Z"
   },
@@ -178,9 +160,9 @@
     "user": "blackma9ick",
     "user_url": "https://github.com/blackma9ick",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302694/nrEFInd-themes/refind_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302695/nrEFInd-themes/refind_1.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302696/nrEFInd-themes/refind_2.webp"
+      "/src/assets/refind-0.webp",
+      "/src/assets/refind-1.webp",
+      "/src/assets/refind-2.webp"
     ],
     "recently_added": false,
     "creation_date": "2024-08-26T20:46:54Z"
@@ -192,9 +174,7 @@
     "link": "https://github.com/chrisae9/rEFInd-mountain",
     "user": "chrisae9",
     "user_url": "https://github.com/chrisae9",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302698/nrEFInd-themes/rEFInd_mountain_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-mountain-0.webp"],
     "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z"
   },
@@ -216,9 +196,7 @@
     "link": "https://github.com/dotqaghan/refind-theme-oled",
     "user": "dotqaghan",
     "user_url": "https://github.com/dotqaghan",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302701/nrEFInd-themes/refind_theme_oled_0.webp"
-    ],
+    "images": ["/src/assets/refind-theme-oled-0.webp"],
     "recently_added": false,
     "creation_date": "2018-09-08T19:22:59Z"
   },
@@ -230,8 +208,8 @@
     "user": "almighty-loaf",
     "user_url": "https://github.com/almighty-loaf",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302703/nrEFInd-themes/rEFInd_tokyo_night_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302705/nrEFInd-themes/rEFInd_tokyo_night_1.webp"
+      "/src/assets/rEFInd-tokyo-night-0.webp",
+      "/src/assets/rEFInd-tokyo-night-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2023-09-07T04:29:18Z"
@@ -244,9 +222,9 @@
     "user": "peteyyz",
     "user_url": "https://github.com/peteyyz",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302708/nrEFInd-themes/refind_neon_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302712/nrEFInd-themes/refind_neon_1.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302715/nrEFInd-themes/refind_neon_2.webp"
+      "/src/assets/refind-neon-0.webp",
+      "/src/assets/refind-neon-1.webp",
+      "/src/assets/refind-neon-2.webp"
     ],
     "recently_added": false,
     "creation_date": "2021-04-26T23:52:07Z"
@@ -258,9 +236,7 @@
     "link": "https://github.com/pixix4/rEFInd-nox",
     "user": "pixix4",
     "user_url": "https://github.com/pixix4",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302717/nrEFInd-themes/rEFInd_nox_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-nox-0.webp"],
     "recently_added": false,
     "creation_date": "2017-06-28T14:35:10Z"
   },
@@ -272,8 +248,8 @@
     "user": "lkwq007",
     "user_url": "https://github.com/lkwq007",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302719/nrEFInd-themes/rEFInd_ZJU_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302721/nrEFInd-themes/rEFInd_ZJU_1.webp"
+      "/src/assets/rEFInd-ZJU-0.webp",
+      "/src/assets/rEFInd-ZJU-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2015-04-24T09:58:57Z"
@@ -285,9 +261,7 @@
     "link": "https://github.com/openFyde/fydeos-refind-theme",
     "user": "openFyde",
     "user_url": "https://github.com/openFyde",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302724/nrEFInd-themes/fydeos_refind_theme_0.webp"
-    ],
+    "images": ["/src/assets/fydeos-refind-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2022-03-31T07:16:14Z"
   },
@@ -298,9 +272,7 @@
     "link": "https://github.com/fl-w/rEFInd-minimal-dark",
     "user": "fl-w",
     "user_url": "https://github.com/fl-w",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302725/nrEFInd-themes/rEFInd_minimal_dark_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2020-07-09T10:49:07Z"
   },
@@ -388,9 +360,7 @@
     "link": "https://github.com/nalf3in/yet-another-minimalist-refind-theme",
     "user": "nalf3in",
     "user_url": "https://github.com/nalf3in",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302729/nrEFInd-themes/yet_another_minimalist_refind_theme_0.webp"
-    ],
+    "images": ["/src/assets/yet-another-minimalist-refind-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2025-03-26T00:50:29Z"
   },
@@ -401,9 +371,7 @@
     "link": "https://github.com/AlexFullmoon/refind-bsxm1-theme",
     "user": "AlexFullmoon",
     "user_url": "https://github.com/AlexFullmoon",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302730/nrEFInd-themes/refind_bsxm1_theme_0.webp"
-    ],
+    "images": ["/src/assets/refind-bsxm1-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2024-10-09T22:48:04Z"
   },
@@ -436,9 +404,7 @@
     "link": "https://github.com/zeeshan933/Refind-Themes",
     "user": "zeeshan933",
     "user_url": "https://github.com/zeeshan933",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302734/nrEFInd-themes/Refind_Themes_0.webp"
-    ],
+    "images": ["/src/assets/Refind-Themes-0.webp"],
     "recently_added": false,
     "creation_date": "2025-03-05T12:05:48Z"
   },
@@ -450,8 +416,8 @@
     "user": "codesshaman",
     "user_url": "https://github.com/codesshaman",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302736/nrEFInd-themes/refind_sunset_0.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302738/nrEFInd-themes/refind_sunset_1.webp"
+      "/src/assets/refind_sunset-0.webp",
+      "/src/assets/refind_sunset-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2024-12-08T17:10:04Z"
@@ -474,9 +440,7 @@
     "link": "https://github.com/BobTagnil/alpaca-refind-theme",
     "user": "BobTagnil",
     "user_url": "https://github.com/BobTagnil",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302740/nrEFInd-themes/alpaca_refind_theme_0.webp"
-    ],
+    "images": ["/src/assets/alpaca-refind-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2021-10-29T10:11:25Z"
   },
@@ -487,9 +451,7 @@
     "link": "https://github.com/kmyi/refind-theme-regular",
     "user": "kmyi",
     "user_url": "https://github.com/kmyi",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302742/nrEFInd-themes/refind_theme_regular_0.webp"
-    ],
+    "images": ["/src/assets/refind-theme-regular-0.webp"],
     "recently_added": false,
     "creation_date": "2016-05-13T17:37:25Z"
   },
@@ -500,9 +462,7 @@
     "link": "https://github.com/ASUS-Vivobook-S-14-M5406WA/refind-theme-oled",
     "user": "ASUS-Vivobook-S-14-M5406WA",
     "user_url": "https://github.com/ASUS-Vivobook-S-14-M5406WA",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302701/nrEFInd-themes/refind_theme_oled_0.webp"
-    ],
+    "images": ["/src/assets/refind-theme-oled-0.webp"],
     "recently_added": false,
     "creation_date": "2025-01-28T13:51:03Z"
   },
@@ -524,9 +484,7 @@
     "link": "https://github.com/diegodorado/refind-diegodorado-theme",
     "user": "diegodorado",
     "user_url": "https://github.com/diegodorado",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302745/nrEFInd-themes/refind_diegodorado_theme_0.webp"
-    ],
+    "images": ["/src/assets/refind-diegodorado-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2020-09-17T19:18:49Z"
   },
@@ -570,9 +528,7 @@
     "link": "https://github.com/RSWilli/refind-custom-theme",
     "user": "RSWilli",
     "user_url": "https://github.com/RSWilli",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302747/nrEFInd-themes/refind_custom_theme_0.webp"
-    ],
+    "images": ["/src/assets/refind-custom-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2019-02-25T23:00:10Z"
   },
@@ -583,9 +539,7 @@
     "link": "https://github.com/killign/killign-rEFInd",
     "user": "killign",
     "user_url": "https://github.com/killign",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302748/nrEFInd-themes/killign_rEFInd_0.webp"
-    ],
+    "images": ["/src/assets/killign-rEFInd-0.webp"],
     "recently_added": false,
     "creation_date": "2025-05-22T00:16:31Z"
   },
@@ -629,9 +583,7 @@
     "link": "https://github.com/dr-marco/refind-t480-theme",
     "user": "dr-marco",
     "user_url": "https://github.com/dr-marco",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302752/nrEFInd-themes/refind_t480_theme_0.webp"
-    ],
+    "images": ["/src/assets/refind-t480-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2022-12-08T10:56:43Z"
   },
@@ -698,9 +650,9 @@
     "user": "itsrdb",
     "user_url": "https://github.com/itsrdb",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen3_vbzsts.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen2_fljwea.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753313734/nrEFInd-themes/screen1_smsxgs.webp"
+      "/src/assets/refind-snow-0.webp",
+      "/src/assets/refind-snow-1.webp",
+      "/src/assets/refind-snow-2.webp"
     ],
     "recently_added": false,
     "creation_date": "2020-07-16T13:23:17Z"
@@ -712,9 +664,7 @@
     "link": "https://github.com/peteyyz/refind-planets",
     "user": "peteyyz",
     "user_url": "https://github.com/peteyyz",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302760/nrEFInd-themes/refind_planets_0.webp"
-    ],
+    "images": ["/src/assets/refind-planets-0.webp"],
     "recently_added": false,
     "creation_date": "2021-04-26T04:59:52Z"
   },
@@ -758,9 +708,7 @@
     "link": "https://github.com/arnav-1997/rEFInd-custom-dark",
     "user": "arnav-1997",
     "user_url": "https://github.com/arnav-1997",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753302763/nrEFInd-themes/rEFInd_custom_dark_0.webp"
-    ],
+    "images": ["/src/assets/rEFInd-custom-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2020-10-20T13:34:53Z"
   },
@@ -783,8 +731,8 @@
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Shadow-IOS_i6fh6d.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658162/rEFInd-themes/screenshot_003_gibyub.webp"
+      "/src/assets/rEFInd-Shadow-IOS-0.webp",
+      "/src/assets/rEFInd-Shadow-IOS-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2024-12-06T13:25:41Z"
@@ -797,8 +745,8 @@
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/Shadow-rEFInd_ike0wa.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751658092/rEFInd-themes/screenshot_003_hsh60z.webp"
+      "/src/assets/Shadow-rEFInd-0.webp",
+      "/src/assets/Shadow-rEFInd-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2024-12-01T20:37:29Z"
@@ -811,8 +759,8 @@
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459898/rEFInd-themes/Icon-Set-DarkGrey-Refind_aweoru.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657753/rEFInd-themes/ScreenShot_002_ryzmkk.webp"
+      "/src/assets/Icon-Set-DarkGrey-Refind-0.webp",
+      "/src/assets/Icon-Set-DarkGrey-Refind-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2024-11-28T02:21:50Z"
@@ -824,9 +772,7 @@
     "link": "https://github.com/chris1111/rEFInd-Metal-Frame",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459918/rEFInd-themes/rEFInd-Metal-Frame_a1unlf.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Metal-Frame-0.webp"],
     "recently_added": false,
     "creation_date": "2024-12-09T11:20:56Z"
   },
@@ -837,9 +783,7 @@
     "link": "https://github.com/evanpurkhiser/rEFInd-minimal",
     "user": "evanpurkhiser",
     "user_url": "https://github.com/evanpurkhiser",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459906/rEFInd-themes/minimal_geajq1.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-0.webp"],
     "recently_added": false,
     "creation_date": "2013-07-11T09:24:14Z"
   },
@@ -851,8 +795,8 @@
     "user": "bobafetthotmail",
     "user_url": "https://github.com/bobafetthotmail",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/regular_raceea.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657560/rEFInd-themes/dark_theme_hfl881.webp"
+      "/src/assets/rEFInd-theme-Regular-0.webp",
+      "/src/assets/rEFInd-theme-Regular-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2017-04-25T22:26:45Z"
@@ -864,9 +808,7 @@
     "link": "https://github.com/lukechilds/refind-ambience",
     "user": "lukechilds",
     "user_url": "https://github.com/lukechilds",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/ambience_dyicjv.webp"
-    ],
+    "images": ["/src/assets/refind-ambience-0.webp"],
     "recently_added": false,
     "creation_date": "2016-04-06T19:17:05Z"
   },
@@ -877,9 +819,7 @@
     "link": "https://github.com/kgoettler/ursamajor-rEFInd",
     "user": "kgoettler",
     "user_url": "https://github.com/kgoettler",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459882/rEFInd-themes/ursa_qtsekk.webp"
-    ],
+    "images": ["/src/assets/ursamajor-rEFInd-0.webp"],
     "recently_added": false,
     "creation_date": "2019-07-23T01:48:06Z"
   },
@@ -890,9 +830,7 @@
     "link": "https://github.com/Pr0cella/rEFInd-glassy",
     "user": "Pr0cella",
     "user_url": "https://github.com/Pr0cella",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459894/rEFInd-themes/glassy_oad2at.webp"
-    ],
+    "images": ["/src/assets/rEFInd-glassy-0.webp"],
     "recently_added": false,
     "creation_date": "2020-01-30T11:19:26Z"
   },
@@ -904,11 +842,11 @@
     "user": "LightAir",
     "user_url": "https://github.com/LightAir",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/darkmini_kqh2xd.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657313/rEFInd-themes/screenshot_004_zhfoxz.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657369/rEFInd-themes/screenshot_003_oc4ehi.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657405/rEFInd-themes/screenshot_002_arw6lz.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657443/rEFInd-themes/screenshot_001_o97p3e.webp"
+      "/src/assets/darkmini-0.webp",
+      "/src/assets/darkmini-1.webp",
+      "/src/assets/darkmini-2.webp",
+      "/src/assets/darkmini-3.webp",
+      "/src/assets/darkmini-4.webp"
     ],
     "recently_added": false,
     "creation_date": "2016-08-22T22:21:17Z"
@@ -920,9 +858,7 @@
     "link": "https://github.com/Yannis4444/Matrix-rEFInd",
     "user": "Yannis4444",
     "user_url": "https://github.com/Yannis4444",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459904/rEFInd-themes/matrix_oxwxzu.webp"
-    ],
+    "images": ["/src/assets/Matrix-rEFInd-0.webp"],
     "recently_added": false,
     "creation_date": "2020-08-15T00:37:39Z"
   },
@@ -933,10 +869,7 @@
     "link": "https://github.com/2KAbhishek/refind2k",
     "user": "2KAbhishek",
     "user_url": "https://github.com/2KAbhishek",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459916/rEFInd-themes/refind2k_tozcy3.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657226/rEFInd-themes/refind-dark_w31e7b.webp"
-    ],
+    "images": ["/src/assets/refind2k-0.webp", "/src/assets/refind2k-1.webp"],
     "recently_added": false,
     "creation_date": "2019-02-28T19:04:47Z"
   },
@@ -948,10 +881,10 @@
     "user": "quantrancse",
     "user_url": "https://github.com/quantrancse",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459912/rEFInd-themes/minimal-themes_yxv1yo.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657062/rEFInd-themes/screenshot_dark_odemms.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657096/rEFInd-themes/screenshot_nord_pjz3d2.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751657132/rEFInd-themes/screenshot_gruvbox_xgmoto.webp"
+      "/src/assets/rEFInd-minimal-themes-0.webp",
+      "/src/assets/rEFInd-minimal-themes-1.webp",
+      "/src/assets/rEFInd-minimal-themes-2.webp",
+      "/src/assets/rEFInd-minimal-themes-3.webp"
     ],
     "recently_added": false,
     "creation_date": "2019-07-28T15:30:28Z"
@@ -963,9 +896,7 @@
     "link": "https://github.com/samuelmeuli/refind-theme-dark",
     "user": "samuelmeuli",
     "user_url": "https://github.com/samuelmeuli",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459920/rEFInd-themes/refind-theme-dark_o4aykv.webp"
-    ],
+    "images": ["/src/assets/refind-theme-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2018-03-09T16:35:01Z"
   },
@@ -976,9 +907,7 @@
     "link": "https://github.com/catppuccin/refind",
     "user": "catppuccin",
     "user_url": "https://github.com/catppuccin",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1752254298/rEFInd-themes/catppuccin.webp"
-    ],
+    "images": ["/src/assets/refind-0.webp"],
     "recently_added": false,
     "creation_date": "2022-12-18T23:49:00Z"
   },
@@ -989,9 +918,7 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-chalkboard",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459887/rEFInd-themes/chalkboard_ppplbc.webp"
-    ],
+    "images": ["/src/assets/rEFInd-chalkboard-0.webp"],
     "recently_added": false,
     "creation_date": "2018-12-31T02:26:56Z"
   },
@@ -1002,9 +929,7 @@
     "link": "https://github.com/mustaqimM/dm",
     "user": "mustaqimM",
     "user_url": "https://github.com/mustaqimM",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/dm_hrv2ed.webp"
-    ],
+    "images": ["/src/assets/dm-0.webp"],
     "recently_added": false,
     "creation_date": "2017-02-07T12:56:32Z"
   },
@@ -1015,9 +940,7 @@
     "link": "https://github.com/bushtail/refind-efifetch",
     "user": "bushtail",
     "user_url": "https://github.com/bushtail",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/efifetch_iifdkc.webp"
-    ],
+    "images": ["/src/assets/refind-efifetch-0.webp"],
     "recently_added": false,
     "creation_date": "2020-06-17T23:29:59Z"
   },
@@ -1028,9 +951,7 @@
     "link": "https://github.com/jaltuna/refind-theme-nord",
     "user": "jaltuna",
     "user_url": "https://github.com/jaltuna",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459922/rEFInd-themes/refind-theme-nord_qvie5r.webp"
-    ],
+    "images": ["/src/assets/refind-theme-nord-0.webp"],
     "recently_added": false,
     "creation_date": "2021-08-13T19:45:41Z"
   },
@@ -1041,9 +962,7 @@
     "link": "https://github.com/hashhar/rEFInd-theme",
     "user": "hashhar",
     "user_url": "https://github.com/hashhar",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459919/rEFInd-themes/refind-theme_cubo4r.webp"
-    ],
+    "images": ["/src/assets/rEFInd-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2016-11-06T13:02:43Z"
   },
@@ -1054,9 +973,7 @@
     "link": "https://github.com/indgy/refind-bsd-black",
     "user": "indgy",
     "user_url": "https://github.com/indgy",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
-    ],
+    "images": ["/src/assets/refind-bsd-black-0.webp"],
     "recently_added": false,
     "creation_date": "2022-06-16T13:17:40Z"
   },
@@ -1067,9 +984,7 @@
     "link": "https://github.com/danirabbit/refind-theme-elementary",
     "user": "danirabbit",
     "user_url": "https://github.com/danirabbit",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459892/rEFInd-themes/elementary_n7cpzw.webp"
-    ],
+    "images": ["/src/assets/refind-theme-elementary-0.webp"],
     "recently_added": false,
     "creation_date": "2017-05-20T15:18:43Z"
   },
@@ -1080,9 +995,7 @@
     "link": "https://github.com/AdityaGarg8/rEFInd-minimal-modded",
     "user": "AdityaGarg8",
     "user_url": "https://github.com/AdityaGarg8",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459911/rEFInd-themes/minimal-modded_nllr1s.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-modded-0.webp"],
     "recently_added": false,
     "creation_date": "2021-06-09T09:00:29Z"
   },
@@ -1093,9 +1006,7 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-indulgence",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459900/rEFInd-themes/indulgence_gml6rq.webp"
-    ],
+    "images": ["/src/assets/rEFInd-indulgence-0.webp"],
     "recently_added": false,
     "creation_date": "2018-12-31T07:15:15Z"
   },
@@ -1106,9 +1017,7 @@
     "link": "https://github.com/drunckj/rEFInd-minimal-drunkcj",
     "user": "drunckj",
     "user_url": "https://github.com/drunckj",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459908/rEFInd-themes/minimal-drunkcj_ssbm6l.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-drunkcj-0.webp"],
     "recently_added": false,
     "creation_date": "2020-09-22T15:17:36Z"
   },
@@ -1119,9 +1028,7 @@
     "link": "https://github.com/Fantailed/Refind-Maia-Reskin",
     "user": "Fantailed",
     "user_url": "https://github.com/Fantailed",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/maia-reskin_qgxxl4.webp"
-    ],
+    "images": ["/src/assets/Refind-Maia-Reskin-0.webp"],
     "recently_added": false,
     "creation_date": "2020-01-26T16:54:54Z"
   },
@@ -1132,9 +1039,7 @@
     "link": "https://github.com/antsif-a/glow",
     "user": "antsif-a",
     "user_url": "https://github.com/antsif-a",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459895/rEFInd-themes/glow_bepfdx.webp"
-    ],
+    "images": ["/src/assets/glow-0.webp"],
     "recently_added": false,
     "creation_date": "2021-08-17T21:48:18Z"
   },
@@ -1145,9 +1050,7 @@
     "link": "https://github.com/voduong404/rEFInd-All-Themes",
     "user": "voduong404",
     "user_url": "https://github.com/voduong404",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1753120973/rEFInd-themes/383286592-231ba168-2d2e-4c85-83db-675d1c4c9141.png_w8j6xi.webp"
-    ],
+    "images": ["/src/assets/Refind-theme-Fluent-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2024-11-05T16:54:54Z"
   },
@@ -1158,9 +1061,7 @@
     "link": "https://github.com/Patricol/refind-material-theme",
     "user": "Patricol",
     "user_url": "https://github.com/Patricol",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459903/rEFInd-themes/material_mqnhmh.webp"
-    ],
+    "images": ["/src/assets/refind-material-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2019-01-11T21:35:42Z"
   },
@@ -1171,9 +1072,7 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-details",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459890/rEFInd-themes/details_ir1opw.webp"
-    ],
+    "images": ["/src/assets/rEFInd-details-0.webp"],
     "recently_added": false,
     "creation_date": "2018-12-31T06:29:44Z"
   },
@@ -1184,9 +1083,7 @@
     "link": "https://github.com/tedski999/custom-bootloader",
     "user": "tedski999",
     "user_url": "https://github.com/tedski999",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459885/rEFInd-themes/bsd-black_ubac4c.webp"
-    ],
+    "images": ["/src/assets/custom-bootloader-0.webp"],
     "recently_added": false,
     "creation_date": "2021-03-22T00:07:11Z"
   },
@@ -1197,9 +1094,7 @@
     "link": "https://github.com/PillTime/rEFInd-minimal-dark",
     "user": "PillTime",
     "user_url": "https://github.com/PillTime",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459907/rEFInd-themes/minimal-dark_mvdbzt.webp"
-    ],
+    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2016-10-07T16:16:47Z"
   },
@@ -1211,8 +1106,8 @@
     "user": "noraj",
     "user_url": "https://github.com/noraj",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459923/rEFInd-themes/regular2_z2lwfb.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1752255927/rEFInd-themes/dark_theme_dlexuc.webp"
+      "/src/assets/refind-theme-regular-0.webp",
+      "/src/assets/refind-theme-regular-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2019-07-25T09:29:59Z"
@@ -1224,9 +1119,7 @@
     "link": "https://github.com/M-L-P/rEFInd-theme-Yours?tab=readme-ov-file",
     "user": "M-L-P",
     "user_url": "https://github.com/M-L-P",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/yours_h08pte.webp"
-    ],
+    "images": ["/src/assets/rEFInd-theme-Yours-0.webp"],
     "recently_added": false,
     "creation_date": "2023-05-07T11:55:36Z"
   },
@@ -1237,9 +1130,7 @@
     "link": "https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies",
     "user": "jpmvferreira",
     "user_url": "https://github.com/jpmvferreira",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459889/rEFInd-themes/deer-and-fireflies_nklxeb.webp"
-    ],
+    "images": ["/src/assets/refind-ambience-deer-and-fireflies-0.webp"],
     "recently_added": false,
     "creation_date": "2021-02-05T11:34:59Z"
   },
@@ -1250,9 +1141,7 @@
     "link": "https://github.com/sihann/refind-gruvbox-theme",
     "user": "sihann",
     "user_url": "https://github.com/sihann",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459896/rEFInd-themes/gruvbox_f61uod.webp"
-    ],
+    "images": ["/src/assets/refind-gruvbox-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2021-01-21T11:34:59Z"
   },
@@ -1263,9 +1152,7 @@
     "link": "https://github.com/Chrisae9/rEFInd-mountain",
     "user": "Chrisae9",
     "user_url": "https://github.com/Chrisae9",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/mountain_n0nngl.webp"
-    ],
+    "images": ["/src/assets/rEFInd-mountain-0.webp"],
     "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z"
   },
@@ -1276,9 +1163,7 @@
     "link": "https://github.com/1j01/refind-theme-regular",
     "user": "1j01",
     "user_url": "https://github.com/1j01",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459924/rEFInd-themes/regular3_rbnixz.webp"
-    ],
+    "images": ["/src/assets/refind-theme-regular-0.webp"],
     "recently_added": false,
     "creation_date": "2019-04-06T05:46:20Z"
   },
@@ -1290,15 +1175,15 @@
     "user": "SLywnow",
     "user_url": "https://github.com/SLywnow",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi_f7pvbm.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656613/rEFInd-themes/Screenshot_20202051723415114_u9mhsx.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656606/rEFInd-themes/Screenshot_202020517234132451_n2sdcd.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656596/rEFInd-themes/Screenshot_202020517234038979_mg3zsh.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656584/rEFInd-themes/Screenshot_202020517233951718_bxpifx.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656574/rEFInd-themes/Screenshot_202020517233742436_p4lhik.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656565/rEFInd-themes/Screenshot_202020517233852312_o82zdz.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656544/rEFInd-themes/Screenshot_202020517234012889_ooq694.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751656527/rEFInd-themes/Screenshot_202020517233921903_ma6bt3.webp"
+      "/src/assets/hi-themes-refind-0.webp",
+      "/src/assets/hi-themes-refind-1.webp",
+      "/src/assets/hi-themes-refind-2.webp",
+      "/src/assets/hi-themes-refind-3.webp",
+      "/src/assets/hi-themes-refind-4.webp",
+      "/src/assets/hi-themes-refind-5.webp",
+      "/src/assets/hi-themes-refind-6.webp",
+      "/src/assets/hi-themes-refind-7.webp",
+      "/src/assets/hi-themes-refind-8.webp"
     ],
     "recently_added": false,
     "creation_date": "2020-05-14T16:02:12Z"
@@ -1310,9 +1195,7 @@
     "link": "https://github.com/Valeria-Fadeeva/linux-boot-efi",
     "user": "Valeria-Fadeeva",
     "user_url": "https://github.com/Valeria-Fadeeva",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459884/rEFInd-themes/boot_wdja4t.webp"
-    ],
+    "images": ["/src/assets/linux-boot-efi-0.webp"],
     "recently_added": false,
     "creation_date": "2022-04-29T16:04:20Z"
   },
@@ -1323,9 +1206,7 @@
     "link": "https://github.com/matomatical/grey-apple",
     "user": "matomatical",
     "user_url": "https://github.com/matomatical",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459862/rEFInd-themes/apple_ei3lnm.webp"
-    ],
+    "images": ["/src/assets/grey-apple-0.webp"],
     "recently_added": false,
     "creation_date": "2021-10-24T13:00:05Z"
   },
@@ -1336,9 +1217,7 @@
     "link": "https://github.com/FerLS/LazaGRUB",
     "user": "FerLS",
     "user_url": "https://github.com/FerLS",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459901/rEFInd-themes/laza_ivdjms.webp"
-    ],
+    "images": ["/src/assets/LazaGRUB-0.webp"],
     "recently_added": false,
     "creation_date": "2022-09-26T11:34:47Z"
   },
@@ -1349,9 +1228,7 @@
     "link": "https://github.com/ajlende/rEFInd-dawn",
     "user": "ajlende",
     "user_url": "https://github.com/ajlende",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459888/rEFInd-themes/dawn_ij6lxp.webp"
-    ],
+    "images": ["/src/assets/rEFInd-dawn-0.webp"],
     "recently_added": false,
     "creation_date": "2018-04-23T02:41:32Z"
   },
@@ -1362,9 +1239,7 @@
     "link": "https://github.com/zeroday0619/rEFInd-pachirisu",
     "user": "zeroday0619",
     "user_url": "https://github.com/zeroday0619",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459913/rEFInd-themes/pachirisu_ngioll.webp"
-    ],
+    "images": ["/src/assets/rEFInd-pachirisu-0.webp"],
     "recently_added": false,
     "creation_date": "2021-10-21T11:34:59Z"
   },
@@ -1375,9 +1250,7 @@
     "link": "https://github.com/Paradox1937/rEFInd-Celestial-Theme",
     "user": "Paradox1937",
     "user_url": "https://github.com/Paradox1937",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459886/rEFInd-themes/celestial_tcnpr5.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Celestial-Theme-0.webp"],
     "recently_added": false,
     "creation_date": "2022-02-21T21:27:43Z"
   },
@@ -1388,9 +1261,7 @@
     "link": "https://github.com/phonot/terminal-bootloader",
     "user": "phonot",
     "user_url": "https://github.com/phonot",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/terminal_qnldgw.webp"
-    ],
+    "images": ["/src/assets/terminal-bootloader-0.webp"],
     "recently_added": false,
     "creation_date": "2023-04-18T04:56:00Z"
   },
@@ -1401,9 +1272,7 @@
     "link": "https://github.com/riftsandroses/rEFInd-RetroGame",
     "user": "riftsandroses",
     "user_url": "https://github.com/riftsandroses",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459880/rEFInd-themes/retrogame_r2zmoh.webp"
-    ],
+    "images": ["/src/assets/rEFInd-RetroGame-0.webp"],
     "recently_added": false,
     "creation_date": "2022-05-10T17:27:24Z"
   },
@@ -1415,8 +1284,8 @@
     "user": "Scorpi-ON",
     "user_url": "https://github.com/Scorpi-ON",
     "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459863/rEFInd-themes/blackcatmuzzle_p7zjqa.webp",
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1751655808/rEFInd-themes/BlackCatMuzzle-rEFInd-2.webp"
+      "/src/assets/BlackCatMuzzle-rEFInd-0.webp",
+      "/src/assets/BlackCatMuzzle-rEFInd-1.webp"
     ],
     "recently_added": false,
     "creation_date": "2023-01-22T19:14:09Z"
@@ -1428,9 +1297,7 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-wildside",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459883/rEFInd-themes/wildside_hfeaop.webp"
-    ],
+    "images": ["/src/assets/rEFInd-wildside-0.webp"],
     "recently_added": false,
     "creation_date": "2018-12-31T07:48:04Z"
   },
@@ -1441,9 +1308,7 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-splash",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459881/rEFInd-themes/splash_lnbyda.webp"
-    ],
+    "images": ["/src/assets/rEFInd-splash-0.webp"],
     "recently_added": false,
     "creation_date": "2018-12-31T08:13:24Z"
   },
@@ -1454,9 +1319,7 @@
     "link": "https://github.com/SLywnow/hi-dark",
     "user": "SLywnow",
     "user_url": "https://github.com/SLywnow",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459897/rEFInd-themes/hi-dark_tqqhew.webp"
-    ],
+    "images": ["/src/assets/hi-dark-0.webp"],
     "recently_added": false,
     "creation_date": "2020-05-13T21:20:25Z"
   },
@@ -1467,9 +1330,7 @@
     "link": "https://github.com/Gutleibmann/refind-theme-regular-minimalism",
     "user": "Gutleibmann",
     "user_url": "https://github.com/Gutleibmann",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459909/rEFInd-themes/minimalism_rbt36k.webp"
-    ],
+    "images": ["/src/assets/refind-theme-regular-minimalism-0.webp"],
     "recently_added": false,
     "creation_date": "2023-08-30T00:25:43Z"
   },
@@ -1480,9 +1341,7 @@
     "link": "https://github.com/BetaTester41/rEFInd-Metro",
     "user": "BetaTester41",
     "user_url": "https://github.com/BetaTester41",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459905/rEFInd-themes/metro_gvtibx.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Metro-0.webp"],
     "recently_added": false,
     "creation_date": "2020-12-18T17:53:23Z"
   },
@@ -1493,9 +1352,7 @@
     "link": "https://github.com/zwzheng45/rEFInd-Phi",
     "user": "zwzheng45",
     "user_url": "https://github.com/zwzheng45",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459915/rEFInd-themes/phi_lc1aul.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Phi-0.webp"],
     "recently_added": false,
     "creation_date": "2023-08-04T10:42:34Z"
   },
@@ -1506,9 +1363,7 @@
     "link": "https://github.com/Nyoutaaa/rEFInd-Minimalist",
     "user": "Nyoutaaa",
     "user_url": "https://github.com/Nyoutaaa",
-    "images": [
-      "https://res.cloudinary.com/dfx8zvzvt/image/upload/v1734459910/rEFInd-themes/minimalist_keqxzg.webp"
-    ],
+    "images": ["/src/assets/rEFInd-Minimalist-0.webp"],
     "recently_added": false,
     "creation_date": "2023-12-07T01:34:24Z"
   }
