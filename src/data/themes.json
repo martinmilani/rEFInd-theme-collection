@@ -1,5 +1,16 @@
 [
   {
+    "id": "a41921f0-0850-482a-a035-7c2714249a2a",
+    "name": "rEFInd-minimal-rog",
+    "description": "Minimalistic ROG rEFInd theme",
+    "link": "https://github.com/Paradox-AT/rEFInd-minimal-rog",
+    "user": "Paradox-AT",
+    "user_url": "https://github.com/Paradox-AT",
+    "images": ["/src/assets/rEFInd-minimal-rog.webp"],
+    "creation_date": "2025-08-20T22:00:25Z",
+    "recently_added": true
+  },
+  {
     "id": "4208c64f-e250-4670-aed5-9f6e8ce8fbab",
     "name": "darkmini-custom",
     "description": "Refind theme",
