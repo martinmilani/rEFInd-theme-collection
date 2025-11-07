@@ -1,5 +1,16 @@
 [
   {
+    "id": "f4f2c1b0-c2f8-4e8a-8a1a-8b0e6e2a9e8f",
+    "name": "rEFInd-Synthwave",
+    "description": "A clean, retrofuturistic Synthwave rEFInd theme",
+    "link": "https://github.com/ussooraj/rEFInd-Synthwave",
+    "user": "ussooraj",
+    "user_url": "https://github.com/ussooraj",
+    "images": ["/src/assets/rEFInd-Synthwave.webp"],
+    "creation_date": "2025-11-07T07:00:00Z",
+    "recently_added": true
+  },
+  {
     "id": "a41921f0-0850-482a-a035-7c2714249a2a",
     "name": "rEFInd-minimal-rog",
     "description": "Minimalistic ROG rEFInd theme",
