@@ -1,5 +1,16 @@
 [
   {
+    "id": "5d0d8848-6800-4d37-a942-4a13d855a24f",
+    "name": "Portal Refind Theme",
+    "description": "This is a custom portal refind theme made by me! This comes with it's own themed icons, feel free to delete the icons folder and remove the corresponding icon line in portalTheme.conf",
+    "link": "https://github.com/zapsters/portalRefindTheme",
+    "user": "zapsters",
+    "user_url": "https://github.com/zapsters",
+    "images": [],
+    "creation_date": "2025-12-10T07:00:00Z",
+    "recently_added": true
+  },
+  {
     "id": "f4f2c1b0-c2f8-4e8a-8a1a-8b0e6e2a9e8f",
     "name": "rEFInd-Synthwave",
     "description": "A clean, retrofuturistic Synthwave rEFInd theme",
