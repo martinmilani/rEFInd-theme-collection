@@ -1,14 +1,173 @@
 [
   {
+    "id": "8a3c827c-f917-42d3-80eb-2306c39da2f5",
+    "name": "RONBM",
+    "description": "Refind OLED No Blind Me Theme",
+    "link": "https://github.com/gutlessCGH/RONBM",
+    "user": "gutlessCGH",
+    "user_url": "https://github.com/gutlessCGH",
+    "images": [
+      "/src/assets/ronbm.webp",
+      "/src/assets/ronbm-1.webp"
+    ],
+    "creation_date": "2026-02-06T09:47:40Z",
+    "recently_added": true
+  },
+  {
+    "id": "5599e5fa-cbc8-4a13-bb0e-dd1ce4bb0239",
+    "name": "refind-efifetch",
+    "description": "neofetch theme for the rEFInd boot manager",
+    "link": "https://github.com/CriticalPulsar/refind-efifetch",
+    "user": "CriticalPulsar",
+    "user_url": "https://github.com/CriticalPulsar",
+    "images": [
+      "/src/assets/refind_efifetch_1.webp"
+    ],
+    "creation_date": "2021-09-10T05:35:21Z",
+    "recently_added": false
+  },
+  {
+    "id": "091fa253-389d-4257-b470-05639429bb20",
+    "name": "tricky-refind",
+    "description": "refind theme",
+    "link": "https://github.com/trickpattyFH20/tricky-refind",
+    "user": "trickpattyFH20",
+    "user_url": "https://github.com/trickpattyFH20",
+    "images": [
+      "/src/assets/tricky-refind.webp"
+    ],
+    "creation_date": "2025-11-13T03:00:43Z",
+    "recently_added": false
+  },
+  {
+    "id": "1cd4672a-5848-4810-9b71-bf59b2cc05cf",
+    "name": "refind-theme",
+    "description": "This is config for refind boot loader custom UI.",
+    "link": "https://github.com/shyam-delvadiya/refind-theme",
+    "user": "shyam-delvadiya",
+    "user_url": "https://github.com/shyam-delvadiya",
+    "images": [
+      "/src/assets/refind-theme.webp"
+    ],
+    "creation_date": "2026-01-05T16:20:25Z",
+    "recently_added": false
+  },
+  {
+    "id": "c031af3f-7932-4032-bd57-f42fb01e688f",
+    "name": "uzbek-refind-theme",
+    "description": "rEFInd Theme for Uzbek Linux",
+    "link": "https://github.com/UzbekLinux/uzbek-refind-theme",
+    "user": "UzbekLinux",
+    "user_url": "https://github.com/UzbekLinux",
+    "images": [
+      "/src/assets/uzbek-refind-theme.webp"
+    ],
+    "creation_date": "2026-02-01T14:36:16Z",
+    "recently_added": false
+  },
+  {
+    "id": "d693b282-0319-48c5-b5a1-6a38950f4665",
+    "name": "refind-minimalistic",
+    "description": "This forked theme is modified version of refind-theme by kvnbias",
+    "link": "https://github.com/m3h3d1ha2an/refind-minimalistic",
+    "user": "m3h3d1ha2an",
+    "user_url": "https://github.com/m3h3d1ha2an",
+    "images": [
+      "/src/assets/refind_minimalistic_0.webp"
+    ],
+    "creation_date": "2023-05-21T07:38:19Z",
+    "recently_added": false
+  },
+  {
+    "id": "cce7a094-2f82-44bf-a882-5747c36400c0",
+    "name": "refind-regular-dark",
+    "description": "This forked theme is modified dark version of refind-theme-regular",
+    "link": "https://github.com/m3h3d1ha2an/refind-regular-dark",
+    "user": "m3h3d1ha2an",
+    "user_url": "https://github.com/m3h3d1ha2an",
+    "images": [
+      "/src/assets/refind_regular_dark_0.webp"
+    ],
+    "creation_date": "2023-05-21T09:24:19Z",
+    "recently_added": false
+  },
+  {
+    "id": "db826f70-35e5-4cb3-aca1-555b4178cc77",
+    "name": "rEFInd-LC-theme",
+    "description": "A Lethal Company based theme for rEFInd",
+    "link": "https://github.com/DaniVals/rEFInd-LC-theme",
+    "user": "DaniVals",
+    "user_url": "https://github.com/DaniVals",
+    "images": [
+      "/src/assets/refind-lc-theme.webp"
+    ],
+    "creation_date": "2025-11-30T01:00:08Z",
+    "recently_added": false
+  },
+  {
+    "id": "2e05ed03-b44d-45d9-bd32-e71d11d0c59e",
+    "name": "rEFInd-BatmanNeon",
+    "description": "Batman-themed rEFInd boot loader.",
+    "link": "https://github.com/Thi-Huynh01/rEFInd-BatmanNeon",
+    "user": "Thi-Huynh01",
+    "user_url": "https://github.com/Thi-Huynh01",
+    "images": [
+      "/src/assets/refind-batmanneon.webp"
+    ],
+    "creation_date": "2025-10-26T17:30:29Z",
+    "recently_added": false
+  },
+  {
+    "id": "4daeee75-598c-4a58-abc0-3d2ff6e6897a",
+    "name": "rEFInd-OW-theme",
+    "description": "An Outer Wilds inspired theme for the rEFInd boot manager [Work in Progress]",
+    "link": "https://github.com/martibarimaff/rEFInd-OW-theme",
+    "user": "martibarimaff",
+    "user_url": "https://github.com/martibarimaff",
+    "images": [
+      "/src/assets/refind-ow-theme.webp"
+    ],
+    "creation_date": "2025-10-12T18:56:50Z",
+    "recently_added": false
+  },
+  {
+    "id": "637b80d3-f0b2-4fb9-be94-be9cad530f34",
+    "name": "Starwars-rEFInd",
+    "description": "A high-resolution theme for the rEFInd Boot Manager, where you can choose between your Light side and your Dark side (Perfect for Dual booted systems!).",
+    "link": "https://github.com/thilakshan2003/Starwars-rEFInd",
+    "user": "thilakshan2003",
+    "user_url": "https://github.com/thilakshan2003",
+    "images": [
+      "/src/assets/starwars_refind_0.webp"
+    ],
+    "creation_date": "2025-12-13T17:41:55Z",
+    "recently_added": false
+  },
+  {
+    "id": "c0b3a522-23d6-4406-b93b-717eacdf17f9",
+    "name": "minimal-taichi",
+    "description": "Added some re-designed icon in minimal",
+    "link": "https://github.com/Stark-Sparking/minimal-taichi",
+    "user": "Stark-Sparking",
+    "user_url": "https://github.com/Stark-Sparking",
+    "images": [
+      "/src/assets/minimal-taichi.webp"
+    ],
+    "creation_date": "2025-12-14T10:04:03Z",
+    "recently_added": false
+  },
+  {
     "id": "f4f2c1b0-c2f8-4e8a-8a1a-8b0e6e2a9e8f",
     "name": "rEFInd-Synthwave",
     "description": "A clean, retrofuturistic Synthwave rEFInd theme",
     "link": "https://github.com/ussooraj/rEFInd-Synthwave",
     "user": "ussooraj",
     "user_url": "https://github.com/ussooraj",
-    "images": ["/src/assets/rEFInd-Synthwave.webp"],
+    "images": [
+      "/src/assets/rEFInd-Synthwave.webp"
+    ],
     "creation_date": "2025-11-07T07:00:00Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "3e64762e-4af5-431a-90a2-11277c3b4f8d",
@@ -17,7 +176,9 @@
     "link": "https://github.com/phamhuulocforwork/refind-theme",
     "user": "phamhuulocforwork",
     "user_url": "https://github.com/phamhuulocforwork",
-    "images": ["src/assets/refind_theme_0.webp"],
+    "images": [
+      "/src/assets/refind_theme_0.webp"
+    ],
     "recently_added": false,
     "isNew": true,
     "creation_date": "2025-09-16T16:36:50Z"
@@ -29,9 +190,11 @@
     "link": "https://github.com/Paradox-AT/rEFInd-minimal-rog",
     "user": "Paradox-AT",
     "user_url": "https://github.com/Paradox-AT",
-    "images": ["/src/assets/rEFInd-minimal-rog.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-rog.webp"
+    ],
     "creation_date": "2025-08-20T22:00:25Z",
-    "recently_added": true,
+    "recently_added": false,
     "isNew": false
   },
   {
@@ -43,7 +206,7 @@
     "user_url": "https://github.com/danielscf",
     "images": [],
     "creation_date": "2025-08-13T22:17:25Z",
-    "recently_added": true,
+    "recently_added": false,
     "isNew": false
   },
   {
@@ -53,8 +216,10 @@
     "link": "https://github.com/NilsPvR/rEFInd-nils",
     "user": "NilsPvR",
     "user_url": "https://github.com/NilsPvR",
-    "images": ["/src/assets/rEFInd-nils-0.webp"],
-    "recently_added": true,
+    "images": [
+      "/src/assets/rEFInd-nils-0.webp"
+    ],
+    "recently_added": false,
     "creation_date": "2025-08-04T15:09:46Z",
     "isNew": false
   },
@@ -65,7 +230,10 @@
     "link": "https://github.com/Lindstream/dm-refind-theme",
     "user": "Lindstream",
     "user_url": "https://github.com/Lindstream",
-    "images": ["/src/assets/dm-refind-theme-0.webp", "/src/assets/dm-refind-theme-1.webp"],
+    "images": [
+      "/src/assets/dm-refind-theme-0.webp",
+      "/src/assets/dm-refind-theme-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2015-09-16T14:57:18Z",
     "isNew": false
@@ -93,7 +261,9 @@
     "link": "https://github.com/JohnTrentonCary/rEFInd-Metro",
     "user": "JohnTrentonCary",
     "user_url": "https://github.com/JohnTrentonCary",
-    "images": ["/src/assets/rEFInd-Metro-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Metro-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2017-04-08T21:48:09Z",
     "isNew": false
@@ -120,7 +290,9 @@
     "link": "https://github.com/JaimeStill/rEFInd-ultra",
     "user": "JaimeStill",
     "user_url": "https://github.com/JaimeStill",
-    "images": ["/src/assets/rEFInd-ultra-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-ultra-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-01-01T02:17:14Z",
     "isNew": false
@@ -132,7 +304,9 @@
     "link": "https://github.com/toptensoftware/brads-refind-theme",
     "user": "toptensoftware",
     "user_url": "https://github.com/toptensoftware",
-    "images": ["/src/assets/brads-refind-theme-0.webp"],
+    "images": [
+      "/src/assets/brads-refind-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-11-02T07:51:34Z",
     "isNew": false
@@ -144,7 +318,9 @@
     "link": "https://github.com/delania-oliveira/refind-gruvbox-theme",
     "user": "delania-oliveira",
     "user_url": "https://github.com/delania-oliveira",
-    "images": ["/src/assets/refind-gruvbox-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-gruvbox-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-01-20T19:49:04Z",
     "isNew": false
@@ -156,7 +332,9 @@
     "link": "https://github.com/iamcco/next-theme",
     "user": "iamcco",
     "user_url": "https://github.com/iamcco",
-    "images": ["/src/assets/next-theme-0.webp"],
+    "images": [
+      "/src/assets/next-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-04-05T07:11:24Z",
     "isNew": false
@@ -168,7 +346,9 @@
     "link": "https://github.com/castelldev/refind-castell",
     "user": "castelldev",
     "user_url": "https://github.com/castelldev",
-    "images": ["/src/assets/refind-castell-0.webp"],
+    "images": [
+      "/src/assets/refind-castell-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-08-13T03:16:18Z",
     "isNew": false
@@ -180,7 +360,9 @@
     "link": "https://github.com/Kissycat/rEFInd-minimal-dark",
     "user": "Kissycat",
     "user_url": "https://github.com/Kissycat",
-    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-02-03T05:16:06Z",
     "isNew": false
@@ -192,7 +374,9 @@
     "link": "https://github.com/senpaiSubby/refind-sublime",
     "user": "senpaiSubby",
     "user_url": "https://github.com/senpaiSubby",
-    "images": ["/src/assets/refind-sublime-0.webp"],
+    "images": [
+      "/src/assets/refind-sublime-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-03-18T04:13:28Z",
     "isNew": false
@@ -220,7 +404,9 @@
     "link": "https://github.com/chrisae9/rEFInd-mountain",
     "user": "chrisae9",
     "user_url": "https://github.com/chrisae9",
-    "images": ["/src/assets/rEFInd-mountain-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-mountain-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z",
     "isNew": false
@@ -244,7 +430,9 @@
     "link": "https://github.com/dotqaghan/refind-theme-oled",
     "user": "dotqaghan",
     "user_url": "https://github.com/dotqaghan",
-    "images": ["/src/assets/refind-theme-oled-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-oled-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-09-08T19:22:59Z",
     "isNew": false
@@ -256,7 +444,10 @@
     "link": "https://github.com/almighty-loaf/rEFInd-tokyo-night",
     "user": "almighty-loaf",
     "user_url": "https://github.com/almighty-loaf",
-    "images": ["/src/assets/rEFInd-tokyo-night-0.webp", "/src/assets/rEFInd-tokyo-night-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-tokyo-night-0.webp",
+      "/src/assets/rEFInd-tokyo-night-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-09-07T04:29:18Z",
     "isNew": false
@@ -284,7 +475,9 @@
     "link": "https://github.com/pixix4/rEFInd-nox",
     "user": "pixix4",
     "user_url": "https://github.com/pixix4",
-    "images": ["/src/assets/rEFInd-nox-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-nox-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2017-06-28T14:35:10Z",
     "isNew": false
@@ -296,7 +489,10 @@
     "link": "https://github.com/lkwq007/rEFInd-ZJU",
     "user": "lkwq007",
     "user_url": "https://github.com/lkwq007",
-    "images": ["/src/assets/rEFInd-ZJU-0.webp", "/src/assets/rEFInd-ZJU-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-ZJU-0.webp",
+      "/src/assets/rEFInd-ZJU-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2015-04-24T09:58:57Z",
     "isNew": false
@@ -308,7 +504,9 @@
     "link": "https://github.com/openFyde/fydeos-refind-theme",
     "user": "openFyde",
     "user_url": "https://github.com/openFyde",
-    "images": ["/src/assets/fydeos-refind-theme-0.webp"],
+    "images": [
+      "/src/assets/fydeos-refind-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-03-31T07:16:14Z",
     "isNew": false
@@ -320,7 +518,9 @@
     "link": "https://github.com/fl-w/rEFInd-minimal-dark",
     "user": "fl-w",
     "user_url": "https://github.com/fl-w",
-    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-07-09T10:49:07Z",
     "isNew": false
@@ -416,7 +616,9 @@
     "link": "https://github.com/nalf3in/yet-another-minimalist-refind-theme",
     "user": "nalf3in",
     "user_url": "https://github.com/nalf3in",
-    "images": ["/src/assets/yet-another-minimalist-refind-theme-0.webp"],
+    "images": [
+      "/src/assets/yet-another-minimalist-refind-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2025-03-26T00:50:29Z",
     "isNew": false
@@ -428,7 +630,9 @@
     "link": "https://github.com/AlexFullmoon/refind-bsxm1-theme",
     "user": "AlexFullmoon",
     "user_url": "https://github.com/AlexFullmoon",
-    "images": ["/src/assets/refind-bsxm1-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-bsxm1-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-10-09T22:48:04Z",
     "isNew": false
@@ -464,7 +668,9 @@
     "link": "https://github.com/zeeshan933/Refind-Themes",
     "user": "zeeshan933",
     "user_url": "https://github.com/zeeshan933",
-    "images": ["/src/assets/Refind-Themes-0.webp"],
+    "images": [
+      "/src/assets/Refind-Themes-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2025-03-05T12:05:48Z",
     "isNew": false
@@ -476,21 +682,12 @@
     "link": "https://github.com/codesshaman/refind_sunset",
     "user": "codesshaman",
     "user_url": "https://github.com/codesshaman",
-    "images": ["/src/assets/refind_sunset-0.webp", "/src/assets/refind_sunset-1.webp"],
+    "images": [
+      "/src/assets/refind_sunset-0.webp",
+      "/src/assets/refind_sunset-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-08T17:10:04Z",
-    "isNew": false
-  },
-  {
-    "id": "e4cb9805-bb64-411a-b940-941af367786d",
-    "name": "graphite-nord-dark-refind",
-    "description": "A refind theme (WIP)",
-    "link": "https://github.com/NyaomiDEV/graphite-nord-dark-refind",
-    "user": "NyaomiDEV",
-    "user_url": "https://github.com/NyaomiDEV",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2024-02-27T16:14:04Z",
     "isNew": false
   },
   {
@@ -500,7 +697,9 @@
     "link": "https://github.com/BobTagnil/alpaca-refind-theme",
     "user": "BobTagnil",
     "user_url": "https://github.com/BobTagnil",
-    "images": ["/src/assets/alpaca-refind-theme-0.webp"],
+    "images": [
+      "/src/assets/alpaca-refind-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-10-29T10:11:25Z",
     "isNew": false
@@ -512,7 +711,9 @@
     "link": "https://github.com/kmyi/refind-theme-regular",
     "user": "kmyi",
     "user_url": "https://github.com/kmyi",
-    "images": ["/src/assets/refind-theme-regular-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-regular-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2016-05-13T17:37:25Z",
     "isNew": false
@@ -524,7 +725,9 @@
     "link": "https://github.com/ASUS-Vivobook-S-14-M5406WA/refind-theme-oled",
     "user": "ASUS-Vivobook-S-14-M5406WA",
     "user_url": "https://github.com/ASUS-Vivobook-S-14-M5406WA",
-    "images": ["/src/assets/refind-theme-oled-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-oled-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2025-01-28T13:51:03Z",
     "isNew": false
@@ -548,7 +751,9 @@
     "link": "https://github.com/diegodorado/refind-diegodorado-theme",
     "user": "diegodorado",
     "user_url": "https://github.com/diegodorado",
-    "images": ["/src/assets/refind-diegodorado-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-diegodorado-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-09-17T19:18:49Z",
     "isNew": false
@@ -596,7 +801,9 @@
     "link": "https://github.com/RSWilli/refind-custom-theme",
     "user": "RSWilli",
     "user_url": "https://github.com/RSWilli",
-    "images": ["/src/assets/refind-custom-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-custom-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-02-25T23:00:10Z",
     "isNew": false
@@ -608,7 +815,9 @@
     "link": "https://github.com/killign/killign-rEFInd",
     "user": "killign",
     "user_url": "https://github.com/killign",
-    "images": ["/src/assets/killign-rEFInd-0.webp"],
+    "images": [
+      "/src/assets/killign-rEFInd-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2025-05-22T00:16:31Z",
     "isNew": false
@@ -656,7 +865,9 @@
     "link": "https://github.com/dr-marco/refind-t480-theme",
     "user": "dr-marco",
     "user_url": "https://github.com/dr-marco",
-    "images": ["/src/assets/refind-t480-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-t480-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-12-08T10:56:43Z",
     "isNew": false
@@ -683,30 +894,6 @@
     "images": [],
     "recently_added": false,
     "creation_date": "2021-02-25T19:13:35Z",
-    "isNew": false
-  },
-  {
-    "id": "46072773-2caa-4f54-8b11-35d1a1cdd475",
-    "name": "custom-rEFInd-theme",
-    "description": "",
-    "link": "https://github.com/laripo/custom-rEFInd-theme",
-    "user": "laripo",
-    "user_url": "https://github.com/laripo",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2021-11-12T03:21:07Z",
-    "isNew": false
-  },
-  {
-    "id": "9f4a577f-86cb-4dff-8a26-2c5f313e43cf",
-    "name": "rEFind-themes-minimal",
-    "description": "",
-    "link": "https://github.com/a-lien-ware/rEFind-themes-minimal",
-    "user": "a-lien-ware",
-    "user_url": "https://github.com/a-lien-ware",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2025-05-30T13:46:59Z",
     "isNew": false
   },
   {
@@ -744,7 +931,9 @@
     "link": "https://github.com/peteyyz/refind-planets",
     "user": "peteyyz",
     "user_url": "https://github.com/peteyyz",
-    "images": ["/src/assets/refind-planets-0.webp"],
+    "images": [
+      "/src/assets/refind-planets-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-04-26T04:59:52Z",
     "isNew": false
@@ -792,7 +981,9 @@
     "link": "https://github.com/arnav-1997/rEFInd-custom-dark",
     "user": "arnav-1997",
     "user_url": "https://github.com/arnav-1997",
-    "images": ["/src/assets/rEFInd-custom-dark-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-custom-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-10-20T13:34:53Z",
     "isNew": false
@@ -816,7 +1007,10 @@
     "link": "https://github.com/chris1111/rEFInd-Shadow-IOS?tab=readme-ov-file",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": ["/src/assets/rEFInd-Shadow-IOS-0.webp", "/src/assets/rEFInd-Shadow-IOS-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-Shadow-IOS-0.webp",
+      "/src/assets/rEFInd-Shadow-IOS-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-06T13:25:41Z",
     "isNew": false
@@ -828,7 +1022,10 @@
     "link": "https://github.com/chris1111/Shadow-rEFInd",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": ["/src/assets/Shadow-rEFInd-0.webp", "/src/assets/Shadow-rEFInd-1.webp"],
+    "images": [
+      "/src/assets/Shadow-rEFInd-0.webp",
+      "/src/assets/Shadow-rEFInd-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-01T20:37:29Z",
     "isNew": false
@@ -855,7 +1052,9 @@
     "link": "https://github.com/chris1111/rEFInd-Metal-Frame",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": ["/src/assets/rEFInd-Metal-Frame-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Metal-Frame-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-09T11:20:56Z",
     "isNew": false
@@ -867,7 +1066,9 @@
     "link": "https://github.com/evanpurkhiser/rEFInd-minimal",
     "user": "evanpurkhiser",
     "user_url": "https://github.com/evanpurkhiser",
-    "images": ["/src/assets/rEFInd-minimal-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2013-07-11T09:24:14Z",
     "isNew": false
@@ -894,7 +1095,9 @@
     "link": "https://github.com/lukechilds/refind-ambience",
     "user": "lukechilds",
     "user_url": "https://github.com/lukechilds",
-    "images": ["/src/assets/refind-ambience-0.webp"],
+    "images": [
+      "/src/assets/refind-ambience-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2016-04-06T19:17:05Z",
     "isNew": false
@@ -906,7 +1109,9 @@
     "link": "https://github.com/kgoettler/ursamajor-rEFInd",
     "user": "kgoettler",
     "user_url": "https://github.com/kgoettler",
-    "images": ["/src/assets/ursamajor-rEFInd-0.webp"],
+    "images": [
+      "/src/assets/ursamajor-rEFInd-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-07-23T01:48:06Z",
     "isNew": false
@@ -918,7 +1123,9 @@
     "link": "https://github.com/Pr0cella/rEFInd-glassy",
     "user": "Pr0cella",
     "user_url": "https://github.com/Pr0cella",
-    "images": ["/src/assets/rEFInd-glassy-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-glassy-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-01-30T11:19:26Z",
     "isNew": false
@@ -948,7 +1155,9 @@
     "link": "https://github.com/Yannis4444/Matrix-rEFInd",
     "user": "Yannis4444",
     "user_url": "https://github.com/Yannis4444",
-    "images": ["/src/assets/Matrix-rEFInd-0.webp"],
+    "images": [
+      "/src/assets/Matrix-rEFInd-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-08-15T00:37:39Z",
     "isNew": false
@@ -960,7 +1169,10 @@
     "link": "https://github.com/2KAbhishek/refind2k",
     "user": "2KAbhishek",
     "user_url": "https://github.com/2KAbhishek",
-    "images": ["/src/assets/refind2k-0.webp", "/src/assets/refind2k-1.webp"],
+    "images": [
+      "/src/assets/refind2k-0.webp",
+      "/src/assets/refind2k-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-02-28T19:04:47Z",
     "isNew": false
@@ -989,7 +1201,9 @@
     "link": "https://github.com/samuelmeuli/refind-theme-dark",
     "user": "samuelmeuli",
     "user_url": "https://github.com/samuelmeuli",
-    "images": ["/src/assets/refind-theme-dark-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-03-09T16:35:01Z",
     "isNew": false
@@ -1001,7 +1215,9 @@
     "link": "https://github.com/catppuccin/refind",
     "user": "catppuccin",
     "user_url": "https://github.com/catppuccin",
-    "images": ["/src/assets/refind-0.webp"],
+    "images": [
+      "/src/assets/refind-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-12-18T23:49:00Z",
     "isNew": false
@@ -1013,7 +1229,9 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-chalkboard",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": ["/src/assets/rEFInd-chalkboard-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-chalkboard-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-12-31T02:26:56Z",
     "isNew": false
@@ -1025,21 +1243,11 @@
     "link": "https://github.com/mustaqimM/dm",
     "user": "mustaqimM",
     "user_url": "https://github.com/mustaqimM",
-    "images": ["/src/assets/dm-0.webp"],
+    "images": [
+      "/src/assets/dm-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2017-02-07T12:56:32Z",
-    "isNew": false
-  },
-  {
-    "id": "29c141df-9489-47e6-9acb-5346f2dd59db",
-    "name": "refind-efifetch",
-    "description": "neofetch theme for the rEFInd boot manager",
-    "link": "https://github.com/bushtail/refind-efifetch",
-    "user": "bushtail",
-    "user_url": "https://github.com/bushtail",
-    "images": ["/src/assets/refind-efifetch-0.webp"],
-    "recently_added": false,
-    "creation_date": "2020-06-17T23:29:59Z",
     "isNew": false
   },
   {
@@ -1049,7 +1257,9 @@
     "link": "https://github.com/jaltuna/refind-theme-nord",
     "user": "jaltuna",
     "user_url": "https://github.com/jaltuna",
-    "images": ["/src/assets/refind-theme-nord-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-nord-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-08-13T19:45:41Z",
     "isNew": false
@@ -1061,7 +1271,9 @@
     "link": "https://github.com/hashhar/rEFInd-theme",
     "user": "hashhar",
     "user_url": "https://github.com/hashhar",
-    "images": ["/src/assets/rEFInd-theme-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2016-11-06T13:02:43Z",
     "isNew": false
@@ -1073,7 +1285,9 @@
     "link": "https://github.com/indgy/refind-bsd-black",
     "user": "indgy",
     "user_url": "https://github.com/indgy",
-    "images": ["/src/assets/refind-bsd-black-0.webp"],
+    "images": [
+      "/src/assets/refind-bsd-black-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-06-16T13:17:40Z",
     "isNew": false
@@ -1085,7 +1299,9 @@
     "link": "https://github.com/danirabbit/refind-theme-elementary",
     "user": "danirabbit",
     "user_url": "https://github.com/danirabbit",
-    "images": ["/src/assets/refind-theme-elementary-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-elementary-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2017-05-20T15:18:43Z",
     "isNew": false
@@ -1097,7 +1313,9 @@
     "link": "https://github.com/AdityaGarg8/rEFInd-minimal-modded",
     "user": "AdityaGarg8",
     "user_url": "https://github.com/AdityaGarg8",
-    "images": ["/src/assets/rEFInd-minimal-modded-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-modded-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-06-09T09:00:29Z",
     "isNew": false
@@ -1109,7 +1327,9 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-indulgence",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": ["/src/assets/rEFInd-indulgence-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-indulgence-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-12-31T07:15:15Z",
     "isNew": false
@@ -1121,7 +1341,9 @@
     "link": "https://github.com/drunckj/rEFInd-minimal-drunkcj",
     "user": "drunckj",
     "user_url": "https://github.com/drunckj",
-    "images": ["/src/assets/rEFInd-minimal-drunkcj-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-drunkcj-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-09-22T15:17:36Z",
     "isNew": false
@@ -1133,7 +1355,9 @@
     "link": "https://github.com/Fantailed/Refind-Maia-Reskin",
     "user": "Fantailed",
     "user_url": "https://github.com/Fantailed",
-    "images": ["/src/assets/Refind-Maia-Reskin-0.webp"],
+    "images": [
+      "/src/assets/Refind-Maia-Reskin-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-01-26T16:54:54Z",
     "isNew": false
@@ -1145,7 +1369,9 @@
     "link": "https://github.com/antsif-a/glow",
     "user": "antsif-a",
     "user_url": "https://github.com/antsif-a",
-    "images": ["/src/assets/glow-0.webp"],
+    "images": [
+      "/src/assets/glow-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-08-17T21:48:18Z",
     "isNew": false
@@ -1157,7 +1383,9 @@
     "link": "https://github.com/voduong404/rEFInd-All-Themes",
     "user": "voduong404",
     "user_url": "https://github.com/voduong404",
-    "images": ["/src/assets/Refind-theme-Fluent-dark-0.webp"],
+    "images": [
+      "/src/assets/Refind-theme-Fluent-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-11-05T16:54:54Z",
     "isNew": false
@@ -1169,7 +1397,9 @@
     "link": "https://github.com/Patricol/refind-material-theme",
     "user": "Patricol",
     "user_url": "https://github.com/Patricol",
-    "images": ["/src/assets/refind-material-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-material-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-01-11T21:35:42Z",
     "isNew": false
@@ -1181,7 +1411,9 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-details",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": ["/src/assets/rEFInd-details-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-details-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-12-31T06:29:44Z",
     "isNew": false
@@ -1193,7 +1425,9 @@
     "link": "https://github.com/tedski999/custom-bootloader",
     "user": "tedski999",
     "user_url": "https://github.com/tedski999",
-    "images": ["/src/assets/custom-bootloader-0.webp"],
+    "images": [
+      "/src/assets/custom-bootloader-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-03-22T00:07:11Z",
     "isNew": false
@@ -1205,7 +1439,9 @@
     "link": "https://github.com/PillTime/rEFInd-minimal-dark",
     "user": "PillTime",
     "user_url": "https://github.com/PillTime",
-    "images": ["/src/assets/rEFInd-minimal-dark-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-minimal-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2016-10-07T16:16:47Z",
     "isNew": false
@@ -1232,7 +1468,9 @@
     "link": "https://github.com/M-L-P/rEFInd-theme-Yours?tab=readme-ov-file",
     "user": "M-L-P",
     "user_url": "https://github.com/M-L-P",
-    "images": ["/src/assets/rEFInd-theme-Yours-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-theme-Yours-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-05-07T11:55:36Z",
     "isNew": false
@@ -1244,7 +1482,9 @@
     "link": "https://github.com/jpmvferreira/refind-ambience-deer-and-fireflies",
     "user": "jpmvferreira",
     "user_url": "https://github.com/jpmvferreira",
-    "images": ["/src/assets/refind-ambience-deer-and-fireflies-0.webp"],
+    "images": [
+      "/src/assets/refind-ambience-deer-and-fireflies-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-02-05T11:34:59Z",
     "isNew": false
@@ -1256,7 +1496,9 @@
     "link": "https://github.com/sihann/refind-gruvbox-theme",
     "user": "sihann",
     "user_url": "https://github.com/sihann",
-    "images": ["/src/assets/refind-gruvbox-theme-0.webp"],
+    "images": [
+      "/src/assets/refind-gruvbox-theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-01-21T11:34:59Z",
     "isNew": false
@@ -1268,7 +1510,9 @@
     "link": "https://github.com/Chrisae9/rEFInd-mountain",
     "user": "Chrisae9",
     "user_url": "https://github.com/Chrisae9",
-    "images": ["/src/assets/rEFInd-mountain-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-mountain-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-03-25T03:19:21Z",
     "isNew": false
@@ -1280,7 +1524,9 @@
     "link": "https://github.com/1j01/refind-theme-regular",
     "user": "1j01",
     "user_url": "https://github.com/1j01",
-    "images": ["/src/assets/refind-theme-regular-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-regular-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2019-04-06T05:46:20Z",
     "isNew": false
@@ -1314,7 +1560,9 @@
     "link": "https://github.com/Valeria-Fadeeva/linux-boot-efi",
     "user": "Valeria-Fadeeva",
     "user_url": "https://github.com/Valeria-Fadeeva",
-    "images": ["/src/assets/linux-boot-efi-0.webp"],
+    "images": [
+      "/src/assets/linux-boot-efi-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-04-29T16:04:20Z",
     "isNew": false
@@ -1326,7 +1574,9 @@
     "link": "https://github.com/matomatical/grey-apple",
     "user": "matomatical",
     "user_url": "https://github.com/matomatical",
-    "images": ["/src/assets/grey-apple-0.webp"],
+    "images": [
+      "/src/assets/grey-apple-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-10-24T13:00:05Z",
     "isNew": false
@@ -1338,7 +1588,9 @@
     "link": "https://github.com/FerLS/LazaGRUB",
     "user": "FerLS",
     "user_url": "https://github.com/FerLS",
-    "images": ["/src/assets/LazaGRUB-0.webp"],
+    "images": [
+      "/src/assets/LazaGRUB-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-09-26T11:34:47Z",
     "isNew": false
@@ -1350,7 +1602,9 @@
     "link": "https://github.com/ajlende/rEFInd-dawn",
     "user": "ajlende",
     "user_url": "https://github.com/ajlende",
-    "images": ["/src/assets/rEFInd-dawn-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-dawn-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-04-23T02:41:32Z",
     "isNew": false
@@ -1362,7 +1616,9 @@
     "link": "https://github.com/zeroday0619/rEFInd-pachirisu",
     "user": "zeroday0619",
     "user_url": "https://github.com/zeroday0619",
-    "images": ["/src/assets/rEFInd-pachirisu-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-pachirisu-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2021-10-21T11:34:59Z",
     "isNew": false
@@ -1374,7 +1630,9 @@
     "link": "https://github.com/Paradox1937/rEFInd-Celestial-Theme",
     "user": "Paradox1937",
     "user_url": "https://github.com/Paradox1937",
-    "images": ["/src/assets/rEFInd-Celestial-Theme-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Celestial-Theme-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-02-21T21:27:43Z",
     "isNew": false
@@ -1386,7 +1644,9 @@
     "link": "https://github.com/phonot/terminal-bootloader",
     "user": "phonot",
     "user_url": "https://github.com/phonot",
-    "images": ["/src/assets/terminal-bootloader-0.webp"],
+    "images": [
+      "/src/assets/terminal-bootloader-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-04-18T04:56:00Z",
     "isNew": false
@@ -1398,7 +1658,9 @@
     "link": "https://github.com/riftsandroses/rEFInd-RetroGame",
     "user": "riftsandroses",
     "user_url": "https://github.com/riftsandroses",
-    "images": ["/src/assets/rEFInd-RetroGame-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-RetroGame-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2022-05-10T17:27:24Z",
     "isNew": false
@@ -1425,7 +1687,9 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-wildside",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": ["/src/assets/rEFInd-wildside-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-wildside-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-12-31T07:48:04Z",
     "isNew": false
@@ -1437,7 +1701,9 @@
     "link": "https://github.com/AliciaTransmuted/rEFInd-splash",
     "user": "AliciaTransmuted",
     "user_url": "https://github.com/AliciaTransmuted",
-    "images": ["/src/assets/rEFInd-splash-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-splash-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2018-12-31T08:13:24Z",
     "isNew": false
@@ -1449,7 +1715,9 @@
     "link": "https://github.com/SLywnow/hi-dark",
     "user": "SLywnow",
     "user_url": "https://github.com/SLywnow",
-    "images": ["/src/assets/hi-dark-0.webp"],
+    "images": [
+      "/src/assets/hi-dark-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-05-13T21:20:25Z",
     "isNew": false
@@ -1461,7 +1729,9 @@
     "link": "https://github.com/Gutleibmann/refind-theme-regular-minimalism",
     "user": "Gutleibmann",
     "user_url": "https://github.com/Gutleibmann",
-    "images": ["/src/assets/refind-theme-regular-minimalism-0.webp"],
+    "images": [
+      "/src/assets/refind-theme-regular-minimalism-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-08-30T00:25:43Z",
     "isNew": false
@@ -1473,7 +1743,9 @@
     "link": "https://github.com/BetaTester41/rEFInd-Metro",
     "user": "BetaTester41",
     "user_url": "https://github.com/BetaTester41",
-    "images": ["/src/assets/rEFInd-Metro-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Metro-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2020-12-18T17:53:23Z",
     "isNew": false
@@ -1485,7 +1757,9 @@
     "link": "https://github.com/zwzheng45/rEFInd-Phi",
     "user": "zwzheng45",
     "user_url": "https://github.com/zwzheng45",
-    "images": ["/src/assets/rEFInd-Phi-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Phi-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-08-04T10:42:34Z",
     "isNew": false
@@ -1497,7 +1771,9 @@
     "link": "https://github.com/Nyoutaaa/rEFInd-Minimalist",
     "user": "Nyoutaaa",
     "user_url": "https://github.com/Nyoutaaa",
-    "images": ["/src/assets/rEFInd-Minimalist-0.webp"],
+    "images": [
+      "/src/assets/rEFInd-Minimalist-0.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-12-07T01:34:24Z",
     "isNew": false
