@@ -11,6 +11,138 @@
     "recently_added": true
   },
   {
+    "id": "8a3c827c-f917-42d3-80eb-2306c39da2f5",
+    "name": "RONBM",
+    "description": "Refind OLED No Blind Me Theme",
+    "link": "https://github.com/gutlessCGH/RONBM",
+    "user": "gutlessCGH",
+    "user_url": "https://github.com/gutlessCGH",
+    "images": ["/src/assets/ronbm.webp", "/src/assets/ronbm-1.webp"],
+    "creation_date": "2026-02-06T09:47:40Z",
+    "recently_added": true
+  },
+  {
+    "id": "5599e5fa-cbc8-4a13-bb0e-dd1ce4bb0239",
+    "name": "refind-efifetch",
+    "description": "neofetch theme for the rEFInd boot manager",
+    "link": "https://github.com/CriticalPulsar/refind-efifetch",
+    "user": "CriticalPulsar",
+    "user_url": "https://github.com/CriticalPulsar",
+    "images": ["/src/assets/refind_efifetch_1.webp"],
+    "creation_date": "2021-09-10T05:35:21Z",
+    "recently_added": false
+  },
+  {
+    "id": "091fa253-389d-4257-b470-05639429bb20",
+    "name": "tricky-refind",
+    "description": "refind theme",
+    "link": "https://github.com/trickpattyFH20/tricky-refind",
+    "user": "trickpattyFH20",
+    "user_url": "https://github.com/trickpattyFH20",
+    "images": ["/src/assets/tricky-refind.webp"],
+    "creation_date": "2025-11-13T03:00:43Z",
+    "recently_added": false
+  },
+  {
+    "id": "1cd4672a-5848-4810-9b71-bf59b2cc05cf",
+    "name": "refind-theme",
+    "description": "This is config for refind boot loader custom UI.",
+    "link": "https://github.com/shyam-delvadiya/refind-theme",
+    "user": "shyam-delvadiya",
+    "user_url": "https://github.com/shyam-delvadiya",
+    "images": ["/src/assets/refind-theme.webp"],
+    "creation_date": "2026-01-05T16:20:25Z",
+    "recently_added": false
+  },
+  {
+    "id": "c031af3f-7932-4032-bd57-f42fb01e688f",
+    "name": "uzbek-refind-theme",
+    "description": "rEFInd Theme for Uzbek Linux",
+    "link": "https://github.com/UzbekLinux/uzbek-refind-theme",
+    "user": "UzbekLinux",
+    "user_url": "https://github.com/UzbekLinux",
+    "images": ["/src/assets/uzbek-refind-theme.webp"],
+    "creation_date": "2026-02-01T14:36:16Z",
+    "recently_added": false
+  },
+  {
+    "id": "d693b282-0319-48c5-b5a1-6a38950f4665",
+    "name": "refind-minimalistic",
+    "description": "This forked theme is modified version of refind-theme by kvnbias",
+    "link": "https://github.com/m3h3d1ha2an/refind-minimalistic",
+    "user": "m3h3d1ha2an",
+    "user_url": "https://github.com/m3h3d1ha2an",
+    "images": ["/src/assets/refind_minimalistic_0.webp"],
+    "creation_date": "2023-05-21T07:38:19Z",
+    "recently_added": false
+  },
+  {
+    "id": "cce7a094-2f82-44bf-a882-5747c36400c0",
+    "name": "refind-regular-dark",
+    "description": "This forked theme is modified dark version of refind-theme-regular",
+    "link": "https://github.com/m3h3d1ha2an/refind-regular-dark",
+    "user": "m3h3d1ha2an",
+    "user_url": "https://github.com/m3h3d1ha2an",
+    "images": ["/src/assets/refind_regular_dark_0.webp"],
+    "creation_date": "2023-05-21T09:24:19Z",
+    "recently_added": false
+  },
+  {
+    "id": "db826f70-35e5-4cb3-aca1-555b4178cc77",
+    "name": "rEFInd-LC-theme",
+    "description": "A Lethal Company based theme for rEFInd",
+    "link": "https://github.com/DaniVals/rEFInd-LC-theme",
+    "user": "DaniVals",
+    "user_url": "https://github.com/DaniVals",
+    "images": ["/src/assets/refind-lc-theme.webp"],
+    "creation_date": "2025-11-30T01:00:08Z",
+    "recently_added": false
+  },
+  {
+    "id": "2e05ed03-b44d-45d9-bd32-e71d11d0c59e",
+    "name": "rEFInd-BatmanNeon",
+    "description": "Batman-themed rEFInd boot loader.",
+    "link": "https://github.com/Thi-Huynh01/rEFInd-BatmanNeon",
+    "user": "Thi-Huynh01",
+    "user_url": "https://github.com/Thi-Huynh01",
+    "images": ["/src/assets/refind-batmanneon.webp"],
+    "creation_date": "2025-10-26T17:30:29Z",
+    "recently_added": false
+  },
+  {
+    "id": "4daeee75-598c-4a58-abc0-3d2ff6e6897a",
+    "name": "rEFInd-OW-theme",
+    "description": "An Outer Wilds inspired theme for the rEFInd boot manager [Work in Progress]",
+    "link": "https://github.com/martibarimaff/rEFInd-OW-theme",
+    "user": "martibarimaff",
+    "user_url": "https://github.com/martibarimaff",
+    "images": ["/src/assets/refind-ow-theme.webp"],
+    "creation_date": "2025-10-12T18:56:50Z",
+    "recently_added": false
+  },
+  {
+    "id": "637b80d3-f0b2-4fb9-be94-be9cad530f34",
+    "name": "Starwars-rEFInd",
+    "description": "A high-resolution theme for the rEFInd Boot Manager, where you can choose between your Light side and your Dark side (Perfect for Dual booted systems!).",
+    "link": "https://github.com/thilakshan2003/Starwars-rEFInd",
+    "user": "thilakshan2003",
+    "user_url": "https://github.com/thilakshan2003",
+    "images": ["/src/assets/starwars_refind_0.webp"],
+    "creation_date": "2025-12-13T17:41:55Z",
+    "recently_added": false
+  },
+  {
+    "id": "c0b3a522-23d6-4406-b93b-717eacdf17f9",
+    "name": "minimal-taichi",
+    "description": "Added some re-designed icon in minimal",
+    "link": "https://github.com/Stark-Sparking/minimal-taichi",
+    "user": "Stark-Sparking",
+    "user_url": "https://github.com/Stark-Sparking",
+    "images": ["/src/assets/minimal-taichi.webp"],
+    "creation_date": "2025-12-14T10:04:03Z",
+    "recently_added": false
+  },
+  {
     "id": "f4f2c1b0-c2f8-4e8a-8a1a-8b0e6e2a9e8f",
     "name": "rEFInd-Synthwave",
     "description": "A clean, retrofuturistic Synthwave rEFInd theme",
@@ -19,7 +151,7 @@
     "user_url": "https://github.com/ussooraj",
     "images": ["/src/assets/rEFInd-Synthwave.webp"],
     "creation_date": "2025-11-07T07:00:00Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "3e64762e-4af5-431a-90a2-11277c3b4f8d",
@@ -28,7 +160,7 @@
     "link": "https://github.com/phamhuulocforwork/refind-theme",
     "user": "phamhuulocforwork",
     "user_url": "https://github.com/phamhuulocforwork",
-    "images": ["src/assets/refind_theme_0.webp"],
+    "images": ["/src/assets/refind_theme_0.webp"],
     "recently_added": false,
     "isNew": true,
     "creation_date": "2025-09-16T16:36:50Z"
@@ -42,7 +174,7 @@
     "user_url": "https://github.com/Paradox-AT",
     "images": ["/src/assets/rEFInd-minimal-rog.webp"],
     "creation_date": "2025-08-20T22:00:25Z",
-    "recently_added": true,
+    "recently_added": false,
     "isNew": false
   },
   {
@@ -54,7 +186,7 @@
     "user_url": "https://github.com/danielscf",
     "images": [],
     "creation_date": "2025-08-13T22:17:25Z",
-    "recently_added": true,
+    "recently_added": false,
     "isNew": false
   },
   {
@@ -65,7 +197,7 @@
     "user": "NilsPvR",
     "user_url": "https://github.com/NilsPvR",
     "images": ["/src/assets/rEFInd-nils-0.webp"],
-    "recently_added": true,
+    "recently_added": false,
     "creation_date": "2025-08-04T15:09:46Z",
     "isNew": false
   },
@@ -76,7 +208,10 @@
     "link": "https://github.com/Lindstream/dm-refind-theme",
     "user": "Lindstream",
     "user_url": "https://github.com/Lindstream",
-    "images": ["/src/assets/dm-refind-theme-0.webp", "/src/assets/dm-refind-theme-1.webp"],
+    "images": [
+      "/src/assets/dm-refind-theme-0.webp",
+      "/src/assets/dm-refind-theme-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2015-09-16T14:57:18Z",
     "isNew": false
@@ -267,7 +402,10 @@
     "link": "https://github.com/almighty-loaf/rEFInd-tokyo-night",
     "user": "almighty-loaf",
     "user_url": "https://github.com/almighty-loaf",
-    "images": ["/src/assets/rEFInd-tokyo-night-0.webp", "/src/assets/rEFInd-tokyo-night-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-tokyo-night-0.webp",
+      "/src/assets/rEFInd-tokyo-night-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2023-09-07T04:29:18Z",
     "isNew": false
@@ -307,7 +445,10 @@
     "link": "https://github.com/lkwq007/rEFInd-ZJU",
     "user": "lkwq007",
     "user_url": "https://github.com/lkwq007",
-    "images": ["/src/assets/rEFInd-ZJU-0.webp", "/src/assets/rEFInd-ZJU-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-ZJU-0.webp",
+      "/src/assets/rEFInd-ZJU-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2015-04-24T09:58:57Z",
     "isNew": false
@@ -487,21 +628,12 @@
     "link": "https://github.com/codesshaman/refind_sunset",
     "user": "codesshaman",
     "user_url": "https://github.com/codesshaman",
-    "images": ["/src/assets/refind_sunset-0.webp", "/src/assets/refind_sunset-1.webp"],
+    "images": [
+      "/src/assets/refind_sunset-0.webp",
+      "/src/assets/refind_sunset-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-08T17:10:04Z",
-    "isNew": false
-  },
-  {
-    "id": "e4cb9805-bb64-411a-b940-941af367786d",
-    "name": "graphite-nord-dark-refind",
-    "description": "A refind theme (WIP)",
-    "link": "https://github.com/NyaomiDEV/graphite-nord-dark-refind",
-    "user": "NyaomiDEV",
-    "user_url": "https://github.com/NyaomiDEV",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2024-02-27T16:14:04Z",
     "isNew": false
   },
   {
@@ -697,30 +829,6 @@
     "isNew": false
   },
   {
-    "id": "46072773-2caa-4f54-8b11-35d1a1cdd475",
-    "name": "custom-rEFInd-theme",
-    "description": "",
-    "link": "https://github.com/laripo/custom-rEFInd-theme",
-    "user": "laripo",
-    "user_url": "https://github.com/laripo",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2021-11-12T03:21:07Z",
-    "isNew": false
-  },
-  {
-    "id": "9f4a577f-86cb-4dff-8a26-2c5f313e43cf",
-    "name": "rEFind-themes-minimal",
-    "description": "",
-    "link": "https://github.com/a-lien-ware/rEFind-themes-minimal",
-    "user": "a-lien-ware",
-    "user_url": "https://github.com/a-lien-ware",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2025-05-30T13:46:59Z",
-    "isNew": false
-  },
-  {
     "id": "b2316e75-42eb-412a-8dfe-b4fa5ff0d69f",
     "name": "refind-bk",
     "description": "My rEFInd theme with more Linux Logos",
@@ -827,7 +935,10 @@
     "link": "https://github.com/chris1111/rEFInd-Shadow-IOS?tab=readme-ov-file",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": ["/src/assets/rEFInd-Shadow-IOS-0.webp", "/src/assets/rEFInd-Shadow-IOS-1.webp"],
+    "images": [
+      "/src/assets/rEFInd-Shadow-IOS-0.webp",
+      "/src/assets/rEFInd-Shadow-IOS-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-06T13:25:41Z",
     "isNew": false
@@ -839,7 +950,10 @@
     "link": "https://github.com/chris1111/Shadow-rEFInd",
     "user": "chris1111",
     "user_url": "https://github.com/chris1111",
-    "images": ["/src/assets/Shadow-rEFInd-0.webp", "/src/assets/Shadow-rEFInd-1.webp"],
+    "images": [
+      "/src/assets/Shadow-rEFInd-0.webp",
+      "/src/assets/Shadow-rEFInd-1.webp"
+    ],
     "recently_added": false,
     "creation_date": "2024-12-01T20:37:29Z",
     "isNew": false
@@ -1039,18 +1153,6 @@
     "images": ["/src/assets/dm-0.webp"],
     "recently_added": false,
     "creation_date": "2017-02-07T12:56:32Z",
-    "isNew": false
-  },
-  {
-    "id": "29c141df-9489-47e6-9acb-5346f2dd59db",
-    "name": "refind-efifetch",
-    "description": "neofetch theme for the rEFInd boot manager",
-    "link": "https://github.com/bushtail/refind-efifetch",
-    "user": "bushtail",
-    "user_url": "https://github.com/bushtail",
-    "images": ["/src/assets/refind-efifetch-0.webp"],
-    "recently_added": false,
-    "creation_date": "2020-06-17T23:29:59Z",
     "isNew": false
   },
   {
