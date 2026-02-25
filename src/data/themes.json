@@ -1,13 +1,13 @@
 [
   {
-    "id": "5d0d8848-6800-4d37-a942-4a13d855a24f",
-    "name": "Portal Refind Theme",
-    "description": "This is a custom portal refind theme made by me! This comes with it's own themed icons, feel free to delete the icons folder and remove the corresponding icon line in portalTheme.conf",
-    "link": "https://github.com/zapsters/portalRefindTheme",
-    "user": "zapsters",
-    "user_url": "https://github.com/zapsters",
-    "images": [],
-    "creation_date": "2025-12-10T07:00:00Z",
+    "id": "557d04af-2332-41f0-854d-ba1131babfc0",
+    "name": "refindTTT",
+    "description": "Using transparency to vibrantly highlight and reveal a text label for only the selected icon.",
+    "link": "https://github.com/gutlessCGH/refindTTT",
+    "user": "gutlessCGH",
+    "user_url": "https://github.com/gutlessCGH",
+    "images": ["/src/assets/refindttt.webp"],
+    "creation_date": "2026-02-24T13:34:45Z",
     "recently_added": true
   },
   {
@@ -19,7 +19,7 @@
     "user_url": "https://github.com/gutlessCGH",
     "images": ["/src/assets/ronbm.webp", "/src/assets/ronbm-1.webp"],
     "creation_date": "2026-02-06T09:47:40Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "5599e5fa-cbc8-4a13-bb0e-dd1ce4bb0239",
