@@ -22,7 +22,6 @@
     "flowbite": "^3.1.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "swiper": "^11.2.10",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.2"
   },
