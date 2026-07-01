@@ -1,30 +1,6 @@
 ---
 import ThemeSwitcher from "@components/ThemeSwitcher.astro";
 import ColorSwatchIcon from "@src/icons/ColorSwatchIcon.astro";
-import EmailIcon from "@src/icons/EmailIcon.astro";
-import GitHubIcon from "@src/icons/GitHubIcon.astro";
-import HomeIcon from "@src/icons/HomeIcon.astro";
-
-const navItems = [
-  {
-    title: "Home",
-    label: "home",
-    url: "/#home",
-    icon: HomeIcon
-  },
-  {
-    title: "Contact",
-    label: "contact",
-    url: "mailto:martin.milani.mdq@gmail.com",
-    icon: EmailIcon
-  },
-  {
-    title: "Github",
-    label: "github",
-    url: "https://github.com/martinmilani/rEFInd-theme-collection",
-    icon: GitHubIcon
-  }
-];
 ---
 
 <nav class="fixed start-0 top-0 z-50 w-full bg-gray-50 dark:bg-gray-900">
@@ -67,22 +43,6 @@ const navItems = [
       <ul
         class="mt-4 flex w-full flex-col rounded-lg border border-gray-200 p-4 font-medium dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:items-center md:space-x-3 md:border-0 md:bg-gray-50 md:p-0 md:dark:bg-gray-900 rtl:space-x-reverse"
       >
-        {
-          navItems.map((item) => (
-            <li class="w-full">
-              <a
-                href={item.url}
-                class="mt-2 inline-block w-full px-3 py-2 text-gray-900 transition duration-200 ease-in-out hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:inline-block md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-dracula-400 md:dark:hover:bg-transparent md:dark:hover:text-dracula-400"
-                aria-label={item.label}
-              >
-                <div class="flex items-center">
-                  {item.icon && <item.icon class="mr-2 h-5 w-5" />}
-                  {<span class="inline md:hidden">{item.title}</span>}
-                </div>
-              </a>
-            </li>
-          ))
-        }
         <li class="w-full">
           <button
             onclick="document.getElementById('faq-dialog').showModal()"
