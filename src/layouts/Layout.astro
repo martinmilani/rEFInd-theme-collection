@@ -70,6 +70,103 @@ const fullImageUrl = new URL(image, url).toString();
       name="keywords"
       content="refind themes, boot manager customization, UEFI themes, rEFInd boot manager, boot screen themes, linux boot manager, customize bootloader"
     />
+
+    <!-- JSON-LD Structured Data for SEO / GEO -->
+    <script type="application/ld+json" is:inline>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://refind-themes-collection.netlify.app/#website",
+            "url": "https://refind-themes-collection.netlify.app",
+            "name": "rEFInd Themes Collection",
+            "description": "Curated collection of 140+ clean, minimalist, and dark themes for the rEFInd UEFI boot manager. Live previews, screenshots, and direct download links.",
+            "publisher": {
+              "@type": "Person",
+              "name": "Martin Milani",
+              "url": "https://github.com/martinmilani"
+            }
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://refind-themes-collection.netlify.app/#webpage",
+            "url": "https://refind-themes-collection.netlify.app",
+            "name": "rEFInd Themes Gallery",
+            "isPartOf": {
+              "@id": "https://refind-themes-collection.netlify.app/#website"
+            },
+            "description": "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Live previews and direct download links to customize your boot screen."
+          },
+          {
+            "@type": "HowTo",
+            "@id": "https://refind-themes-collection.netlify.app/#howto",
+            "name": "How to Install a rEFInd Theme",
+            "description": "Step-by-step instructions to download and apply a custom theme for the rEFInd UEFI boot manager.",
+            "step": [
+              {
+                "@type": "HowToStep",
+                "name": "Locate the Themes Directory",
+                "text": "Find or create the 'themes' directory within your rEFInd installation directory (typically /boot/efi/EFI/refind/themes/)."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Download the Theme",
+                "text": "Clone the chosen theme repository or extract its files directly into the 'themes' directory."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Modify refind.conf",
+                "text": "Open refind.conf in a text editor with admin rights and append 'include themes/theme-folder-name/theme.conf' at the end."
+              },
+              {
+                "@type": "HowToStep",
+                "name": "Reboot",
+                "text": "Save the configuration file and reboot your computer to see the newly applied theme."
+              }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://refind-themes-collection.netlify.app/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is rEFInd?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "rEFInd is an advanced, open-source UEFI boot manager maintained by Rod Smith. It is designed to manage multi-boot environments (such as Linux, macOS, and Windows) with a clean graphical user interface."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where is the refind.conf configuration file located?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The path to refind.conf varies: /boot/efi/EFI/refind/refind.conf on Linux, /Volumes/ESP/EFI/refind/refind.conf on macOS (after mounting the ESP), or S:\\EFI\\refind\\refind.conf on Windows after mounting ESP to drive S:."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How do I install a rEFInd theme?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To install a rEFInd theme: 1. Locate/create /boot/efi/EFI/refind/themes/. 2. Clone/download the theme files into that directory. 3. Edit /boot/efi/EFI/refind/refind.conf and append 'include themes/theme-folder-name/theme.conf' at the bottom."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I customize OS icons and backgrounds in rEFInd themes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. rEFInd themes define custom graphics for OS selection icons, tool icons, and backgrounds. You can manually replace individual PNG assets in the theme folder."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
     <script is:inline>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       if (

@@ -13,7 +13,15 @@ type Props = {
   recently_added: boolean;
 };
 
-export default function Card({ name, description, link, user, user_url, images, recently_added }: Props) {
+export default function Card({
+  name,
+  description,
+  link,
+  user,
+  user_url,
+  images,
+  recently_added
+}: Props) {
   return (
     <div className="w-full">
       <div className="relative">
@@ -32,7 +40,12 @@ export default function Card({ name, description, link, user, user_url, images, 
         <div className="px-1 py-4">
           <div className="flex w-full flex-row items-center justify-between gap-x-2">
             <div className="flex w-full flex-row items-center justify-between gap-x-1">
-              <a href={link} target="_blank" className="font-medium" rel="noopener noreferrer">
+              <a
+                href={link}
+                target="_blank"
+                className="font-medium"
+                rel="noopener noreferrer"
+              >
                 {name}
               </a>
               {recently_added && (

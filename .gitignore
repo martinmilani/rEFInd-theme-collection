@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # vscode specific files
 .vscode/
+
+# Skills
+.agents/skills

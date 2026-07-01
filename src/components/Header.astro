@@ -31,7 +31,11 @@ const navItems = [
   <div
     class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4 lg:max-w-screen-2xl"
   >
-    <a href="/#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a
+      href="/#home"
+      class="flex items-center space-x-3 rtl:space-x-reverse"
+      aria-label="rEFInd Theme Collection Home"
+    >
       <ColorSwatchIcon
         class="h-8 w-8 text-gray-900 transition duration-200 ease-in-out hover:text-dracula-400 dark:text-white dark:hover:text-dracula-400"
       />
@@ -79,6 +83,33 @@ const navItems = [
             </li>
           ))
         }
+        <li class="w-full">
+          <button
+            onclick="document.getElementById('faq-dialog').showModal()"
+            class="mt-2 inline-block w-full px-3 py-2 text-left text-gray-900 transition duration-200 ease-in-out hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:inline-block md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-dracula-400 md:dark:hover:bg-transparent md:dark:hover:text-dracula-400"
+            aria-label="Open FAQs"
+          >
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="mr-2 h-5 w-5"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+              </svg>
+              <span class="inline md:hidden">FAQs</span>
+            </div>
+          </button>
+        </li>
         <li class="">
           <ThemeSwitcher />
         </li>

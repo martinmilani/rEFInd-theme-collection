@@ -1,0 +1,168 @@
+---
+
+---
+
+<dialog
+  id="faq-dialog"
+  class="w-full max-w-4xl border-0 bg-transparent p-4 outline-none backdrop:bg-gray-900/50 dark:backdrop:bg-gray-900/80"
+>
+  <div
+    class="relative max-h-[85vh] overflow-y-auto rounded-2xl border border-gray-200 bg-gray-50 p-6 text-gray-900 shadow-2xl dark:border-gray-800 dark:bg-gray-900 dark:text-white md:p-8"
+  >
+    <!-- Close Button -->
+    <button
+      onclick="this.closest('dialog').close()"
+      class="absolute right-4 top-4 text-gray-400 transition duration-200 hover:text-gray-600 dark:hover:text-white"
+      aria-label="Close FAQ dialog"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="h-6 w-6"
+        ><line x1="18" y1="6" x2="6" y2="18"></line><line
+          x1="6"
+          y1="6"
+          x2="18"
+          y2="18"></line></svg
+      >
+    </button>
+
+    <h2
+      class="mb-8 text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-4xl"
+    >
+      Frequently Asked Questions & Installation Guide
+    </h2>
+
+    <div class="grid gap-8 md:grid-cols-2">
+      <div
+        class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+      >
+        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
+          What is rEFInd?
+        </h3>
+        <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+          rEFInd is an advanced, open-source UEFI boot manager maintained by <a
+            href="https://www.rodsbooks.com/refind/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="font-semibold text-dracula-400 hover:underline">Rod Smith</a
+          >. Designed for systems that dual-boot or multi-boot multiple
+          operating systems—such as Linux distributions (Ubuntu, Arch, Fedora),
+          macOS, and Windows—rEFInd offers a clean, visual alternative to
+          default text-only bootloaders like GRUB.
+        </p>
+      </div>
+
+      <div
+        class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+      >
+        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
+          Where is the refind.conf configuration file located?
+        </h3>
+        <p
+          class="mb-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400"
+        >
+          The location of the <code>refind.conf</code> file depends on your operating
+          system and setup:
+        </p>
+        <ul
+          class="list-disc space-y-1 pl-5 text-xs text-gray-600 dark:text-gray-400"
+        >
+          <li>
+            <strong>Linux:</strong> Typically located at <code
+              >/boot/efi/EFI/refind/refind.conf</code
+            > or <code>/boot/EFI/refind/refind.conf</code>.
+          </li>
+          <li>
+            <strong>macOS:</strong> Found at <code
+              >/Volumes/ESP/EFI/refind/refind.conf</code
+            > (requires mounting the EFI System Partition first).
+          </li>
+          <li>
+            <strong>Windows:</strong> Located at <code
+              >S:\EFI\refind\refind.conf</code
+            > (after mounting the ESP to drive S: as Administrator).
+          </li>
+        </ul>
+      </div>
+
+      <div
+        class="col-span-full rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+      >
+        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
+          How do I install a rEFInd theme?
+        </h3>
+        <div
+          class="space-y-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400"
+        >
+          <p>
+            Follow these 4 simple steps to install and apply any of the 140+
+            themes from our collection:
+          </p>
+          <ol class="list-decimal space-y-3 pl-5 text-xs md:text-sm">
+            <li>
+              <strong>Locate the themes directory:</strong> Find the <code
+                >themes/</code
+              > folder within your rEFInd installation directory. If it doesn't exist,
+              create it:
+              <pre
+                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">mkdir -p /boot/efi/EFI/refind/themes</pre>
+            </li>
+            <li>
+              <strong>Download the theme:</strong> Clone the GitHub repository of
+              your chosen theme directly into the themes directory, or download and
+              extract the ZIP archive:
+              <pre
+                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">git clone https://github.com/user/theme-repo.git /boot/efi/EFI/refind/themes/theme-name</pre>
+            </li>
+            <li>
+              <strong>Modify the configuration file:</strong> Open your <code
+                >refind.conf</code
+              > file in a text editor with administrative privileges, and add the
+              following line at the absolute bottom:
+              <pre
+                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">include themes/theme-name/theme.conf</pre>
+            </li>
+            <li>
+              <strong>Verify and Reboot:</strong> Save the file. When you reboot
+              your computer, rEFInd will render the new interface theme.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div
+        class="col-span-full rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+      >
+        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
+          Can I customize OS icons and backgrounds?
+        </h3>
+        <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
+          Yes! rEFInd themes define custom graphics for operating system
+          selection icons (Linux, Windows, macOS, Arch, Ubuntu, etc.), tool
+          icons (reboot, shutdown, firmware), selection highlights, and banner
+          backgrounds. You can easily swap or customize individual <code
+            >.png</code
+          > icon files inside the theme's directory to perfectly suit your preferences.
+        </p>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script is:inline>
+  // Close dialog on clicking backdrop
+  const dialog = document.getElementById("faq-dialog");
+  dialog?.addEventListener("click", (event) => {
+    if (event.target === dialog) {
+      dialog.close();
+    }
+  });
+</script>
