@@ -1,5 +1,16 @@
 [
   {
+    "id": "fa38c6fe-8cd5-470d-9b80-cce31c070a84",
+    "name": "refind-finn-term",
+    "description": "Terminal style theme in black, purple and pink, with a fake boot log and CRT scanlines",
+    "link": "https://github.com/FaeArtz/refind-finn-term",
+    "user": "FaeArtz",
+    "user_url": "https://github.com/FaeArtz",
+    "images": ["/src/assets/refind-finn-term.webp"],
+    "creation_date": "2026-07-13T15:51:17Z",
+    "recently_added": true
+  },
+  {
     "id": "beb0cc9f-9848-4c57-abe1-d626d5d9661b",
     "name": "refind-ben-10",
     "description": "Custom refind theme",
