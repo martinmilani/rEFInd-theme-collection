@@ -1,4 +1,5 @@
 allowBuilds:
   "@parcel/watcher": true
   esbuild: true
+  inotify: true
   sharp: true
