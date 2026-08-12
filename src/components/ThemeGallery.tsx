@@ -36,9 +36,14 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
 
   const themesWithImages = useMemo(() => {
     return themes.map((theme) => {
-      const imagePaths = [...theme.data.images.map((image) => {
-        return images[image]?.default.src;
-      }), images[`/src/assets/${theme.data.link.slice(19).replace(/\//g,'--')}.webp`]?.default.src];
+      const imagePaths = [
+        ...theme.data.images.map((image) => {
+          return images[image]?.default.src;
+        }),
+        images[
+          `/src/assets/${theme.data.link.slice(19).replace(/\//g, "--")}.webp`
+        ]?.default.src
+      ];
 
       return {
         ...theme,

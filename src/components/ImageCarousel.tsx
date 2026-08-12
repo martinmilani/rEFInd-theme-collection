@@ -43,7 +43,7 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
     const { clientWidth } = ref.current;
     ref.current.scrollBy({
       left: direction === "next" ? clientWidth : -clientWidth,
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
 
@@ -54,7 +54,7 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
     if (!ref.current) return;
     ref.current.scrollTo({
       left: index * ref.current.clientWidth,
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
 
@@ -78,7 +78,14 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
         className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100"
         aria-label="Previous image"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-5 w-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          className="h-5 w-5"
+        >
           <polyline points="15 18 9 12 15 6" />
         </svg>
       </button>
@@ -89,7 +96,14 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
         className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-black/40 p-2 text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100"
         aria-label="Next image"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="h-5 w-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          className="h-5 w-5"
+        >
           <polyline points="9 18 15 12 9 6" />
         </svg>
       </button>
