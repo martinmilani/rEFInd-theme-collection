@@ -13,6 +13,8 @@ This project showcases a handpicked collection of rEFInd themes for users lookin
 
 Whether you prefer dark, light, colorful or minimalist themes — this site gives you an easy way to explore and download them.
 
+> 💡 **Tip:** To test and edit rEFInd themes interactively without rebooting, check out the [cachyos-bl](https://github.com/duangsuse/cachyos-bl/) project.
+
 ## 🚀 Features
 
 - 🌐 One-page gallery with fast preview
