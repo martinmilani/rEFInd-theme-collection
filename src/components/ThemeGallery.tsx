@@ -108,12 +108,6 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
           >
             Recently Added
           </FilterButton>
-          <FilterButton
-            isActive={activeFilter === FilterType.ONLY_WITH_IMAGES}
-            onClick={() => handleFilterChange(FilterType.ONLY_WITH_IMAGES)}
-          >
-            Only With Images
-          </FilterButton>
         </div>
       </div>
 
