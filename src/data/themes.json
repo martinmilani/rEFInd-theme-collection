@@ -256,17 +256,6 @@
     "recently_added": false
   },
   {
-    "id": "db826f70-35e5-4cb3-aca1-555b4178cc77",
-    "name": "rEFInd-LC-theme",
-    "description": "A Lethal Company based theme for rEFInd",
-    "link": "https://github.com/DaniVals/rEFInd-LC-theme",
-    "user": "DaniVals",
-    "user_url": "https://github.com/DaniVals",
-    "images": ["/src/assets/refind-lc-theme.webp"],
-    "creation_date": "2025-11-30T01:00:08Z",
-    "recently_added": false
-  },
-  {
     "id": "2e05ed03-b44d-45d9-bd32-e71d11d0c59e",
     "name": "rEFInd-BatmanNeon",
     "description": "Batman-themed rEFInd boot loader.",
@@ -297,17 +286,6 @@
     "user_url": "https://github.com/thilakshan2003",
     "images": ["/src/assets/starwars_refind_0.webp"],
     "creation_date": "2025-12-13T17:41:55Z",
-    "recently_added": false
-  },
-  {
-    "id": "c0b3a522-23d6-4406-b93b-717eacdf17f9",
-    "name": "minimal-taichi",
-    "description": "Added some re-designed icon in minimal",
-    "link": "https://github.com/Stark-Sparking/minimal-taichi",
-    "user": "Stark-Sparking",
-    "user_url": "https://github.com/Stark-Sparking",
-    "images": ["/src/assets/minimal-taichi.webp"],
-    "creation_date": "2025-12-14T10:04:03Z",
     "recently_added": false
   },
   {
@@ -819,7 +797,7 @@
   {
     "id": "bc1a0799-0251-432d-ac01-8acef89819af",
     "name": "refind-theme-regular",
-    "description": "",
+    "description": "A simplistic clean and minimal theme for rEFInd (Oldest)",
     "link": "https://github.com/kmyi/refind-theme-regular",
     "user": "kmyi",
     "user_url": "https://github.com/kmyi",
@@ -970,18 +948,6 @@
     "images": ["/src/assets/refind-t480-theme-0.webp"],
     "recently_added": false,
     "creation_date": "2022-12-08T10:56:43Z",
-    "isNew": false
-  },
-  {
-    "id": "bf7863f3-ecdc-4004-9e41-1136dbc46c62",
-    "name": "refind-arch-minimalist-theme",
-    "description": "Very minimal theme for rEFInd with Arch",
-    "link": "https://github.com/korsakjakub/refind-arch-minimalist-theme",
-    "user": "korsakjakub",
-    "user_url": "https://github.com/korsakjakub",
-    "images": [],
-    "recently_added": false,
-    "creation_date": "2022-08-16T10:20:46Z",
     "isNew": false
   },
   {
@@ -1528,30 +1494,6 @@
     "images": ["/src/assets/refind-ambience-deer-and-fireflies-0.webp"],
     "recently_added": false,
     "creation_date": "2021-02-05T11:34:59Z",
-    "isNew": false
-  },
-  {
-    "id": "aab90372-b2bc-4502-a2c7-a7379bc41718",
-    "name": "refind-gruvbox-theme",
-    "description": "Theme for rEFInd based on Gruvbox color scheme",
-    "link": "https://github.com/sihann/refind-gruvbox-theme",
-    "user": "sihann",
-    "user_url": "https://github.com/sihann",
-    "images": ["/src/assets/refind-gruvbox-theme-0.webp"],
-    "recently_added": false,
-    "creation_date": "2021-01-21T11:34:59Z",
-    "isNew": false
-  },
-  {
-    "id": "5705ce00-a18e-4547-b6a3-a83dd487f21d",
-    "name": "rEFInd-mountain",
-    "description": "A clean mountain theme for the rEFInd UEFI boot manager.",
-    "link": "https://github.com/Chrisae9/rEFInd-mountain",
-    "user": "Chrisae9",
-    "user_url": "https://github.com/Chrisae9",
-    "images": ["/src/assets/rEFInd-mountain-0.webp"],
-    "recently_added": false,
-    "creation_date": "2018-03-25T03:19:21Z",
     "isNew": false
   },
   {
