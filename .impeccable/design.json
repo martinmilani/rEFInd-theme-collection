@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T00:18:42.450312+00:00",
+  "title": "Design System: rEFInd Themes Collection",
+  "extensions": {
+    "colorMeta": {
+      "brand-violet": {
+        "role": "primary",
+        "displayName": "Dracula Violet",
+        "canonical": "#a771f6"
+      },
+      "surface-light": {
+        "role": "neutral",
+        "displayName": "Paper Gray",
+        "canonical": "#f9fafb"
+      },
+      "surface-dark": {
+        "role": "neutral",
+        "displayName": "Night Gray",
+        "canonical": "#111827"
+      },
+      "control-violet": {
+        "role": "primary",
+        "displayName": "Control Violet",
+        "canonical": "#6916e0"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card theme name."
+      }
+    },
+    "shadows": [
+      {
+        "name": "carousel-arrow-text",
+        "value": "0 2px 4px rgba(0,0,0,0.5)",
+        "purpose": "Legibility of arrows over images."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ui-transition",
+        "value": "200ms ease-in-out",
+        "purpose": "Hover and state changes, card hover scale."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Filter Pill",
+      "kind": "chip",
+      "refersTo": "filter-pill",
+      "description": "Inactive and active filter.",
+      "html": "<button class=\"ds-pill\">All</button> <button class=\"ds-pill ds-pill-on\">Recently Added</button>",
+      "css": ".ds-pill{font:500 14px 'Onest Variable',system-ui,sans-serif;border:1px solid #d1d5db;color:#374151;background:transparent;border-radius:9999px;padding:8px 16px;transition:all .2s ease-in-out;cursor:pointer}.ds-pill:hover{border-color:#a771f6;color:#7d2eed}.ds-pill:focus-visible{outline:none;box-shadow:0 0 0 4px #d3b6fc}.ds-pill-on{background:#7d2eed;border-color:#7d2eed;color:#fff}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Theme search with submit.",
+      "html": "<div class=\"ds-search\"><input class=\"ds-input\" type=\"search\" placeholder=\"Search Themes... (min 3 characters)\"><button class=\"ds-submit\">Search</button></div>",
+      "css": ".ds-search{position:relative;max-width:32rem}.ds-input{width:100%;box-sizing:border-box;border:1px solid #d1d5db;background:#f9fafb;color:#111827;border-radius:8px;padding:16px 96px 16px 16px;font:14px 'Onest Variable',system-ui,sans-serif}.ds-input:focus{outline:none;border-color:#924ff2}.ds-submit{position:absolute;right:10px;bottom:10px;background:#7d2eed;color:#fff;border:0;border-radius:8px;padding:8px 16px;font:500 14px 'Onest Variable',system-ui,sans-serif;cursor:pointer}.ds-submit:hover{background:#5914bb}.ds-submit:focus-visible{outline:none;box-shadow:0 0 0 4px #d3b6fc}"
+    },
+    {
+      "name": "New Badge",
+      "kind": "chip",
+      "refersTo": "new-badge",
+      "description": "Marks recently added themes.",
+      "html": "<span class=\"ds-badge\">New!</span>",
+      "css": ".ds-badge{background:#a771f6;color:#fff;border-radius:9999px;padding:2px 10px;font:500 12px 'Onest Variable',system-ui,sans-serif}"
+    },
+    {
+      "name": "Theme Card Text",
+      "kind": "card",
+      "description": "Name, description and author under a preview.",
+      "html": "<div class=\"ds-card\"><a class=\"ds-name\">rEFInd-lumen</a><p class=\"ds-desc\">A premium minimal rEFInd theme.</p><a class=\"ds-user\">author</a></div>",
+      "css": ".ds-card{font-family:'Onest Variable',system-ui,sans-serif;padding:16px 4px}.ds-name{font-weight:500;color:#111827}.ds-desc{margin:8px 0 0;font-size:14px;color:rgba(17,24,39,.7)}.ds-user{display:block;margin-top:8px;font-size:12px;color:rgba(17,24,39,.7)}.ds-user:hover{color:#a771f6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Gallery",
+    "overview": "The chrome is deliberately neutral so boot-screen previews are the only loud things on the page. One violet accent carries identity and controls.",
+    "keyCharacteristics": [
+      "Neutral gray surfaces; previews supply the color.",
+      "One accent: violet for identity and controls.",
+      "Plain, familiar components with no ornament.",
+      "Single fixed top bar, centered hero, responsive card grid."
+    ],
+    "rules": [
+      {
+        "name": "The Previews Speak Rule",
+        "body": "No decorative color competes with theme screenshots; chrome stays neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Accent Rule",
+        "body": "Violet carries both identity and controls; don't add a second hue.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do keep chrome neutral and let previews carry color.",
+      "Do use violet for identity, hover and controls.",
+      "Do support light and dark mode for every new element.",
+      "Do use Onest Variable across all text."
+    ],
+    "donts": [
+      "Don't add shadows or borders around cards; the Quiet Gallery stays flat.",
+      "Don't introduce a second accent hue.",
+      "Don't put decorative imagery near the previews."
+    ]
+  }
+}
