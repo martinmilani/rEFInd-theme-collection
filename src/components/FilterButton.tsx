@@ -12,13 +12,13 @@ export default function FilterButton({
   onClick
 }: FilterButtonProps) {
   const baseClasses =
-    "mb-2 me-2 rounded-full border px-4 py-2 text-center text-sm font-medium focus:outline-none focus:ring-4 transition duration-200 ease-in-out";
+    "mb-2 me-2 rounded-full border px-4 py-2 text-center text-sm font-medium focus:outline-none focus-visible:ring-4 transition duration-200 ease-in-out";
 
   const activeClasses =
-    "bg-blue-700 text-white border-blue-700 hover:bg-blue-800 focus:ring-blue-300 dark:bg-blue-600 dark:border-blue-500 dark:hover:bg-blue-700 dark:focus:ring-blue-800";
+    "bg-dracula-600 text-white border-dracula-600 hover:bg-dracula-700 focus-visible:ring-dracula-200 dark:bg-dracula-600 dark:border-dracula-500 dark:hover:bg-dracula-700 dark:focus-visible:ring-dracula-800";
 
   const inactiveClasses =
-    "border-gray-300 text-gray-700 hover:bg-blue-800 hover:text-white focus:ring-blue-300 dark:border-gray-600 dark:text-blue-500 dark:hover:bg-blue-500 dark:hover:text-white dark:focus:ring-blue-800";
+    "border-gray-300 text-gray-700 hover:border-dracula-400 hover:text-dracula-600 focus-visible:ring-dracula-200 dark:border-gray-600 dark:text-gray-300 dark:hover:border-dracula-400 dark:hover:text-dracula-300 dark:focus-visible:ring-dracula-800";
 
   return (
     <button

@@ -28,3 +28,9 @@ pnpm-debug.log*
 
 # Skills
 .agents/skills
+
+# Impeccable / agent tooling (installed skill, hooks, runtime output)
+.claude/
+.codex/
+.impeccable/*
+!.impeccable/design.json

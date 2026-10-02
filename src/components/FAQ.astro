@@ -1,31 +1,23 @@
 ---
+import { getCollection } from "astro:content";
 
+const themeCount = (await getCollection("themes")).length;
 ---
 
-<dialog
-  id="faq-dialog"
-  class="w-full max-w-4xl border-0 bg-transparent p-4 outline-none backdrop:bg-gray-900/50 dark:backdrop:bg-gray-900/80"
->
-  <div
-    class="relative max-h-[85vh] overflow-y-auto rounded-2xl border border-gray-200 bg-gray-50 p-6 text-gray-900 shadow-2xl dark:border-gray-800 dark:bg-gray-900 dark:text-white md:p-8"
-  >
-    <!-- Close Button -->
-    <button
-      onclick="this.closest('dialog').close()"
-      class="absolute right-4 top-4 text-gray-400 transition duration-200 hover:text-gray-600 dark:hover:text-white"
-      aria-label="Close FAQ dialog"
-    >
+<dialog id="faq-dialog" aria-labelledby="faq-title">
+  <div class="faq-panel">
+    <button type="button" class="faq-close" aria-label="Close help dialog">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
+        width="20"
+        height="20"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
         stroke-width="2"
         stroke-linecap="round"
         stroke-linejoin="round"
-        class="h-6 w-6"
+        aria-hidden="true"
         ><line x1="18" y1="6" x2="6" y2="18"></line><line
           x1="6"
           y1="6"
@@ -34,145 +26,620 @@
       >
     </button>
 
-    <h2
-      class="mb-8 text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-4xl"
-    >
-      Frequently Asked Questions & Installation Guide
-    </h2>
+    <div class="faq-head">
+      <h2 id="faq-title">Help</h2>
+      <p>Everything you need to install and enable a rEFInd theme.</p>
+    </div>
 
-    <div class="grid gap-8 md:grid-cols-2">
-      <div
-        class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+    <div class="faq-tabs" role="tablist" aria-label="Help sections">
+      <button
+        type="button"
+        class="faq-tab"
+        role="tab"
+        id="faq-tab-1"
+        aria-controls="faq-panel-1"
+        aria-selected="true">Install</button
       >
-        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
-          What is rEFInd?
-        </h3>
-        <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-          rEFInd is an advanced, open-source UEFI boot manager maintained by <a
-            href="https://www.rodsbooks.com/refind/"
+      <button
+        type="button"
+        class="faq-tab"
+        role="tab"
+        id="faq-tab-2"
+        aria-controls="faq-panel-2"
+        aria-selected="false"
+        tabindex="-1">refind.conf</button
+      >
+      <button
+        type="button"
+        class="faq-tab"
+        role="tab"
+        id="faq-tab-3"
+        aria-controls="faq-panel-3"
+        aria-selected="false"
+        tabindex="-1">Customize</button
+      >
+      <button
+        type="button"
+        class="faq-tab"
+        role="tab"
+        id="faq-tab-4"
+        aria-controls="faq-panel-4"
+        aria-selected="false"
+        tabindex="-1">About</button
+      >
+    </div>
+
+    <div class="faq-panels">
+      <div
+        class="faq-tp is-on"
+        id="faq-panel-1"
+        role="tabpanel"
+        aria-labelledby="faq-tab-1"
+      >
+        <ol class="faq-steps">
+          <li>
+            <b>Locate the <code>themes/</code> folder</b>
+            <p>
+              It lives inside your rEFInd installation directory. If it doesn't
+              exist, create it:
+            </p>
+            <div class="faq-code">
+              <code>mkdir -p /boot/efi/EFI/refind/themes</code><button
+                type="button"
+                class="faq-copy">Copy</button>
+            </div>
+          </li>
+          <li>
+            <b>Download the theme</b>
+            <p>
+              Clone the theme's GitHub repository into that folder, or extract
+              its ZIP archive:
+            </p>
+            <div class="faq-code">
+              <code
+                >git clone https://github.com/user/theme-repo.git
+                /boot/efi/EFI/refind/themes/theme-name</code
+              ><button type="button" class="faq-copy">Copy</button>
+            </div>
+          </li>
+          <li>
+            <b>Edit <code>refind.conf</code></b>
+            <p>
+              With administrator privileges, add this line at the very bottom:
+            </p>
+            <div class="faq-code">
+              <code>include themes/theme-name/theme.conf</code><button
+                type="button"
+                class="faq-copy">Copy</button>
+            </div>
+          </li>
+          <li>
+            <b>Save and reboot</b>
+            <p>
+              rEFInd will render the new theme on your next boot. Any of the {
+                themeCount
+              } themes in this collection works the same way.
+            </p>
+          </li>
+        </ol>
+        <div class="faq-tip">
+          <div>
+            <b>Want to try it without rebooting?</b>
+            <span
+              >cachyos-bl lets you preview and edit rEFInd themes interactively.</span
+            >
+          </div>
+          <a
+            href="https://github.com/duangsuse/cachyos-bl/"
             target="_blank"
             rel="noopener noreferrer"
-            class="font-semibold text-dracula-400 hover:underline">Rod Smith</a
-          >. Designed for systems that dual-boot or multi-boot multiple
-          operating systems—such as Linux distributions (Ubuntu, Arch, Fedora),
-          macOS, and Windows—rEFInd offers a clean, visual alternative to
-          default text-only bootloaders like GRUB.
-        </p>
+            >View cachyos-bl <span aria-hidden="true">&#8599;</span></a
+          >
+        </div>
       </div>
 
       <div
-        class="rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+        class="faq-tp"
+        id="faq-panel-2"
+        role="tabpanel"
+        aria-labelledby="faq-tab-2"
       >
-        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
-          Where is the refind.conf configuration file located?
-        </h3>
-        <p
-          class="mb-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400"
-        >
-          The location of the <code>refind.conf</code> file depends on your operating
-          system and setup:
-        </p>
-        <ul
-          class="list-disc space-y-1 pl-5 text-xs text-gray-600 dark:text-gray-400"
-        >
+        <h3>Where is <code>refind.conf</code>?</h3>
+        <p>The location depends on your operating system:</p>
+        <ul>
           <li>
-            <strong>Linux:</strong> Typically located at <code
-              >/boot/efi/EFI/refind/refind.conf</code
-            > or <code>/boot/EFI/refind/refind.conf</code>.
+            <strong>Linux:</strong>
+            <code>/boot/efi/EFI/refind/refind.conf</code> or <code
+              >/boot/EFI/refind/refind.conf</code>
           </li>
           <li>
-            <strong>macOS:</strong> Found at <code
-              >/Volumes/ESP/EFI/refind/refind.conf</code
-            > (requires mounting the EFI System Partition first).
+            <strong>macOS:</strong>
+            <code>/Volumes/ESP/EFI/refind/refind.conf</code> (mount the EFI System
+            Partition first)
           </li>
           <li>
-            <strong>Windows:</strong> Located at <code
-              >S:\EFI\refind\refind.conf</code
-            > (after mounting the ESP to drive S: as Administrator).
+            <strong>Windows:</strong>
+            <code>S:\EFI\refind\refind.conf</code> (after mounting the ESP to drive
+            S: as Administrator)
           </li>
         </ul>
       </div>
 
       <div
-        class="col-span-full rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+        class="faq-tp"
+        id="faq-panel-3"
+        role="tabpanel"
+        aria-labelledby="faq-tab-3"
       >
-        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
-          How do I install a rEFInd theme?
-        </h3>
-        <div
-          class="space-y-3 text-sm leading-relaxed text-gray-600 dark:text-gray-400"
-        >
-          <p>
-            Follow these 4 simple steps to install and apply any of the 139
-            themes from our collection:
-          </p>
-          <ol class="list-decimal space-y-3 pl-5 text-xs md:text-sm">
-            <li>
-              <strong>Locate the themes directory:</strong> Find the <code
-                >themes/</code
-              > folder within your rEFInd installation directory. If it doesn't exist,
-              create it:
-              <pre
-                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">mkdir -p /boot/efi/EFI/refind/themes</pre>
-            </li>
-            <li>
-              <strong>Download the theme:</strong> Clone the GitHub repository of
-              your chosen theme directly into the themes directory, or download and
-              extract the ZIP archive:
-              <pre
-                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">git clone https://github.com/user/theme-repo.git /boot/efi/EFI/refind/themes/theme-name</pre>
-            </li>
-            <li>
-              <strong>Modify the configuration file:</strong> Open your <code
-                >refind.conf</code
-              > file in a text editor with administrative privileges, and add the
-              following line at the absolute bottom:
-              <pre
-                class="mt-1 overflow-x-auto rounded bg-gray-50 p-2 font-mono text-xs text-dracula-400 dark:bg-gray-900">include themes/theme-name/theme.conf</pre>
-            </li>
-            <li>
-              <strong>Verify and Reboot:</strong> Save the file. When you reboot
-              your computer, rEFInd will render the new interface theme.
-            </li>
-          </ol>
-          <p class="mt-4 text-xs text-gray-500 dark:text-gray-400">
-            <strong>Tip:</strong> You can test and edit themes interactively using
-            the <a
-              href="https://github.com/duangsuse/cachyos-bl/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="font-semibold text-dracula-400 hover:underline"
-              >cachyos-bl</a
-            > project.
-          </p>
-        </div>
+        <h3>Can I customize OS icons and backgrounds?</h3>
+        <p>
+          Yes. rEFInd themes define custom graphics for operating system icons
+          (Linux, Windows, macOS, Arch, Ubuntu, etc.), tool icons (reboot,
+          shutdown, firmware), selection highlights, and banner backgrounds.
+          Swap or edit any <code>.png</code> file inside the theme's directory to
+          suit your preferences.
+        </p>
       </div>
 
       <div
-        class="col-span-full rounded-xl border border-gray-100 bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-800"
+        class="faq-tp"
+        id="faq-panel-4"
+        role="tabpanel"
+        aria-labelledby="faq-tab-4"
       >
-        <h3 class="mb-3 text-lg font-bold text-gray-900 dark:text-white">
-          Can I customize OS icons and backgrounds?
-        </h3>
-        <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-          Yes! rEFInd themes define custom graphics for operating system
-          selection icons (Linux, Windows, macOS, Arch, Ubuntu, etc.), tool
-          icons (reboot, shutdown, firmware), selection highlights, and banner
-          backgrounds. You can easily swap or customize individual <code
-            >.png</code
-          > icon files inside the theme's directory to perfectly suit your preferences.
+        <h3>What is rEFInd?</h3>
+        <p>
+          rEFInd is an advanced, open-source UEFI boot manager maintained by
+          <a
+            href="https://www.rodsbooks.com/refind/"
+            target="_blank"
+            rel="noopener noreferrer">Rod Smith</a
+          >. Designed for systems that dual-boot or multi-boot, such as Linux
+          distributions (Ubuntu, Arch, Fedora), macOS, and Windows, it offers a
+          clean, visual alternative to text-only bootloaders like GRUB.
         </p>
       </div>
     </div>
   </div>
 </dialog>
 
-<script is:inline>
-  // Close dialog on clicking backdrop
-  const dialog = document.getElementById("faq-dialog");
-  dialog?.addEventListener("click", (event) => {
-    if (event.target === dialog) {
-      dialog.close();
+<style is:global>
+  #faq-dialog {
+    --faq-bg: #f9fafb;
+    --faq-ink: #111827;
+    --faq-mut: #4b5563;
+    --faq-line: #e5e7eb;
+    --faq-card: #fff;
+    --faq-code: #f3f4f6;
+    --faq-accent: #7d2eed;
+    --faq-link: #6916e0;
+    --faq-ease: cubic-bezier(0.16, 1, 0.3, 1);
+    width: min(56rem, 94vw);
+    max-width: none;
+    max-height: none;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--faq-ink);
+    overflow: visible;
+  }
+  .dark #faq-dialog {
+    --faq-bg: #111827;
+    --faq-ink: #fff;
+    --faq-mut: #9ca3af;
+    --faq-line: #374151;
+    --faq-card: #1f2937;
+    --faq-code: #0b1220;
+    --faq-link: #a771f6;
+  }
+  #faq-dialog::backdrop {
+    background: rgb(17 24 39 / 0.55);
+  }
+  .dark #faq-dialog::backdrop {
+    background: rgb(17 24 39 / 0.8);
+  }
+  #faq-dialog .faq-panel {
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+    border: 1px solid var(--faq-line);
+    border-radius: 1rem;
+    background: var(--faq-bg);
+    box-shadow: 0 24px 60px -12px rgb(0 0 0 / 0.45);
+  }
+  #faq-dialog code {
+    padding: 1px 6px;
+    border-radius: 5px;
+    background: var(--faq-code);
+    font-size: 0.85em;
+  }
+  #faq-dialog a:not(.faq-tip a) {
+    color: var(--faq-link);
+  }
+  #faq-dialog button:focus-visible,
+  #faq-dialog a:focus-visible {
+    outline: 2px solid var(--faq-accent);
+    outline-offset: 2px;
+  }
+  .dark #faq-dialog button:focus-visible,
+  .dark #faq-dialog a:focus-visible {
+    outline-color: #a771f6;
+  }
+
+  #faq-dialog .faq-head {
+    padding: 1.625rem 3.5rem 0 1.75rem;
+  }
+  #faq-dialog .faq-head h2 {
+    margin: 0;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+  #faq-dialog .faq-head p {
+    margin: 0.375rem 0 0;
+    color: var(--faq-mut);
+    max-width: 60ch;
+  }
+  #faq-dialog .faq-close {
+    position: absolute;
+    top: 0.875rem;
+    right: 0.875rem;
+    display: grid;
+    place-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: var(--faq-mut);
+    cursor: pointer;
+    transition:
+      background-color 0.2s,
+      color 0.2s;
+  }
+  #faq-dialog .faq-close:hover {
+    background: var(--faq-code);
+    color: var(--faq-ink);
+  }
+
+  /* Tabs share the row evenly, so there is nothing to scroll. */
+  #faq-dialog .faq-tabs {
+    display: flex;
+    margin-top: 1rem;
+    padding: 0 1.25rem;
+    border-bottom: 1px solid var(--faq-line);
+  }
+  #faq-dialog .faq-tab {
+    position: relative;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0.75rem 0.25rem;
+    border: 0;
+    background: none;
+    color: var(--faq-mut);
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  #faq-dialog .faq-tab:hover,
+  #faq-dialog .faq-tab[aria-selected="true"] {
+    color: var(--faq-ink);
+  }
+  #faq-dialog .faq-tab[aria-selected="true"]::after {
+    content: "";
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: -1px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--faq-accent);
+  }
+
+  /* All panels occupy one grid cell, so the dialog keeps the tallest height. */
+  #faq-dialog .faq-panels {
+    display: grid;
+    padding: 1.5rem 1.75rem 1.75rem;
+  }
+  #faq-dialog .faq-tp {
+    grid-area: 1 / 1;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    color: var(--faq-mut);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  #faq-dialog .faq-tp.is-on {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    animation: faq-tab 0.3s var(--faq-ease);
+  }
+  #faq-dialog .faq-tp h3 {
+    margin: 0 0 0.5rem;
+    color: var(--faq-ink);
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  #faq-dialog .faq-tp p {
+    margin: 0;
+  }
+  #faq-dialog .faq-tp ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.125rem;
+    list-style: disc;
+  }
+  #faq-dialog .faq-tp li {
+    margin-top: 0.375rem;
+  }
+  #faq-dialog .faq-tp strong {
+    color: var(--faq-ink);
+  }
+
+  #faq-dialog .faq-steps {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: faq-step;
+  }
+  #faq-dialog .faq-steps > li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 1.375rem 2.75rem;
+    counter-increment: faq-step;
+  }
+  #faq-dialog .faq-steps > li:last-child {
+    padding-bottom: 0;
+  }
+  #faq-dialog .faq-steps > li::before {
+    content: counter(faq-step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: var(--faq-accent);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  #faq-dialog .faq-steps > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 0.8125rem;
+    top: 2.125rem;
+    bottom: 0.375rem;
+    width: 2px;
+    background: var(--faq-line);
+  }
+  #faq-dialog .faq-steps b {
+    display: block;
+    margin-bottom: 0.125rem;
+    color: var(--faq-ink);
+    font-weight: 600;
+  }
+  #faq-dialog .faq-steps p {
+    font-size: 0.92rem;
+  }
+
+  #faq-dialog .faq-code {
+    position: relative;
+    margin-top: 0.5rem;
+    padding: 0.625rem 4rem 0.625rem 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--faq-code);
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  #faq-dialog .faq-code code {
+    padding: 0;
+    background: none;
+    color: var(--faq-ink);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.78rem;
+  }
+  #faq-dialog .faq-copy {
+    position: absolute;
+    top: 0.375rem;
+    right: 0.375rem;
+    padding: 0.1875rem 0.5625rem;
+    border: 1px solid var(--faq-line);
+    border-radius: 0.375rem;
+    background: var(--faq-card);
+    color: var(--faq-mut);
+    font: inherit;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+      color 0.2s,
+      border-color 0.2s;
+  }
+  #faq-dialog .faq-copy:hover {
+    border-color: var(--faq-accent);
+    color: var(--faq-link);
+  }
+  #faq-dialog .faq-copy.is-copied {
+    border-color: #15803d;
+    color: #15803d;
+  }
+  .dark #faq-dialog .faq-copy.is-copied {
+    border-color: #4ade80;
+    color: #4ade80;
+  }
+
+  #faq-dialog .faq-tip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 0.875rem 1rem;
+    border: 1px solid var(--faq-line);
+    border-radius: 0.75rem;
+    background: var(--faq-card);
+    font-size: 0.92rem;
+  }
+  #faq-dialog .faq-tip div {
+    max-width: 46ch;
+  }
+  #faq-dialog .faq-tip b {
+    display: block;
+    color: var(--faq-ink);
+    font-weight: 600;
+  }
+  #faq-dialog .faq-tip a {
+    padding: 0.4375rem 0.875rem;
+    border: 1px solid var(--faq-line);
+    border-radius: 0.5rem;
+    color: var(--faq-link);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s;
+  }
+  #faq-dialog .faq-tip a:hover {
+    border-color: var(--faq-accent);
+    background: rgb(167 113 246 / 0.12);
+  }
+
+  /* Opening: panel rises and settles; steps and tip follow in sequence. */
+  #faq-dialog[open] .faq-panel {
+    animation: faq-pop 0.45s var(--faq-ease);
+  }
+  #faq-dialog[open]::backdrop {
+    animation: faq-fade 0.35s var(--faq-ease);
+  }
+  #faq-dialog .faq-tp.is-on .faq-steps > li,
+  #faq-dialog .faq-tp.is-on .faq-tip {
+    animation: faq-rise 0.5s var(--faq-ease) both;
+  }
+  #faq-dialog .faq-steps > li:nth-child(1) {
+    animation-delay: 0.06s;
+  }
+  #faq-dialog .faq-steps > li:nth-child(2) {
+    animation-delay: 0.12s;
+  }
+  #faq-dialog .faq-steps > li:nth-child(3) {
+    animation-delay: 0.18s;
+  }
+  #faq-dialog .faq-steps > li:nth-child(4) {
+    animation-delay: 0.24s;
+  }
+  #faq-dialog .faq-tip {
+    animation-delay: 0.3s;
+  }
+
+  @keyframes faq-pop {
+    from {
+      opacity: 0;
+      transform: translateY(14px) scale(0.97);
     }
-  });
+  }
+  @keyframes faq-fade {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes faq-rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+  @keyframes faq-tab {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #faq-dialog *,
+    #faq-dialog,
+    #faq-dialog::backdrop {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const dialog = document.getElementById("faq-dialog");
+    if (!dialog) return;
+    const tabs = Array.from(dialog.querySelectorAll(".faq-tab"));
+    const panels = Array.from(dialog.querySelectorAll(".faq-tp"));
+
+    function select(index, focus) {
+      tabs.forEach((tab, i) => {
+        const on = i === index;
+        tab.setAttribute("aria-selected", String(on));
+        tab.tabIndex = on ? 0 : -1;
+        panels[i].classList.toggle("is-on", on);
+        if (on && focus) tab.focus();
+      });
+    }
+
+    tabs.forEach((tab, i) => tab.addEventListener("click", () => select(i)));
+    dialog.querySelector(".faq-tabs").addEventListener("keydown", (e) => {
+      const i = tabs.findIndex(
+        (t) => t.getAttribute("aria-selected") === "true"
+      );
+      const last = tabs.length - 1;
+      const next =
+        e.key === "ArrowRight"
+          ? (i + 1) % tabs.length
+          : e.key === "ArrowLeft"
+            ? (i + last) % tabs.length
+            : e.key === "Home"
+              ? 0
+              : e.key === "End"
+                ? last
+                : -1;
+      if (next < 0) return;
+      e.preventDefault();
+      select(next, true);
+    });
+
+    dialog
+      .querySelector(".faq-close")
+      .addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+
+    dialog.addEventListener("click", async (event) => {
+      const button = event.target.closest(".faq-copy");
+      if (!button) return;
+      const text = button.previousElementSibling.textContent;
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = "Copied";
+        button.classList.add("is-copied");
+      } catch {
+        button.textContent = "Press Ctrl+C";
+      }
+      setTimeout(() => {
+        button.textContent = "Copy";
+        button.classList.remove("is-copied");
+      }, 1400);
+    });
+
+    // Always start on the first tab when the dialog opens.
+    new MutationObserver(() => {
+      if (dialog.open) select(0);
+    }).observe(dialog, { attributes: true, attributeFilter: ["open"] });
+  })();
 </script>

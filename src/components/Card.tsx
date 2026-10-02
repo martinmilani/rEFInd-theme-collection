@@ -25,7 +25,7 @@ export default function Card({
   return (
     <div className="w-full">
       <div className="relative">
-        <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out lg:hover:scale-105">
+        <div className="aspect-video h-auto overflow-hidden rounded-lg transition duration-200 ease-in-out lg:hover:-translate-y-1 lg:hover:shadow-xl">
           {images.length === 0 ? (
             <a href={link} target="_blank" rel="noopener noreferrer">
               <ImagePlaceholder />
@@ -43,7 +43,7 @@ export default function Card({
               <a
                 href={link}
                 target="_blank"
-                className="font-medium"
+                className="font-medium transition hover:text-dracula-400"
                 rel="noopener noreferrer"
               >
                 {name}

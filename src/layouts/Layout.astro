@@ -1,4 +1,5 @@
 ---
+import { getCollection } from "astro:content";
 import "@fontsource-variable/onest";
 
 interface Props {
@@ -16,6 +17,7 @@ const {
 } = Astro.props;
 
 const fullImageUrl = new URL(image, url).toString();
+const themeCount = (await getCollection("themes")).length;
 ---
 
 <!doctype html>
@@ -26,8 +28,8 @@ const fullImageUrl = new URL(image, url).toString();
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
+      function gtag(...args) {
+        dataLayer.push(args);
       }
       gtag("js", new Date());
 
@@ -72,7 +74,9 @@ const fullImageUrl = new URL(image, url).toString();
     />
 
     <!-- JSON-LD Structured Data for SEO / GEO -->
-    <script type="application/ld+json" is:inline>
+    <script
+      type="application/ld+json"
+      set:html={`
       {
         "@context": "https://schema.org",
         "@graph": [
@@ -81,7 +85,7 @@ const fullImageUrl = new URL(image, url).toString();
             "@id": "https://refind-themes-collection.netlify.app/#website",
             "url": "https://refind-themes-collection.netlify.app",
             "name": "rEFInd Themes Collection",
-            "description": "Curated collection of 139 clean, minimalist, and dark themes for the rEFInd UEFI boot manager. Image previews for all themes, screenshots, and direct download links.",
+            "description": "Curated collection of ${themeCount} clean, minimalist, and dark themes for the rEFInd UEFI boot manager. Image previews for all themes, screenshots, and direct download links.",
             "publisher": {
               "@type": "Person",
               "name": "Martin Milani",
@@ -166,7 +170,8 @@ const fullImageUrl = new URL(image, url).toString();
           }
         ]
       }
-    </script>
+    `}
+    />
     <script is:inline>
       // On page load or when changing themes, best to add inline in `head` to avoid FOUC
       if (

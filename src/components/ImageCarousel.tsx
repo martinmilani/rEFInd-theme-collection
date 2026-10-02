@@ -108,14 +108,14 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
         </svg>
       </button>
 
-      <div className="absolute bottom-2 left-0 right-0 z-10 flex justify-center gap-1.5 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+      <div className="absolute bottom-2 left-0 right-0 z-10 flex justify-center gap-1.5">
         {images.map((_, i) => (
           <button
             key={i}
             type="button"
             onClick={(e) => goToSlide(e, i)}
             className={`h-2 w-2 rounded-full transition-colors duration-200 ${
-              activeIndex === i ? "bg-white" : "bg-white/50"
+              activeIndex === i ? "bg-dracula-400" : "bg-white/60"
             }`}
             aria-label={`Go to slide ${i + 1}`}
           />
