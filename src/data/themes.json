@@ -1,5 +1,58 @@
 [
   {
+    "id": "4fa5b923-7982-4bbb-a57b-3975814b1256",
+    "name": "rEFInd-regular-dark",
+    "description": "This forked theme is modified dark version of rEFInd-theme-regular by @bobafetthotmail which is forked theme of refind-theme-regular by @kmyi which is from rEFInd-theme by @munlik (deviantart)",
+    "link": "https://github.com/mehedi-codes/rEFInd-regular-dark",
+    "user": "mehedi-codes",
+    "user_url": "https://github.com/mehedi-codes",
+    "images": [
+      "/src/assets/mehedi-codes-refind-regular-dark.webp"
+    ],
+    "creation_date": "2023-05-21T09:24:19Z",
+    "recently_added": true
+  },
+  {
+    "id": "6e79a726-2078-48e3-ad5d-c868e84c8d0d",
+    "name": "rEFInd-minimalistic",
+    "description": "This forked theme is modified version of the refind-theme by @kvnbias which is forked theme of  rEFInd-minimal by  @evanpurkhiser",
+    "link": "https://github.com/mehedi-codes/rEFInd-minimalistic",
+    "user": "mehedi-codes",
+    "user_url": "https://github.com/mehedi-codes",
+    "images": [
+      "/src/assets/mehedi-codes-refind-minimalistic.webp"
+    ],
+    "creation_date": "2023-05-21T07:38:19Z",
+    "recently_added": true
+  },
+  {
+    "id": "ec06335a-1bc0-4b02-8e34-034f6dc3181f",
+    "name": "RefindPlus-bazzite-pneaple",
+    "description": "Bazzite Pneaple theme for RefindPlus with bottom-positioned EFI tools using tool_row_tune",
+    "link": "https://github.com/zany130/RefindPlus-bazzite-pneaple",
+    "user": "zany130",
+    "user_url": "https://github.com/zany130",
+    "images": [
+      "/src/assets/refindplus-bazzite-pneaple.webp",
+      "/src/assets/refindplus-bazzite-pneaple-1.webp"
+    ],
+    "creation_date": "2026-10-16T17:12:18Z",
+    "recently_added": true
+  },
+  {
+    "id": "0627232b-e553-456a-9f33-f9ecef87a846",
+    "name": "Material3-Boot",
+    "description": "A material design 3 theme for rEFInd",
+    "link": "https://github.com/ScriptingCoral/Material3-Boot",
+    "user": "ScriptingCoral",
+    "user_url": "https://github.com/ScriptingCoral",
+    "images": [
+      "/src/assets/material3-boot.webp"
+    ],
+    "creation_date": "2026-10-11T08:56:24Z",
+    "recently_added": true
+  },
+  {
     "id": "55bc1ba5-412c-4926-b29b-02ad2c6ce72e",
     "name": "rEFInd-KorvNN-theme",
     "description": "A personalized  rEFInd theme",
@@ -10,7 +63,7 @@
       "/src/assets/refind-korvnn-theme.webp"
     ],
     "creation_date": "2026-09-06T20:13:02Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "58838079-c4c4-4bb8-bd82-19b47b8bb37a",
@@ -23,7 +76,7 @@
       "/src/assets/refind-lotm.webp"
     ],
     "creation_date": "2026-09-19T12:49:46Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "3d738bdf-8765-431c-a6a8-e2e3566d08c2",
@@ -37,7 +90,7 @@
       "/src/assets/refind-lumen-1.webp"
     ],
     "creation_date": "2026-09-14T09:22:55Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "d46624de-5602-47c2-8fde-0d849c2cbac1",
@@ -50,7 +103,7 @@
       "/src/assets/refind-choose-your-fate.webp"
     ],
     "creation_date": "2026-09-11T10:35:04Z",
-    "recently_added": true
+    "recently_added": false
   },
   {
     "id": "737cf7ba-b9f1-4ecb-a1a0-16c37db0e436",
