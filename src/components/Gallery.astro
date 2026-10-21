@@ -5,4 +5,7 @@ import ThemeGallery from "./ThemeGallery.tsx";
 const themes = await getCollection("themes");
 ---
 
-<ThemeGallery client:load themes={themes} />
+<section aria-labelledby="gallery-title">
+  <h2 id="gallery-title" class="sr-only">Browse rEFInd themes</h2>
+  <ThemeGallery client:load themes={themes} />
+</section>

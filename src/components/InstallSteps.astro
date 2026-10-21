@@ -1,0 +1,285 @@
+---
+import { getCollection } from "astro:content";
+
+interface Props {
+  // When set, commands target this theme instead of placeholders
+  repoUrl?: string;
+  folder?: string;
+}
+
+const { repoUrl, folder = "theme-name" } = Astro.props;
+const themeCount = (await getCollection("themes")).length;
+const cloneUrl = repoUrl
+  ? `${repoUrl}.git`
+  : "https://github.com/user/theme-repo.git";
+---
+
+<div class="install-steps">
+  <ol>
+    <li>
+      <b>Locate the <code>themes/</code> folder</b>
+      <p>
+        It lives inside your rEFInd installation directory. If it doesn't exist,
+        create it:
+      </p>
+      <div class="install-code">
+        <code>mkdir -p /boot/efi/EFI/refind/themes</code><button
+          type="button"
+          class="install-copy">Copy</button
+        >
+      </div>
+    </li>
+    <li>
+      <b>Download the theme</b>
+      <p>
+        Clone the theme's GitHub repository into that folder, or extract its ZIP
+        archive:
+      </p>
+      <div class="install-code">
+        <code>git clone {cloneUrl} /boot/efi/EFI/refind/themes/{folder}</code
+        ><button type="button" class="install-copy">Copy</button>
+      </div>
+    </li>
+    <li>
+      <b>Edit <code>refind.conf</code></b>
+      <p>With administrator privileges, add this line at the very bottom:</p>
+      <div class="install-code">
+        <code>include themes/{folder}/theme.conf</code><button
+          type="button"
+          class="install-copy">Copy</button
+        >
+      </div>
+      {
+        repoUrl && (
+          <p class="install-note">
+            If the repository keeps <code>theme.conf</code> in a subfolder,
+            adjust the path to match.
+          </p>
+        )
+      }
+    </li>
+    <li>
+      <b>Save and reboot</b>
+      <p>
+        rEFInd will render the new theme on your next boot.{
+          !repoUrl &&
+            ` Any of the ${themeCount} themes in this collection works the same way.`
+        }
+      </p>
+    </li>
+  </ol>
+  <div class="install-tip">
+    <div>
+      <b>Want to try it without rebooting?</b>
+      <span
+        >cachyos-bl lets you preview and edit rEFInd themes interactively.</span
+      >
+    </div>
+    <a
+      href="https://github.com/duangsuse/cachyos-bl/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >View cachyos-bl <span aria-hidden="true">&#8599;</span></a
+    >
+  </div>
+</div>
+
+<style is:global>
+  .install-steps {
+    --is-ink: #111827;
+    --is-mut: #4b5563;
+    --is-line: #e5e7eb;
+    --is-card: #fff;
+    --is-code: #f3f4f6;
+    --is-accent: #7d2eed;
+    --is-link: #6916e0;
+    color: var(--is-mut);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+  .dark .install-steps {
+    --is-ink: #fff;
+    --is-mut: #9ca3af;
+    --is-line: #374151;
+    --is-card: #1f2937;
+    --is-code: #0b1220;
+    --is-link: #a771f6;
+  }
+  .install-steps p {
+    margin: 0;
+  }
+  .install-steps code {
+    padding: 1px 6px;
+    border-radius: 5px;
+    background: var(--is-code);
+    font-size: 0.85em;
+  }
+
+  .install-steps ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: install-step;
+  }
+  .install-steps ol > li {
+    position: relative;
+    margin: 0;
+    padding: 0 0 1.375rem 2.75rem;
+    counter-increment: install-step;
+  }
+  .install-steps ol > li:last-child {
+    padding-bottom: 0;
+  }
+  .install-steps ol > li::before {
+    content: counter(install-step);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background: var(--is-accent);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  .install-steps ol > li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 0.8125rem;
+    top: 2.125rem;
+    bottom: 0.375rem;
+    width: 2px;
+    background: var(--is-line);
+  }
+  .install-steps b {
+    display: block;
+    margin-bottom: 0.125rem;
+    color: var(--is-ink);
+    font-weight: 600;
+  }
+  .install-steps ol p {
+    font-size: 0.92rem;
+  }
+  .install-steps .install-note {
+    margin-top: 0.375rem;
+    font-size: 0.85rem;
+  }
+
+  .install-code {
+    position: relative;
+    margin-top: 0.5rem;
+    padding: 0.625rem 4rem 0.625rem 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--is-code);
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .install-steps .install-code code {
+    padding: 0;
+    background: none;
+    color: var(--is-ink);
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.78rem;
+  }
+  .install-copy {
+    position: absolute;
+    top: 0.375rem;
+    right: 0.375rem;
+    padding: 0.1875rem 0.5625rem;
+    border: 1px solid var(--is-line);
+    border-radius: 0.375rem;
+    background: var(--is-card);
+    color: var(--is-mut);
+    font: inherit;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:
+      color 0.2s,
+      border-color 0.2s;
+  }
+  .install-copy:hover {
+    border-color: var(--is-accent);
+    color: var(--is-link);
+  }
+  .install-copy.is-copied {
+    border-color: #15803d;
+    color: #15803d;
+  }
+  .dark .install-copy.is-copied {
+    border-color: #4ade80;
+    color: #4ade80;
+  }
+
+  .install-tip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    padding: 0.875rem 1rem;
+    border: 1px solid var(--is-line);
+    border-radius: 0.75rem;
+    background: var(--is-card);
+    font-size: 0.92rem;
+  }
+  .install-tip div {
+    max-width: 46ch;
+  }
+  .install-tip a {
+    padding: 0.4375rem 0.875rem;
+    border: 1px solid var(--is-line);
+    border-radius: 0.5rem;
+    color: var(--is-link);
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s;
+  }
+  .install-tip a:hover {
+    border-color: var(--is-accent);
+    background: rgb(167 113 246 / 0.12);
+  }
+  .install-steps button:focus-visible,
+  .install-steps a:focus-visible {
+    outline: 2px solid var(--is-accent);
+    outline-offset: 2px;
+  }
+  .dark .install-steps button:focus-visible,
+  .dark .install-steps a:focus-visible {
+    outline-color: #a771f6;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .install-copy,
+    .install-tip a {
+      transition: none;
+    }
+  }
+</style>
+
+<script>
+  // One delegated handler covers every InstallSteps instance on the page
+  document.addEventListener("click", async (event) => {
+    const button = (event.target as Element | null)?.closest(".install-copy");
+    if (!(button instanceof HTMLButtonElement)) return;
+    const text = button.previousElementSibling?.textContent ?? "";
+    try {
+      await navigator.clipboard.writeText(text);
+      button.textContent = "Copied";
+      button.classList.add("is-copied");
+    } catch {
+      button.textContent = "Press Ctrl+C";
+    }
+    setTimeout(() => {
+      button.textContent = "Copy";
+      button.classList.remove("is-copied");
+    }, 1400);
+  });
+</script>

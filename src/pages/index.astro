@@ -4,6 +4,7 @@ import Footer from "@components/Footer.astro";
 import Gallery from "@components/Gallery.astro";
 import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
+import InstallGuide from "@components/InstallGuide.astro";
 import { homeStructuredData } from "@src/utils/structuredData";
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
@@ -26,6 +27,7 @@ const pageDescription =
   <main class="container mx-auto">
     <Hero />
     <Gallery />
+    <InstallGuide />
     <FAQ />
     <Footer />
   </main>

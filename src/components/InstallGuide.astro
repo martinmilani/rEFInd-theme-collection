@@ -1,0 +1,38 @@
+---
+import InstallSteps from "@components/InstallSteps.astro";
+---
+
+<section
+  id="install"
+  aria-labelledby="install-title"
+  class="mx-auto mb-16 max-w-3xl scroll-mt-24 px-4 lg:mb-24"
+>
+  <h2
+    id="install-title"
+    class="text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-3xl"
+  >
+    How to install a rEFInd theme
+  </h2>
+  <p class="mb-8 mt-2 text-pretty text-gray-500 dark:text-gray-400">
+    Every theme in the collection installs the same way: copy it into rEFInd's
+    <code class="rounded bg-gray-100 px-1.5 text-sm dark:bg-gray-800"
+      >themes</code
+    > folder and include it from <code
+      class="rounded bg-gray-100 px-1.5 text-sm dark:bg-gray-800"
+      >refind.conf</code
+    >.
+  </p>
+
+  <InstallSteps />
+
+  <p class="mt-6 text-sm text-gray-500 dark:text-gray-400">
+    <strong class="font-medium text-gray-900 dark:text-white"
+      >Where is refind.conf?</strong
+    >
+    On Linux it's usually <code
+      class="rounded bg-gray-100 px-1.5 dark:bg-gray-800"
+      >/boot/efi/EFI/refind/refind.conf</code
+    >. On macOS and Windows, mount the EFI System Partition first; open the help
+    dialog (<span aria-hidden="true">?</span> in the header) for every path.
+  </p>
+</section>
