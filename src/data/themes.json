@@ -1,31 +1,5 @@
 [
   {
-    "id": "4fa5b923-7982-4bbb-a57b-3975814b1256",
-    "name": "rEFInd-regular-dark",
-    "description": "This forked theme is modified dark version of rEFInd-theme-regular by @bobafetthotmail which is forked theme of refind-theme-regular by @kmyi which is from rEFInd-theme by @munlik (deviantart)",
-    "link": "https://github.com/mehedi-codes/rEFInd-regular-dark",
-    "user": "mehedi-codes",
-    "user_url": "https://github.com/mehedi-codes",
-    "images": [
-      "/src/assets/mehedi-codes-refind-regular-dark.webp"
-    ],
-    "creation_date": "2023-05-21T09:24:19Z",
-    "recently_added": true
-  },
-  {
-    "id": "6e79a726-2078-48e3-ad5d-c868e84c8d0d",
-    "name": "rEFInd-minimalistic",
-    "description": "This forked theme is modified version of the refind-theme by @kvnbias which is forked theme of  rEFInd-minimal by  @evanpurkhiser",
-    "link": "https://github.com/mehedi-codes/rEFInd-minimalistic",
-    "user": "mehedi-codes",
-    "user_url": "https://github.com/mehedi-codes",
-    "images": [
-      "/src/assets/mehedi-codes-refind-minimalistic.webp"
-    ],
-    "creation_date": "2023-05-21T07:38:19Z",
-    "recently_added": true
-  },
-  {
     "id": "ec06335a-1bc0-4b02-8e34-034f6dc3181f",
     "name": "RefindPlus-bazzite-pneaple",
     "description": "Bazzite Pneaple theme for RefindPlus with bottom-positioned EFI tools using tool_row_tune",
@@ -146,9 +120,9 @@
   },
   {
     "id": "e074b4ad-818b-4002-b964-5f13782d5f6f",
-    "name": "refind-minimalistic",
+    "name": "rEFInd-minimalistic",
     "description": "This forked theme is modified version of refind-theme by kvnbias",
-    "link": "https://github.com/mehedi-codes/refind-minimalistic",
+    "link": "https://github.com/mehedi-codes/rEFInd-minimalistic",
     "user": "mehedi-codes",
     "user_url": "https://github.com/mehedi-codes",
     "images": [
@@ -159,9 +133,9 @@
   },
   {
     "id": "faa6807a-cb30-458c-972a-eef163d13d59",
-    "name": "refind-regular-dark",
+    "name": "rEFInd-regular-dark",
     "description": "This forked theme is modified dark version of refind-theme-regular",
-    "link": "https://github.com/mehedi-codes/refind-regular-dark",
+    "link": "https://github.com/mehedi-codes/rEFInd-regular-dark",
     "user": "mehedi-codes",
     "user_url": "https://github.com/mehedi-codes",
     "images": [
@@ -386,45 +360,6 @@
     "recently_added": false
   },
   {
-    "id": "d693b282-0319-48c5-b5a1-6a38950f4665",
-    "name": "refind-minimalistic",
-    "description": "This forked theme is modified version of refind-theme by kvnbias",
-    "link": "https://github.com/m3h3d1ha2an/refind-minimalistic",
-    "user": "m3h3d1ha2an",
-    "user_url": "https://github.com/m3h3d1ha2an",
-    "images": [
-      "/src/assets/m3h3d1ha2an-refind-minimalistic.webp"
-    ],
-    "creation_date": "2023-05-21T07:38:19Z",
-    "recently_added": false
-  },
-  {
-    "id": "cce7a094-2f82-44bf-a882-5747c36400c0",
-    "name": "refind-regular-dark",
-    "description": "This forked theme is modified dark version of refind-theme-regular",
-    "link": "https://github.com/m3h3d1ha2an/refind-regular-dark",
-    "user": "m3h3d1ha2an",
-    "user_url": "https://github.com/m3h3d1ha2an",
-    "images": [
-      "/src/assets/m3h3d1ha2an-refind-regular-dark.webp"
-    ],
-    "creation_date": "2023-05-21T09:24:19Z",
-    "recently_added": false
-  },
-  {
-    "id": "db826f70-35e5-4cb3-aca1-555b4178cc77",
-    "name": "rEFInd-LC-theme",
-    "description": "A Lethal Company based theme for rEFInd",
-    "link": "https://github.com/DaniVals/rEFInd-LC-theme",
-    "user": "DaniVals",
-    "user_url": "https://github.com/DaniVals",
-    "images": [
-      "/src/assets/danivals-refind-lc-theme.webp"
-    ],
-    "creation_date": "2025-11-30T01:00:08Z",
-    "recently_added": false
-  },
-  {
     "id": "2e05ed03-b44d-45d9-bd32-e71d11d0c59e",
     "name": "rEFInd-BatmanNeon",
     "description": "Batman-themed rEFInd boot loader.",
@@ -461,19 +396,6 @@
       "/src/assets/starwars_refind_0.webp"
     ],
     "creation_date": "2025-12-13T17:41:55Z",
-    "recently_added": false
-  },
-  {
-    "id": "c0b3a522-23d6-4406-b93b-717eacdf17f9",
-    "name": "minimal-taichi",
-    "description": "Added some re-designed icon in minimal",
-    "link": "https://github.com/Stark-Sparking/minimal-taichi",
-    "user": "Stark-Sparking",
-    "user_url": "https://github.com/Stark-Sparking",
-    "images": [
-      "/src/assets/stark-sparking-minimal-taichi.webp"
-    ],
-    "creation_date": "2025-12-14T10:04:03Z",
     "recently_added": false
   },
   {
@@ -1896,20 +1818,6 @@
     ],
     "recently_added": false,
     "creation_date": "2021-01-21T11:34:59Z",
-    "isNew": false
-  },
-  {
-    "id": "5705ce00-a18e-4547-b6a3-a83dd487f21d",
-    "name": "rEFInd-mountain",
-    "description": "A clean mountain theme for the rEFInd UEFI boot manager.",
-    "link": "https://github.com/Chrisae9/rEFInd-mountain",
-    "user": "Chrisae9",
-    "user_url": "https://github.com/Chrisae9",
-    "images": [
-      "/src/assets/chrisae9-refind-mountain.webp"
-    ],
-    "recently_added": false,
-    "creation_date": "2018-03-25T03:19:21Z",
     "isNew": false
   },
   {
