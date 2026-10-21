@@ -50,6 +50,8 @@ export default function ThemeGallery({
     setSearchQuery(query);
     if (query.length >= 3) {
       setActiveFilter(FilterType.NONE);
+    } else if (query.trim() === "") {
+      setActiveFilter(FilterType.ALL);
     }
   };
 
@@ -170,6 +172,15 @@ export default function ThemeGallery({
             <p className="mt-4 text-center text-sm text-gray-500">
               No themes found
             </p>
+            {searchQuery && (
+              <button
+                type="button"
+                onClick={() => handleSearch("")}
+                className="mx-auto mt-2 block text-sm font-medium text-dracula-600 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-dracula-500 dark:text-dracula-400"
+              >
+                Clear search
+              </button>
+            )}
           </div>
         )}
       </div>

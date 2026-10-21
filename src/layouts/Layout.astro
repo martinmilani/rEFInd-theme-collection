@@ -107,8 +107,17 @@ const fullImageUrl = new URL(image, url).toString();
   </body>
 </html>
 <style is:global>
+  /* Follow the site's theme toggle, not the OS, for native controls */
   :root {
-    color-scheme: light dark;
+    color-scheme: light;
+  }
+  :root.dark {
+    color-scheme: dark;
+  }
+
+  /* Keep Chrome's autofill tint off inputs (it can't be overridden directly) */
+  input:-webkit-autofill {
+    transition: background-color 600000s 0s;
   }
   html {
     font-family: "Onest Variable", system-ui, sans-serif;
