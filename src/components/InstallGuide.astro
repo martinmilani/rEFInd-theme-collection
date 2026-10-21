@@ -1,13 +1,28 @@
 ---
 import InstallSteps from "@components/InstallSteps.astro";
 
+interface Props {
+  // Set on theme pages to show that theme's commands
+  name?: string;
+  repoUrl?: string;
+  folder?: string;
+  class?: string;
+}
+
+const {
+  name,
+  repoUrl,
+  folder,
+  class: className = "container mx-auto mb-16 px-4 lg:mb-24"
+} = Astro.props;
+
 const inlineCode = "rounded bg-gray-100 px-1.5 text-sm dark:bg-gray-900";
 ---
 
 <section
   id="install"
   aria-labelledby="install-title"
-  class="container mx-auto mb-16 scroll-mt-24 px-4 lg:mb-24"
+  class:list={["scroll-mt-24", className]}
 >
   <div
     class="install-surface grid gap-8 rounded-lg bg-white p-6 shadow-sm dark:bg-gray-800 md:p-10 lg:grid-cols-[minmax(0,2fr)_minmax(0,3fr)] lg:gap-16"
@@ -17,11 +32,14 @@ const inlineCode = "rounded bg-gray-100 px-1.5 text-sm dark:bg-gray-900";
         id="install-title"
         class="text-balance text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-3xl"
       >
-        How to install a rEFInd theme
+        {name ? `How to install ${name}` : "How to install a rEFInd theme"}
       </h2>
       <p class="mt-3 text-pretty text-gray-500 dark:text-gray-400">
-        Every theme in the collection installs the same way: copy it into
-        rEFInd's <code class={inlineCode}>themes</code> folder and include it from
+        {
+          name
+            ? `${name} installs like any rEFInd theme: clone it into rEFInd's `
+            : "Every theme in the collection installs the same way: copy it into rEFInd's "
+        }<code class={inlineCode}>themes</code> folder and include it from
         <code class={inlineCode}>refind.conf</code>.
       </p>
       <p class="mt-6 text-pretty text-sm text-gray-500 dark:text-gray-400">
@@ -35,6 +53,6 @@ const inlineCode = "rounded bg-gray-100 px-1.5 text-sm dark:bg-gray-900";
       </p>
     </div>
 
-    <InstallSteps />
+    <InstallSteps repoUrl={repoUrl} folder={folder} />
   </div>
 </section>
