@@ -4,6 +4,7 @@ import ImagePlaceholder from "./ImagePlaceholder.tsx";
 
 type Props = {
   id: string;
+  slug: string;
   name: string;
   description: string;
   link: string;
@@ -15,6 +16,7 @@ type Props = {
 };
 
 export default function Card({
+  slug,
   name,
   description,
   link,
@@ -43,10 +45,8 @@ export default function Card({
           <div className="flex w-full flex-row items-center justify-between gap-x-2">
             <div className="flex w-full flex-row items-center justify-between gap-x-1">
               <a
-                href={link}
-                target="_blank"
+                href={`/themes/${slug}/`}
                 className="font-medium transition hover:text-dracula-400"
-                rel="noopener noreferrer"
               >
                 {name}
               </a>

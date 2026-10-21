@@ -2,6 +2,7 @@ import NoDataIcon from "@src/icons/NoDataIcon";
 import { trackEvent } from "@src/utils/analytics";
 import type { Popularity } from "@src/utils/popularity";
 import { resolveThemeImages } from "@src/utils/themeImages";
+import { themeSlug } from "@src/utils/themeSlug";
 import type { CollectionEntry } from "astro:content";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Card from "./Card";
@@ -152,6 +153,7 @@ export default function ThemeGallery({
             <Card
               id={theme.id}
               key={theme.id}
+              slug={themeSlug(theme.data.link)}
               name={theme.data.name}
               description={theme.data.description}
               link={theme.data.link}

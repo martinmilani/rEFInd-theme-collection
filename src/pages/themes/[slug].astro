@@ -1,0 +1,218 @@
+---
+import FAQ from "@components/FAQ.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import ImageCarousel from "@components/ImageCarousel.tsx";
+import ImagePlaceholder from "@components/ImagePlaceholder.tsx";
+import InstallSteps from "@components/InstallSteps.astro";
+import GitHubIcon from "@icons/GitHubIcon.astro";
+import { getPopularity } from "@src/utils/popularity";
+import { themePageUrl, themeStructuredData } from "@src/utils/structuredData";
+import { resolveThemeImages } from "@src/utils/themeImages";
+import { repoName, repoUrl, themeSlug } from "@src/utils/themeSlug";
+import type { GetStaticPaths } from "astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/global.css";
+
+type Theme = CollectionEntry<"themes">;
+
+const RELATED_COUNT = 6;
+const STYLE_KEYWORDS = [/minimal/i, /\bdark/i];
+
+export const getStaticPaths = (async () => {
+  const themes = await getCollection("themes");
+  const slugs = new Set<string>();
+
+  return themes.map((theme) => {
+    const slug = themeSlug(theme.data.link);
+    // Two entries for the same repo would silently overwrite each other's page
+    if (slugs.has(slug)) {
+      throw new Error(`Duplicate theme slug "${slug}" in themes.json`);
+    }
+    slugs.add(slug);
+    return { params: { slug }, props: { theme, themes } };
+  });
+}) satisfies GetStaticPaths;
+
+const { theme, themes } = Astro.props as { theme: Theme; themes: Theme[] };
+const { name, description, link, user, user_url } = theme.data;
+const slug = themeSlug(link);
+const images = resolveThemeImages(theme);
+const { clicks } = getPopularity(themes);
+
+// Same author first, then themes sharing a style keyword, then the most clicked
+const styleOf = (t: Theme) =>
+  STYLE_KEYWORDS.filter((re) =>
+    re.test(`${t.data.name} ${t.data.description}`)
+  );
+const ownStyles = styleOf(theme);
+const others = themes
+  .filter((t) => t.id !== theme.id)
+  .sort((a, b) => clicks[b.id] - clicks[a.id]);
+const related = [
+  ...others.filter((t) => t.data.user === user),
+  ...others.filter((t) => styleOf(t).some((re) => ownStyles.includes(re))),
+  ...others
+]
+  .filter((t, i, list) => list.indexOf(t) === i)
+  .slice(0, RELATED_COUNT)
+  .map((t) => ({
+    name: t.data.name,
+    user: t.data.user,
+    slug: themeSlug(t.data.link),
+    image: resolveThemeImages(t)[0]
+  }));
+
+const summary = description.trim().replace(/\s+/g, " ");
+const metaDescription = (
+  summary
+    ? `${name} rEFInd theme by ${user}: ${summary}`
+    : `${name} is a rEFInd boot manager theme by ${user}. Preview screenshots and install it in four steps.`
+).slice(0, 160);
+---
+
+<Layout
+  title={`${name} – rEFInd Theme by ${user} | rEFInd Themes Collection`}
+  description={metaDescription}
+  image={images[0] ?? "/og-cover.png"}
+  url={themePageUrl(slug)}
+  structuredData={themeStructuredData({
+    name,
+    description: summary || metaDescription,
+    slug,
+    repoUrl: repoUrl(link),
+    user,
+    userUrl: user_url,
+    image: images[0]
+  })}
+>
+  <Header />
+  <main class="container mx-auto px-4 pb-16 pt-24 lg:pb-24">
+    <nav aria-label="Breadcrumb" class="mx-auto mb-6 max-w-5xl text-sm">
+      <ol
+        class="flex flex-wrap items-center gap-2 text-gray-500 dark:text-gray-400"
+      >
+        <li>
+          <a href="/" class="transition hover:text-dracula-400">All themes</a>
+        </li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="text-gray-900 dark:text-white">
+          {name}
+        </li>
+      </ol>
+    </nav>
+
+    <article class="mx-auto max-w-5xl">
+      <header
+        class="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between"
+      >
+        <div>
+          <h1
+            class="text-pretty text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-5xl"
+          >
+            {name}
+            <span class="text-dracula-400">rEFInd theme</span>
+          </h1>
+          <p
+            class="mt-3 flex items-center gap-x-1 text-gray-500 dark:text-gray-400"
+          >
+            by
+            <a
+              href={user_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-x-1 font-medium text-gray-900 transition hover:text-dracula-400 dark:text-white dark:hover:text-dracula-400"
+              ><GitHubIcon class="size-4" />{user}</a
+            >
+          </p>
+        </div>
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex shrink-0 items-center justify-center gap-x-2 rounded-lg bg-dracula-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-dracula-700 focus:outline-none focus-visible:ring-4 focus-visible:ring-dracula-200 dark:focus-visible:ring-dracula-800"
+          ><GitHubIcon class="size-5" />View on GitHub</a
+        >
+      </header>
+
+      <div class="overflow-hidden rounded-lg">
+        {
+          images.length > 0 ? (
+            <ImageCarousel
+              client:visible
+              images={images}
+              alt={`${name} rEFInd theme preview`}
+            />
+          ) : (
+            <ImagePlaceholder />
+          )
+        }
+      </div>
+
+      {
+        summary && (
+          <p class="mt-6 max-w-3xl text-pretty text-lg text-gray-500 dark:text-gray-400">
+            {summary}
+          </p>
+        )
+      }
+
+      <section aria-labelledby="install-title" class="mt-12 max-w-3xl">
+        <h2
+          id="install-title"
+          class="mb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+        >
+          How to install {name}
+        </h2>
+        <InstallSteps repoUrl={repoUrl(link)} folder={repoName(link)} />
+      </section>
+
+      <section aria-labelledby="related-title" class="mt-16">
+        <h2
+          id="related-title"
+          class="mb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white"
+        >
+          More rEFInd themes
+        </h2>
+        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {
+            related.map((item) => (
+              <li>
+                <a href={`/themes/${item.slug}/`} class="group block">
+                  <div class="aspect-video overflow-hidden rounded-lg bg-gray-200 transition duration-200 ease-in-out group-hover:-translate-y-1 group-hover:shadow-xl dark:bg-gray-800">
+                    {item.image && (
+                      <img
+                        src={item.image}
+                        alt=""
+                        loading="lazy"
+                        class="h-full w-full object-cover"
+                      />
+                    )}
+                  </div>
+                  <p class="mt-3 font-medium text-gray-900 transition group-hover:text-dracula-400 dark:text-white">
+                    {item.name}
+                  </p>
+                  <p class="text-xs text-gray-900/70 dark:text-white/70">
+                    by {item.user}
+                  </p>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-8">
+          <a
+            href="/"
+            class="text-sm font-medium text-dracula-600 transition hover:text-dracula-700 dark:text-dracula-300 dark:hover:text-dracula-400"
+            >Browse all {themes.length} themes <span aria-hidden="true"
+              >&rarr;</span
+            ></a
+          >
+        </p>
+      </section>
+    </article>
+  </main>
+  <FAQ />
+  <Footer />
+</Layout>

@@ -6,7 +6,12 @@ const publisher = {
   url: "https://github.com/martinmilani"
 };
 
-export function homeStructuredData(themeCount: number) {
+type ThemeLink = { name: string; slug: string };
+
+export const themePageUrl = (slug: string) => `${SITE_URL}/themes/${slug}/`;
+
+export function homeStructuredData(themes: ThemeLink[]) {
+  const themeCount = themes.length;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -25,7 +30,20 @@ export function homeStructuredData(themeCount: number) {
         name: "rEFInd Themes Gallery",
         isPartOf: { "@id": `${SITE_URL}/#website` },
         description:
-          "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Image previews for all themes and direct download links to customize your boot screen."
+          "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Image previews for all themes and direct download links to customize your boot screen.",
+        mainEntity: { "@id": `${SITE_URL}/#themes` }
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${SITE_URL}/#themes`,
+        name: "rEFInd themes",
+        numberOfItems: themeCount,
+        itemListElement: themes.map((theme, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: theme.name,
+          url: themePageUrl(theme.slug)
+        }))
       },
       {
         "@type": "HowTo",
@@ -92,6 +110,50 @@ export function homeStructuredData(themeCount: number) {
               text: "Yes. rEFInd themes define custom graphics for OS selection icons, tool icons, and backgrounds. You can manually replace individual PNG assets in the theme folder."
             }
           }
+        ]
+      }
+    ]
+  };
+}
+
+type ThemePageData = {
+  name: string;
+  description: string;
+  slug: string;
+  repoUrl: string;
+  user: string;
+  userUrl: string;
+  image?: string;
+};
+
+export function themeStructuredData(theme: ThemePageData) {
+  const url = themePageUrl(theme.slug);
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": `${url}#theme`,
+        name: `${theme.name} rEFInd theme`,
+        description: theme.description,
+        url,
+        codeRepository: theme.repoUrl,
+        author: { "@type": "Person", name: theme.user, url: theme.userUrl },
+        ...(theme.image && {
+          image: new URL(theme.image, SITE_URL).toString()
+        }),
+        isPartOf: { "@id": `${SITE_URL}/#website` }
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "rEFInd Themes Collection",
+            item: SITE_URL
+          },
+          { "@type": "ListItem", position: 2, name: theme.name, item: url }
         ]
       }
     ]
