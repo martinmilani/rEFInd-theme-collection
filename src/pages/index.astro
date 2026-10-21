@@ -4,9 +4,12 @@ import Footer from "@components/Footer.astro";
 import Gallery from "@components/Gallery.astro";
 import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
+import { homeStructuredData } from "@src/utils/structuredData";
+import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 
+const themes = await getCollection("themes");
 const pageTitle = "rEFInd Themes Collection – Customize Your Boot Manager";
 const pageDescription =
   "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Image previews for all themes and direct download links to customize your boot screen.";
@@ -17,6 +20,7 @@ const pageDescription =
   description={pageDescription}
   image="/og-cover.png"
   url="https://refind-themes-collection.netlify.app"
+  structuredData={homeStructuredData(themes.length)}
 >
   <Header />
   <main class="container mx-auto">

@@ -1,4 +1,5 @@
 import NoDataIcon from "@src/icons/NoDataIcon";
+import { resolveThemeImages } from "@src/utils/themeImages";
 import type { CollectionEntry } from "astro:content";
 import { useMemo, useState } from "react";
 import Card from "./Card";
@@ -11,10 +12,6 @@ enum FilterType {
   ONLY_WITH_IMAGES = "only_with_images",
   RECENTLY_ADDED = "recently_added"
 }
-
-const images = import.meta.glob<{
-  default: ImageMetadata;
-}>("/src/assets/*.webp", { eager: true });
 
 type Theme = CollectionEntry<"themes">;
 
@@ -35,24 +32,10 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
   };
 
   const themesWithImages = useMemo(() => {
-    return themes.map((theme) => {
-      const imagePaths = [
-        ...theme.data.images.map((image) => {
-          return images[image]?.default.src;
-        }),
-        images[
-          `/src/assets/${theme.data.link.slice(19).replace(/\//g, "--")}.webp`
-        ]?.default.src
-      ];
-
-      return {
-        ...theme,
-        data: {
-          ...theme.data,
-          images: imagePaths.filter(Boolean) // Filter out undefined paths
-        }
-      };
-    });
+    return themes.map((theme) => ({
+      ...theme,
+      data: { ...theme.data, images: resolveThemeImages(theme) }
+    }));
   }, [themes]);
 
   const filteredThemes = useMemo(() => {
