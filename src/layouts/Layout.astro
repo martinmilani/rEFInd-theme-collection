@@ -26,10 +26,12 @@ const themeCount = (await getCollection("themes")).length;
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3R8G6ZRQ76"
     ></script>
-    <script>
+    <script is:inline>
+      // gtag.js only processes `arguments` objects; a rest-params array is silently ignored
       window.dataLayer = window.dataLayer || [];
-      function gtag(...args) {
-        dataLayer.push(args);
+      function gtag() {
+        // eslint-disable-next-line prefer-rest-params
+        dataLayer.push(arguments);
       }
       gtag("js", new Date());
 
