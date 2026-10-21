@@ -2,4 +2,5 @@ allowBuilds:
   "@parcel/watcher": true
   esbuild: true
   inotify: true
+  protobufjs: false
   sharp: true

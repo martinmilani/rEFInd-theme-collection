@@ -1,18 +1,29 @@
+// `https://github.com/Owner/Repo?tab=readme-ov-file` → `Owner/Repo`
+function repoPath(link: string): string {
+  return link
+    .trim()
+    .split(/[?#]/)[0]
+    .replace(/^https:\/\/github\.com\//i, "")
+    .replace(/\/+$/, "");
+}
+
 // `https://github.com/Owner/Repo` → `owner--repo`
 export function themeSlug(link: string): string {
-  return link
-    .replace(/^https:\/\/github\.com\//i, "")
-    .replace(/\/+$/, "")
-    .replace(/\//g, "--")
-    .toLowerCase();
+  return repoPath(link).replace(/\//g, "--").toLowerCase();
 }
 
-// Lowercased, trailing-slash-free URL used to match GA click data to themes
+// Lowercased URL without query, fragment or trailing slash, used to match GA
+// click data to themes (keep in sync with scripts/fetch-popularity.mjs)
 export function normalizeLink(link: string): string {
-  return link.trim().replace(/\/+$/, "").toLowerCase();
+  return `https://github.com/${repoPath(link)}`.toLowerCase();
 }
 
-// Last path segment of the repo URL, used as the install folder name
+// Repo name, used as the install folder name
 export function repoName(link: string): string {
-  return link.replace(/\/+$/, "").split("/").pop() ?? "theme-name";
+  return repoPath(link).split("/").pop() || "theme-name";
+}
+
+// Repo URL without query or fragment, for clone commands
+export function repoUrl(link: string): string {
+  return `https://github.com/${repoPath(link)}`;
 }

@@ -7,6 +7,10 @@ import eslintPluginAstro from "eslint-plugin-astro";
 export default [
   { files: ["**/*.{js,mjs,cjs,ts}"] },
   { languageOptions: { globals: globals.browser } },
+  {
+    files: ["scripts/**", "netlify/**"],
+    languageOptions: { globals: globals.node }
+  },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   ...eslintPluginAstro.configs.recommended

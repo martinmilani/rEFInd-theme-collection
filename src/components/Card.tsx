@@ -11,6 +11,7 @@ type Props = {
   user_url: string;
   images: string[];
   recently_added: boolean;
+  popular: boolean;
 };
 
 export default function Card({
@@ -20,7 +21,8 @@ export default function Card({
   user,
   user_url,
   images,
-  recently_added
+  recently_added,
+  popular
 }: Props) {
   return (
     <div className="w-full">
@@ -48,10 +50,16 @@ export default function Card({
               >
                 {name}
               </a>
-              {recently_added && (
+              {recently_added ? (
                 <span className="me-2 cursor-default rounded-full bg-dracula-400 px-2.5 py-0.5 text-xs font-medium text-white">
                   New!
                 </span>
+              ) : (
+                popular && (
+                  <span className="me-2 shrink-0 cursor-default rounded-full border border-dracula-400 px-2.5 py-0.5 text-xs font-medium text-dracula-600 dark:text-dracula-300">
+                    Popular
+                  </span>
+                )
               )}
             </div>
           </div>

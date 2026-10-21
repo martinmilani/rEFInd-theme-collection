@@ -1,7 +1,9 @@
 import NoDataIcon from "@src/icons/NoDataIcon";
+import { trackEvent } from "@src/utils/analytics";
+import type { Popularity } from "@src/utils/popularity";
 import { resolveThemeImages } from "@src/utils/themeImages";
 import type { CollectionEntry } from "astro:content";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Card from "./Card";
 import FilterButton from "./FilterButton";
 import SearchInput from "./SearchInput";
@@ -9,15 +11,39 @@ import SearchInput from "./SearchInput";
 enum FilterType {
   NONE = "",
   ALL = "all",
+  POPULAR = "popular",
   ONLY_WITH_IMAGES = "only_with_images",
-  RECENTLY_ADDED = "recently_added"
+  RECENTLY_ADDED = "recently_added",
+  MINIMAL = "minimal",
+  DARK = "dark"
 }
+
+const FILTERS = [
+  { type: FilterType.ALL, label: "All" },
+  { type: FilterType.POPULAR, label: "Popular" },
+  { type: FilterType.RECENTLY_ADDED, label: "Recently Added" },
+  { type: FilterType.MINIMAL, label: "Minimal" },
+  { type: FilterType.DARK, label: "Dark" }
+];
+
+// Keyword filters match the theme's name and description
+const KEYWORD_FILTERS: Partial<Record<FilterType, RegExp>> = {
+  [FilterType.MINIMAL]: /minimal/i,
+  [FilterType.DARK]: /\bdark/i
+};
 
 type Theme = CollectionEntry<"themes">;
 
-export default function ThemeGallery({ themes }: { themes: Theme[] }) {
+export default function ThemeGallery({
+  themes,
+  popularity
+}: {
+  themes: Theme[];
+  popularity: Popularity;
+}) {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeFilter, setActiveFilter] = useState<FilterType>(FilterType.ALL);
+  const lastTrackedSearch = useRef("");
 
   const handleSearch = (query: string) => {
     setSearchQuery(query);
@@ -29,6 +55,7 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
   const handleFilterChange = (filter: FilterType) => {
     setActiveFilter(filter);
     setSearchQuery("");
+    trackEvent("select_filter", { filter_name: filter });
   };
 
   const themesWithImages = useMemo(() => {
@@ -38,7 +65,14 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
     }));
   }, [themes]);
 
+  const popularIds = useMemo(
+    () => new Set(popularity.popularIds),
+    [popularity.popularIds]
+  );
+
   const filteredThemes = useMemo(() => {
+    const keyword = KEYWORD_FILTERS[activeFilter];
+
     return themesWithImages
       .filter((theme) => {
         // Apply search filter if query is 3+ characters
@@ -54,14 +88,23 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
         const matchesFilter =
           activeFilter === FilterType.NONE ||
           activeFilter === FilterType.ALL ||
+          (activeFilter === FilterType.POPULAR &&
+            popularity.clicks[theme.id] > 0) ||
           (activeFilter === FilterType.RECENTLY_ADDED &&
             theme.data.recently_added) ||
           (activeFilter === FilterType.ONLY_WITH_IMAGES &&
-            theme.data.images.length > 0);
+            theme.data.images.length > 0) ||
+          (keyword !== undefined &&
+            keyword.test(`${theme.data.name} ${theme.data.description}`));
 
         return matchesSearch && matchesFilter;
       })
       .sort((a, b) => {
+        // Popular lists the most clicked themes first
+        if (activeFilter === FilterType.POPULAR) {
+          return popularity.clicks[b.id] - popularity.clicks[a.id];
+        }
+
         // First sort by recently_added (true comes first)
         if (a.data.recently_added && !b.data.recently_added) return -1;
         if (!a.data.recently_added && b.data.recently_added) return 1;
@@ -72,25 +115,34 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
           new Date(a.data.creation_date).getTime()
         );
       });
-  }, [themesWithImages, searchQuery, activeFilter]);
+  }, [themesWithImages, searchQuery, activeFilter, popularity.clicks]);
+
+  // Report each submitted search once, with how many themes it found
+  useEffect(() => {
+    if (searchQuery.length < 3 || searchQuery === lastTrackedSearch.current) {
+      return;
+    }
+    lastTrackedSearch.current = searchQuery;
+    trackEvent("search", {
+      search_term: searchQuery.trim().toLowerCase(),
+      results_count: filteredThemes.length
+    });
+  }, [searchQuery, filteredThemes.length]);
 
   return (
     <div className="container mx-auto mb-12 px-4 lg:mb-24">
       <div className="mb-8">
         <SearchInput value={searchQuery} onSearch={handleSearch} />
         <div className="flex flex-wrap items-center justify-center gap-2">
-          <FilterButton
-            isActive={activeFilter === FilterType.ALL}
-            onClick={() => handleFilterChange(FilterType.ALL)}
-          >
-            All
-          </FilterButton>
-          <FilterButton
-            isActive={activeFilter === FilterType.RECENTLY_ADDED}
-            onClick={() => handleFilterChange(FilterType.RECENTLY_ADDED)}
-          >
-            Recently Added
-          </FilterButton>
+          {FILTERS.map(({ type, label }) => (
+            <FilterButton
+              key={type}
+              isActive={activeFilter === type}
+              onClick={() => handleFilterChange(type)}
+            >
+              {label}
+            </FilterButton>
+          ))}
         </div>
       </div>
 
@@ -105,8 +157,9 @@ export default function ThemeGallery({ themes }: { themes: Theme[] }) {
               link={theme.data.link}
               user={theme.data.user}
               user_url={theme.data.user_url}
-              images={theme.data.images as unknown as string[]} // Cast to string array
+              images={theme.data.images}
               recently_added={theme.data.recently_added}
+              popular={popularIds.has(theme.id)}
             />
           ))}
         {filteredThemes.length === 0 && (
