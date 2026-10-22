@@ -6,6 +6,6 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://refind-themes-collection.netlify.app",
+  site: "https://refindthemes.com",
   integrations: [tailwind(), sitemap(), react()]
 });

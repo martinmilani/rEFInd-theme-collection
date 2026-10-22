@@ -3,8 +3,8 @@
 A curated collection of clean, minimalist and colorful themes for the [rEFInd boot manager](https://www.rodsbooks.com/refind/).  
 Preview themes live, browse screenshots, and get direct links to GitHub repositories.
 
-🔗 **Website:** [refind-themes-collection.netlify.app](https://refind-themes-collection.netlify.app)
-[![Website](public/refind-themes-collections-screenshot.png)](https://refind-themes-collection.netlify.app/)
+🔗 **Website:** [refindthemes.com](https://refindthemes.com)
+[![Website](public/refind-themes-collections-screenshot.png)](https://refindthemes.com/)
 
 ## 📌 About
 

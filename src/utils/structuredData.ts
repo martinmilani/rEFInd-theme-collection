@@ -1,4 +1,4 @@
-export const SITE_URL = "https://refind-themes-collection.netlify.app";
+export const SITE_URL = "https://refindthemes.com";
 
 const publisher = {
   "@type": "Person",

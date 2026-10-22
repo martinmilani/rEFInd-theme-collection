@@ -37,7 +37,7 @@ Name: "rEFInd Themes Collection". Described as clean, minimalist and colorful th
 ## Evidence on Hand
 
 - ~148 `link` entries in `src/data/themes.json` with preview images in `src/assets/*.webp`.
-- Live site: refind-themes-collection.netlify.app; screenshot at `public/refind-themes-collections-screenshot.png`.
+- Live site: refindthemes.com; screenshot at `public/refind-themes-collections-screenshot.png`.
 - Mentioned in an Arco Linux YouTube video ("4053 REFIND – 6 Themes to Choose From"). No testimonials or usage metrics exist; do not fabricate any.
 
 ## Product Principles

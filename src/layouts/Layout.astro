@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/onest";
+import { SITE_URL } from "@src/utils/structuredData";
 
 interface Props {
   title?: string;
@@ -13,7 +14,7 @@ const {
   title = "rEFInd Themes Collection – Customize Your Boot Manager",
   description = "Browse minimalist, dark, and colorful themes for rEFInd, the UEFI boot manager. Image previews for all themes and direct download links to customize your boot screen.",
   image = "/og-cover.png",
-  url = "https://refind-themes-collection.netlify.app",
+  url = SITE_URL,
   structuredData
 } = Astro.props;
 

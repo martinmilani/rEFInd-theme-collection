@@ -5,7 +5,7 @@ import Gallery from "@components/Gallery.astro";
 import Header from "@components/Header.astro";
 import Hero from "@components/Hero.astro";
 import InstallGuide from "@components/InstallGuide.astro";
-import { homeStructuredData } from "@src/utils/structuredData";
+import { homeStructuredData, SITE_URL } from "@src/utils/structuredData";
 import { themeSlug } from "@src/utils/themeSlug";
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
@@ -21,7 +21,7 @@ const pageDescription =
   title={pageTitle}
   description={pageDescription}
   image="/og-cover.png"
-  url="https://refind-themes-collection.netlify.app"
+  url={SITE_URL}
   structuredData={homeStructuredData(
     themes.map((theme) => ({
       name: theme.data.name,
