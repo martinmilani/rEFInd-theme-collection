@@ -1,4 +1,5 @@
 ---
+import CoffeeIcon from "@src/icons/CoffeeIcon.astro";
 import EmailIcon from "@src/icons/EmailIcon.astro";
 import GitHubIcon from "@src/icons/GitHubIcon.astro";
 import HomeIcon from "@src/icons/HomeIcon.astro";
@@ -16,6 +17,17 @@ import HomeIcon from "@src/icons/HomeIcon.astro";
     <ul
       class="mt-3 flex items-center space-x-4 text-gray-500 dark:text-gray-400 sm:mt-0 rtl:space-x-reverse"
     >
+      <li>
+        <a
+          href="https://ko-fi.com/martinmilani"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="transition-colors hover:text-dracula-400 dark:hover:text-dracula-400"
+          aria-label="Donate on Ko-fi"
+        >
+          <CoffeeIcon class="h-5 w-5" />
+        </a>
+      </li>
       <li>
         <a
           href="/#home"
@@ -46,3 +58,19 @@ import HomeIcon from "@src/icons/HomeIcon.astro";
     </ul>
   </div>
 </footer>
+
+<!-- Ko-fi floating donate widget (position is fixed, so it lives here only to be shared by every page) -->
+<script
+  is:inline
+  src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"
+  defer></script>
+<script is:inline>
+  window.addEventListener("load", function () {
+    kofiWidgetOverlay.draw("martinmilani", {
+      type: "floating-chat",
+      "floating-chat.donateButton.text": "Donate",
+      "floating-chat.donateButton.background-color": "#a771f6",
+      "floating-chat.donateButton.text-color": "#fff",
+    });
+  });
+</script>
